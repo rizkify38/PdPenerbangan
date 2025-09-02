@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+{% block title %}Prediksi Delay{% endblock %}
+{% block content %}
+  <h1>🔮 Prediksi Keterlambatan</h1>
+  <p class="muted">Masukkan detail penerbangan. Placeholder menyediakan contoh format input.</p>
+
+  <form class="card form" method="POST">
+    <div class="grid grid-2">
+      <div class="form-group">
+        <label for="tgl">Tanggal Penerbangan</label>
+        <input id="tgl" type="text" name="Tanggal_Penerbangan" placeholder="contoh: 2025-09-05" required>
+        <small>Format: YYYY-MM-DD</small>
+      </div>
+
+      <div class="form-group">
+        <label for="no">Nomor Penerbangan</label>
+        <input id="no" type="text" name="Nomor_Penerbangan" placeholder="contoh: GA123" required>
+        <small>Huruf+angka, contoh GA123</small>
+      </div>
+
+      <div class="form-group">
+        <label for="maskapai">Maskapai</label>
+        <input id="maskapai" type="text" name="Maskapai" placeholder="contoh: Garuda Indonesia" required>
+      </div>
+
+      <div class="form-group">
+        <label for="hari">Hari</label>
+        <input id="hari" type="text" name="Hari" placeholder="contoh: Senin" required>
+      </div>
+
+      <div class="form-group">
+        <label for="asal">Bandara Asal</label>
+        <input id="asal" type="text" name="Bandara_Asal" placeholder="contoh: CGK (Soekarno-Hatta)" required>
+      </div>
+
+      <div class="form-group">
+        <label for="tujuan">Bandara Tujuan</label>
+        <input id="tujuan" type="text" name="Bandara_Tujuan" placeholder="contoh: DPS (Ngurah Rai)" required>
+      </div>
+
+      <div class="form-group">
+        <label for="cuaca">Cuaca Tujuan</label>
+        <input id="cuaca" type="text" name="Cuaca_tujuan" placeholder="contoh: Cerah / Hujan / Berawan" required>
+      </div>
+
+      <div class="form-group">
+        <label for="berangkat">Jadwal Keberangkatan</label>
+        <input id="berangkat" type="text" name="Jadwal_Keberangkatan" placeholder="contoh: 08:30" required>
+        <small>Format: HH:MM (24 jam)</small>
+      </div>
+
+      <div class="form-group">
+        <label for="tiba">Jadwal Kedatangan</label>
+        <input id="tiba" type="text" name="Jadwal_Kedatangan" placeholder="contoh: 11:00" required>
+      </div>
+
+      <div class="form-group">
+        <label for="suhu">Suhu (°C) Tujuan</label>
+        <input id="suhu" type="number" step="0.1" name="Suhu_Celcius_tujuan" placeholder="contoh: 30.5" required>
+      </div>
+
+      <div class="form-group">
+        <label for="humid">Kelembaban (%) Tujuan</label>
+        <input id="humid" type="number" name="Kelembaban_%_tujuan" placeholder="contoh: 70" required>
+      </div>
+
+      <div class="form-group">
+        <label for="press">Tekanan (hPa) Tujuan</label>
+        <input id="press" type="number" name="Tekanan_hPa_tujuan" placeholder="contoh: 1010" required>
+      </div>
+
+      <div class="form-group">
+        <label for="angin">Kecepatan Angin (m/s) Tujuan</label>
+        <input id="angin" type="number" step="0.1" name="Kecepatan_Angin_m/s_tujuan" placeholder="contoh: 5.2" required>
+      </div>
+    </div>
+
+    <div class="form-actions">
+      <button class="btn" type="submit">Prediksi</button>
+    </div>
+  </form>
+
+  {% if hasil %}
+    <div class="card result">
+      <h2>Hasil Prediksi</h2>
+      <p class="result-text">{{ hasil }}</p>
+    </div>
+  {% endif %}
+{% endblock %}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{% block title %}Dashboard Penerbangan{% endblock %}</title>
+  <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-inner container">
+      <a class="brand" href="/">✈️ FlightDash</a>
+      <div class="nav-links">
+        <a href="/">🏠 Informasi</a>
+        <a href="/analisis">📊 Analisis</a>
+        <a href="/prediksi">🔮 Prediksi</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Isi halaman -->
+  <main class="container">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© {{ 2025 }} Rizki Fauzan Yahya</p>
+    </div>
+  </footer>
+</body>
+</html>

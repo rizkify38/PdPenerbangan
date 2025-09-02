@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}Analisis Penerbangan{% endblock %}
+{% block content %}
+  <h1>📊 Analisis Keterlambatan Penerbangan</h1>
+  <p class="muted">Ringkasan grafik distribusi keterlambatan berdasarkan beberapa faktor.</p>
+
+  <div class="grid grid-2">
+    <figure class="card">
+      <img class="chart" src="{{ url_for('static', filename='charts/distribusi.png') }}" alt="Distribusi Keterlambatan">
+      <figcaption>Distribusi Keterlambatan</figcaption>
+    </figure>
+
+    <figure class="card">
+      <img class="chart" src="{{ url_for('static', filename='charts/maskapai.png') }}" alt="Maskapai">
+      <figcaption>Maskapai</figcaption>
+    </figure>
+
+    <figure class="card">
+      <img class="chart" src="{{ url_for('static', filename='charts/asal.png') }}" alt="Bandara Asal">
+      <figcaption>Bandara Asal</figcaption>
+    </figure>
+
+    <figure class="card">
+      <img class="chart" src="{{ url_for('static', filename='charts/tujuan.png') }}" alt="Bandara Tujuan">
+      <figcaption>Bandara Tujuan</figcaption>
+    </figure>
+
+    <figure class="card grid-span-2">
+      <img class="chart" src="{{ url_for('static', filename='charts/cuaca.png') }}" alt="Cuaca Tujuan">
+      <figcaption>Cuaca Tujuan</figcaption>
+    </figure>
+  </div>
+{% endblock %}

@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block title %}Informasi Penerbangan{% endblock %}
+{% block content %}
+  <h1>📊 Informasi Penerbangan</h1>
+
+  <div class="stats grid grid-4">
+    <div class="stat card">
+      <div class="stat-label">Total Penerbangan</div>
+      <div class="stat-value">{{ total_flight }}</div>
+    </div>
+    <div class="stat card">
+      <div class="stat-label">Jumlah Maskapai</div>
+      <div class="stat-value">{{ total_airline }}</div>
+    </div>
+    <div class="stat card">
+      <div class="stat-label">Bandara Asal</div>
+      <div class="stat-value">{{ total_origin }}</div>
+    </div>
+    <div class="stat card">
+      <div class="stat-label">Bandara Tujuan</div>
+      <div class="stat-value">{{ total_dest }}</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Rata-rata Keterlambatan</h2>
+    <p class="kpi">{{ avg_delay | round(2) }} menit</p>
+  </div>
+
+  <div class="card">
+    <h2>Contoh Data Penerbangan</h2>
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            {% for key in sample_data[0].keys() %}
+              <th>{{ key }}</th>
+            {% endfor %}
+          </tr>
+        </thead>
+        <tbody>
+          {% for row in sample_data %}
+          <tr>
+            {% for val in row.values() %}
+              <td>{{ val }}</td>
+            {% endfor %}
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+{% endblock %}
