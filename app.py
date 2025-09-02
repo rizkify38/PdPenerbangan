@@ -1,11 +1,11 @@
 from flask import Flask, render_template, request
 import pandas as pd
 import joblib
+import os
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import seaborn as sns
-import os
 from sklearn.preprocessing import LabelEncoder
 
 app = Flask(__name__)
@@ -181,4 +181,4 @@ def prediksi():
 # Run app
 # ==========================
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=int(os.getenv("PORT", 8080)), debug=False)
