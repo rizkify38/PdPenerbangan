@@ -27,9 +27,9 @@
   <div class="table-responsive"> 
     <table class="table"> 
       <thead> 
-        <tr> {% for key in sample_data[0].keys() %} 
+        <tr> {% for key in flight_data.keys() %} 
           <th>{{ key }}</th> {% endfor %} </tr> 
-      </thead> <tbody> {% for row in sample_data %} 
+      </thead> <tbody> {% for row in flight_data %} 
         <tr> {% for val in row.values() %} 
           <td>{{ val }}</td> 
           {% endfor %} 
