@@ -22,26 +22,20 @@
     </div>
   </div>
 
-<div class="card">
-  <h2>Data Penerbangan</h2>
-  <div class="table-responsive" style="max-height: 500px; overflow-y: auto;">
-    <table class="table table-bordered table-striped">
-      <thead class="thead-dark">
-        <tr>
-          {% for key in sample_data[0].keys() %}
-            <th>{{ key }}</th>
-          {% endfor %}
-        </tr>
-      </thead>
-      <tbody>
-        {% for row in sample_data %}
-        <tr>
-          {% for val in row.values() %}
-            <td>{{ val }}</td>
-          {% endfor %}
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
-  </div>
-</div>
+<div class="card"> 
+  <h2>Data Penerbangan</h2> 
+  <div class="table-responsive"> 
+    <table class="table"> 
+      <thead> 
+        <tr> {% for key in sample_data[0].keys() %} 
+          <th>{{ key }}</th> {% endfor %} </tr> 
+      </thead> <tbody> {% for row in sample_data %} 
+        <tr> {% for val in row.values() %} 
+          <td>{{ val }}</td> 
+          {% endfor %} 
+        </tr> {% endfor %} 
+      </tbody> 
+    </table> 
+  </div> 
+</div> 
+{% endblock %}
