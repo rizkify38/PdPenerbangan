@@ -434,7 +434,7 @@ Kota Tujuan         : {kota}
 Kondisi Cuaca       : {cuaca}
 Jadwal Keberangkatan: {brkt}
 Jadwal Kedatangan   : {tiba}
-Durasi Rencana      : {durasi_rencana:.0f} menit ({_mm(durasi_rencana)})
+Durasi Aktual       : {durasi_rencana:.0f} menit ({_mm(durasi_rencana)})
 Durasi Prediksi     : {durasi_pred:.2f} menit ({_mm(durasi_pred)})
 Selisih Durasi      : {selisih:.2f} menit → {status}
 Perkiraan Keterlambatan (prediksi): {delay_pred:.2f} menit
