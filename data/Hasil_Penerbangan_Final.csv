@@ -1,383 +1,701 @@
-Tanggal_Penerbangan,Hari,Maskapai,Nomor_Penerbangan,Bandara_Asal,Kode_IATA_Asal,Bandara_Tujuan,Kode_IATA_Tujuan,Jadwal_Keberangkatan,Jadwal_Kedatangan,Kota_tujuan,Cuaca_tujuan,Deskripsi_tujuan,Suhu_Celcius_tujuan,Kelembaban_%_tujuan,Tekanan_hPa_tujuan,Kecepatan_Angin_m/s_tujuan,Tanggal_tujuan,Delay
-2025-07-28,Senin,Batik Air,ID6288,Soekarno-Hatta International,CGK,Hasanudin,UPG,10,210,Makassar,Drizzle,gerimis,27.5,66,1012,3.2,2025-07-28,2
-2025-07-28,Senin,Sriwijaya Air,SJ592,Soekarno-Hatta International,CGK,Hasanudin,UPG,30,235,Makassar,Thunderstorm,badai petir,24.7,64,1006,2.7,2025-07-28,6
-2025-07-28,Senin,Citilink,QG346,Soekarno-Hatta International,CGK,Hasanudin,UPG,70,270,Makassar,Thunderstorm,badai petir,24.7,64,1006,2.7,2025-07-28,6
-2025-07-28,Senin,Lion Air,JT898,Soekarno-Hatta International,CGK,Hasanudin,UPG,90,290,Makassar,Thunderstorm,badai petir,24.7,64,1006,2.7,2025-07-28,40
-2025-07-28,Senin,Lion Air,JT986,Soekarno-Hatta International,CGK,Hasanudin,UPG,90,290,Makassar,Thunderstorm,badai petir,24.7,64,1006,2.7,2025-07-28,51
-2025-07-28,Senin,Lion Air,JT3896,Soekarno-Hatta International,CGK,Hasanudin,UPG,90,290,Makassar,Thunderstorm,badai petir,24.7,64,1006,2.7,2025-07-28,3
-2025-07-28,Senin,Lion Air,JT868,Soekarno-Hatta International,CGK,Juanda,SUB,210,295,Surabaya,Clouds,berawan,24.1,87,1013,3.0,2025-07-28,0
-2025-07-28,Senin,Lion Air,JT690,Soekarno-Hatta International,CGK,Juanda,SUB,210,295,Surabaya,Clouds,berawan,24.1,87,1013,3.0,2025-07-28,8
-2025-07-28,Senin,Lion Air,JT748,Soekarno-Hatta International,CGK,Juanda,SUB,210,295,Surabaya,Clouds,berawan,24.1,87,1013,3.0,2025-07-28,4
-2025-07-28,Senin,China Airlines,CI8612,Soekarno-Hatta International,CGK,Hasanudin,UPG,95,310,Makassar,Thunderstorm,badai petir,24.7,64,1006,2.7,2025-07-28,3
-2025-07-28,Senin,Saudia,SV6193,Soekarno-Hatta International,CGK,Hasanudin,UPG,95,310,Makassar,Thunderstorm,badai petir,24.7,64,1006,2.7,2025-07-28,3
-2025-07-28,Senin,Japan Airlines,JL8487,Soekarno-Hatta International,CGK,Hasanudin,UPG,95,310,Makassar,Thunderstorm,badai petir,24.7,64,1006,2.7,2025-07-28,7
-2025-07-28,Senin,Malaysia Airlines,MH4042,Soekarno-Hatta International,CGK,Hasanudin,UPG,95,310,Makassar,Thunderstorm,badai petir,24.7,64,1006,2.7,2025-07-28,5
-2025-07-28,Senin,Emirates,EK7302,Soekarno-Hatta International,CGK,Hasanudin,UPG,95,310,Makassar,Thunderstorm,badai petir,24.7,64,1006,2.7,2025-07-28,3
-2025-07-28,Senin,Garuda Indonesia,GA604,Soekarno-Hatta International,CGK,Hasanudin,UPG,95,310,Makassar,Thunderstorm,badai petir,24.7,64,1006,2.7,2025-07-28,3
-2025-07-28,Senin,Etihad Airways,EY7138,Soekarno-Hatta International,CGK,Hasanudin,UPG,95,310,Makassar,Thunderstorm,badai petir,24.7,64,1006,2.7,2025-07-28,8
-2025-07-28,Senin,Citilink,QG344,Soekarno-Hatta International,CGK,Hasanudin,UPG,110,315,Makassar,Thunderstorm,badai petir,24.7,64,1006,2.7,2025-07-28,2
-2025-07-28,Senin,Batik Air,ID6751,Soekarno-Hatta International,CGK,Hasanudin,UPG,140,345,Makassar,Mist,berkabut,30.0,66,1005,1.3,2025-07-28,5
-2025-07-28,Senin,Batik Air,ID6370,Soekarno-Hatta International,CGK,Juanda,SUB,280,365,Surabaya,Thunderstorm,badai petir,29.1,74,1010,4.5,2025-07-28,4
-2025-07-28,Senin,Super Air Jet,IU814,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,330,435,Padang,Mist,berkabut,32.7,78,1008,2.1,2025-07-28,6
-2025-07-28,Senin,Lion Air,JT2792,Soekarno-Hatta International,CGK,Hasanudin,UPG,240,440,Makassar,Rain,hujan ringan,32.0,84,1007,2.1,2025-07-28,13
-2025-07-28,Senin,Lion Air,JT792,Soekarno-Hatta International,CGK,Hasanudin,UPG,240,440,Makassar,Rain,hujan ringan,32.0,84,1007,2.1,2025-07-28,9
-2025-07-28,Senin,Lion Air,JT1852,Soekarno-Hatta International,CGK,Hasanudin,UPG,240,440,Makassar,Rain,hujan ringan,32.0,84,1007,2.1,2025-07-28,71
-2025-07-28,Senin,Super Air Jet,IU730,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,270,440,Denpasar,Clear,cerah,33.7,62,1009,4.7,2025-07-28,6
-2025-07-28,Senin,Citilink,QG712,Soekarno-Hatta International,CGK,Juanda,SUB,355,455,Surabaya,Clear,cerah,25.8,83,1006,3.5,2025-07-28,5
-2025-07-28,Senin,Batik Air,ID6572,Soekarno-Hatta International,CGK,Juanda,SUB,375,460,Surabaya,Clear,cerah,25.8,83,1006,3.5,2025-07-28,4
-2025-07-28,Senin,Emirates,EK3564,Soekarno-Hatta International,CGK,Juanda,SUB,375,460,Surabaya,Clear,cerah,25.8,83,1006,3.5,2025-07-28,4
-2025-07-28,Senin,Citilink,QG680,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,305,480,Denpasar,Clear,cerah,33.7,62,1009,4.7,2025-07-28,8
-2025-07-28,Senin,Super Air Jet,IU908,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,390,495,Padang,Mist,berkabut,32.7,78,1008,2.1,2025-07-28,6
-2025-07-28,Senin,Etihad Airways,EY8177,Soekarno-Hatta International,CGK,Juanda,SUB,410,505,Surabaya,Clear,cerah,24.7,79,1012,2.2,2025-07-28,4
-2025-07-28,Senin,Saudia,SV6150,Soekarno-Hatta International,CGK,Juanda,SUB,410,505,Surabaya,Clear,cerah,24.7,79,1012,2.2,2025-07-28,69
-2025-07-28,Senin,Emirates,EK7298,Soekarno-Hatta International,CGK,Juanda,SUB,410,505,Surabaya,Clear,cerah,24.7,79,1012,2.2,2025-07-28,73
-2025-07-28,Senin,Philippine Airlines,PR3288,Soekarno-Hatta International,CGK,Juanda,SUB,410,505,Surabaya,Clear,cerah,24.7,79,1012,2.2,2025-07-28,2
-2025-07-28,Senin,China Airlines,CI9668,Soekarno-Hatta International,CGK,Juanda,SUB,410,505,Surabaya,Clear,cerah,24.7,79,1012,2.2,2025-07-28,55
-2025-07-28,Senin,Garuda Indonesia,GA304,Soekarno-Hatta International,CGK,Juanda,SUB,410,505,Surabaya,Clear,cerah,24.7,79,1012,2.2,2025-07-28,4
-2025-07-28,Senin,Vietnam Airlines,VN3884,Soekarno-Hatta International,CGK,Juanda,SUB,410,505,Surabaya,Clear,cerah,24.7,79,1012,2.2,2025-07-28,4
-2025-07-28,Senin,Pelita Air,IP200,Soekarno-Hatta International,CGK,Juanda,SUB,415,510,Surabaya,Clear,cerah,24.7,79,1012,2.2,2025-07-28,59
-2025-07-28,Senin,Citilink,QG212,Soekarno-Hatta International,CGK,Hasanudin,UPG,310,515,Makassar,Clear,cerah,25.2,78,1010,3.1,2025-07-28,8
-2025-07-28,Senin,Citilink,QG952,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,420,535,Padang,Mist,berkabut,28.7,86,1006,1.9,2025-07-28,82
-2025-07-28,Senin,AirAsia,AK802,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,380,550,Denpasar,Mist,berkabut,31.2,86,1008,3.7,2025-07-28,6
-2025-07-28,Senin,Batik Air,ID6554,Soekarno-Hatta International,CGK,Hasanudin,UPG,360,560,Makassar,Clear,cerah,25.2,78,1010,3.1,2025-07-28,4
-2025-07-28,Senin,Batik Air,ID6236,Soekarno-Hatta International,CGK,Hasanudin,UPG,360,560,Makassar,Clear,cerah,25.2,78,1010,3.1,2025-07-28,5
-2025-07-28,Senin,Super Air Jet,IU756,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,390,560,Denpasar,Mist,berkabut,31.2,86,1008,3.7,2025-07-28,1
-2025-07-28,Senin,Super Air Jet,IU812,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,460,565,Padang,Mist,berkabut,28.7,86,1006,1.9,2025-07-28,8
-2025-07-28,Senin,TransNusa,8B5104,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,405,570,Denpasar,Mist,berkabut,31.2,86,1008,3.7,2025-07-28,82
-2025-07-28,Senin,Batik Air,ID6584,Soekarno-Hatta International,CGK,Juanda,SUB,490,575,Surabaya,Clear,cerah,24.7,79,1012,2.2,2025-07-28,3
-2025-07-28,Senin,Citilink,QG722,Soekarno-Hatta International,CGK,Juanda,SUB,490,590,Surabaya,Thunderstorm,badai petir,24.0,75,1014,1.8,2025-07-28,3
-2025-07-28,Senin,Pelita Air,IP210,Soekarno-Hatta International,CGK,Juanda,SUB,505,595,Surabaya,Thunderstorm,badai petir,24.0,75,1014,1.8,2025-07-28,52
-2025-07-28,Senin,Turkish Airlines,TK9364,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,425,610,Denpasar,Clear,cerah,27.5,74,1006,3.1,2025-07-28,6
-2025-07-28,Senin,Philippine Airlines,PR3284,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,425,610,Denpasar,Clear,cerah,27.5,74,1006,3.1,2025-07-28,6
-2025-07-28,Senin,Vietnam Airlines,VN3792,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,425,610,Denpasar,Clear,cerah,27.5,74,1006,3.1,2025-07-28,49
-2025-07-28,Senin,Etihad Airways,EY7105,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,425,610,Denpasar,Clear,cerah,27.5,74,1006,3.1,2025-07-28,4
-2025-07-28,Senin,Emirates,EK7253,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,425,610,Denpasar,Clear,cerah,27.5,74,1006,3.1,2025-07-28,6
-2025-07-28,Senin,Garuda Indonesia,GA402,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,425,610,Denpasar,Clear,cerah,27.5,74,1006,3.1,2025-07-28,6
-2025-07-28,Senin,Japan Airlines,JL6915,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,425,610,Denpasar,Clear,cerah,27.5,74,1006,3.1,2025-07-28,1
-2025-07-28,Senin,Super Air Jet,IU250,Soekarno-Hatta International,CGK,Hasanudin,UPG,420,620,Makassar,Clouds,berawan,24.6,78,1010,2.0,2025-07-28,4
-2025-07-28,Senin,China Airlines,CI9782,Soekarno-Hatta International,CGK,Juanda,SUB,525,625,Surabaya,Thunderstorm,badai petir,24.0,75,1014,1.8,2025-07-28,5
-2025-07-28,Senin,Philippine Airlines,PR3278,Soekarno-Hatta International,CGK,Juanda,SUB,525,625,Surabaya,Thunderstorm,badai petir,24.0,75,1014,1.8,2025-07-28,6
-2025-07-28,Senin,Vietnam Airlines,VN3876,Soekarno-Hatta International,CGK,Juanda,SUB,525,625,Surabaya,Thunderstorm,badai petir,24.0,75,1014,1.8,2025-07-28,60
-2025-07-28,Senin,KLM,KL4054,Soekarno-Hatta International,CGK,Juanda,SUB,525,625,Surabaya,Thunderstorm,badai petir,24.0,75,1014,1.8,2025-07-28,0
-2025-07-28,Senin,Lion Air,JT241,Soekarno-Hatta International,CGK,Juanda,SUB,540,625,Surabaya,Thunderstorm,badai petir,24.0,75,1014,1.8,2025-07-28,5
-2025-07-28,Senin,Malaysia Airlines,MH4018,Soekarno-Hatta International,CGK,Juanda,SUB,525,625,Surabaya,Thunderstorm,badai petir,24.0,75,1014,1.8,2025-07-28,4
-2025-07-28,Senin,Lion Air,JT694,Soekarno-Hatta International,CGK,Juanda,SUB,540,625,Surabaya,Thunderstorm,badai petir,24.0,75,1014,1.8,2025-07-28,6
-2025-07-28,Senin,Garuda Indonesia,GA322,Soekarno-Hatta International,CGK,Juanda,SUB,525,625,Surabaya,Thunderstorm,badai petir,24.0,75,1014,1.8,2025-07-28,4
-2025-07-28,Senin,Super Air Jet,IU740,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,460,630,Denpasar,Clear,cerah,27.5,74,1006,3.1,2025-07-28,6
-2025-07-28,Senin,China Airlines,CI8616,Soekarno-Hatta International,CGK,Hasanudin,UPG,415,630,Makassar,Clouds,berawan,24.6,78,1010,2.0,2025-07-28,5
-2025-07-28,Senin,Etihad Airways,EY8091,Soekarno-Hatta International,CGK,Hasanudin,UPG,415,630,Makassar,Clouds,berawan,24.6,78,1010,2.0,2025-07-28,3
-2025-07-28,Senin,Garuda Indonesia,GA610,Soekarno-Hatta International,CGK,Hasanudin,UPG,415,630,Makassar,Clouds,berawan,24.6,78,1010,2.0,2025-07-28,72
-2025-07-28,Senin,Citilink,QG682,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,480,655,Denpasar,Clear,cerah,27.5,74,1006,3.1,2025-07-28,7
-2025-07-28,Senin,Emirates,EK7258,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,565,675,Padang,Thunderstorm,badai petir,27.4,79,1005,4.0,2025-07-28,12
-2025-07-28,Senin,Etihad Airways,EY7108,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,565,675,Padang,Thunderstorm,badai petir,27.4,79,1005,4.0,2025-07-28,86
-2025-07-28,Senin,Japan Airlines,JL8475,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,565,675,Padang,Thunderstorm,badai petir,27.4,79,1005,4.0,2025-07-28,8
-2025-07-28,Senin,Garuda Indonesia,GA148,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,565,675,Padang,Thunderstorm,badai petir,27.4,79,1005,4.0,2025-07-28,7
-2025-07-28,Senin,Lion Air,JT854,Soekarno-Hatta International,CGK,Hasanudin,UPG,480,680,Makassar,Drizzle,gerimis,33.8,64,1005,1.0,2025-07-28,1
-2025-07-28,Senin,Super Air Jet,IU902,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,575,680,Padang,Rain,hujan ringan,31.5,84,1012,1.6,2025-07-28,7
-2025-07-28,Senin,Lion Air,JT2778,Soekarno-Hatta International,CGK,Hasanudin,UPG,480,680,Makassar,Drizzle,gerimis,33.8,64,1005,1.0,2025-07-28,5
-2025-07-28,Senin,Lion Air,JT892,Soekarno-Hatta International,CGK,Hasanudin,UPG,480,680,Makassar,Drizzle,gerimis,33.8,64,1005,1.0,2025-07-28,4
-2025-07-28,Senin,Lion Air,JT992,Soekarno-Hatta International,CGK,Hasanudin,UPG,480,680,Makassar,Drizzle,gerimis,33.8,64,1005,1.0,2025-07-28,7
-2025-07-28,Senin,Lion Air,JT1994,Soekarno-Hatta International,CGK,Hasanudin,UPG,480,680,Makassar,Drizzle,gerimis,33.8,64,1005,1.0,2025-07-28,36
-2025-07-28,Senin,Batik Air,ID6582,Soekarno-Hatta International,CGK,Juanda,SUB,615,700,Surabaya,Clear,cerah,29.6,89,1015,4.7,2025-07-28,6
-2025-07-28,Senin,Pelita Air,IP102,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,550,720,Denpasar,Thunderstorm,badai petir,32.0,62,1008,2.2,2025-07-28,38
-2025-07-28,Senin,Pelita Air,IP204,Soekarno-Hatta International,CGK,Juanda,SUB,640,735,Surabaya,Clear,cerah,29.6,89,1015,4.7,2025-07-28,9
-2025-07-28,Senin,Batik Air,ID6762,Soekarno-Hatta International,CGK,Hasanudin,UPG,550,750,Makassar,Drizzle,gerimis,33.8,64,1005,1.0,2025-07-28,64
-2025-07-28,Senin,Batik Air,ID6292,Soekarno-Hatta International,CGK,Hasanudin,UPG,550,750,Makassar,Drizzle,gerimis,33.8,64,1005,1.0,2025-07-28,6
-2025-07-28,Senin,Super Air Jet,IU752,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,580,750,Denpasar,Thunderstorm,badai petir,32.0,62,1008,2.2,2025-07-28,6
-2025-07-28,Senin,Vietnam Airlines,VN3794,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,580,755,Denpasar,Thunderstorm,badai petir,32.0,62,1008,2.2,2025-07-28,3
-2025-07-28,Senin,Garuda Indonesia,GA404,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,580,755,Denpasar,Thunderstorm,badai petir,32.0,62,1008,2.2,2025-07-28,11
-2025-07-28,Senin,Saudia,SV6170,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,580,755,Denpasar,Thunderstorm,badai petir,32.0,62,1008,2.2,2025-07-28,6
-2025-07-28,Senin,Batik Air,ID6596,Soekarno-Hatta International,CGK,Juanda,SUB,670,755,Surabaya,Clear,cerah,29.6,89,1015,4.7,2025-07-28,2
-2025-07-28,Senin,Turkish Airlines,TK9366,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,580,755,Denpasar,Thunderstorm,badai petir,32.0,62,1008,2.2,2025-07-28,7
-2025-07-28,Senin,KLM,KL3971,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,580,755,Denpasar,Thunderstorm,badai petir,32.0,62,1008,2.2,2025-07-28,66
-2025-07-28,Senin,Etihad Airways,EY7110,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,580,755,Denpasar,Thunderstorm,badai petir,32.0,62,1008,2.2,2025-07-28,8
-2025-07-28,Senin,Air Europa,UX3552,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,580,755,Denpasar,Thunderstorm,badai petir,32.0,62,1008,2.2,2025-07-28,1
-2025-07-28,Senin,Emirates,EK7255,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,580,755,Denpasar,Thunderstorm,badai petir,32.0,62,1008,2.2,2025-07-28,3
-2025-07-28,Senin,Super Air Jet,IU810,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,690,795,Padang,Clouds,berawan,25.5,90,1014,4.3,2025-07-28,64
-2025-07-28,Senin,TransNusa,8B5106,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,630,800,Denpasar,Clear,cerah,29.0,88,1014,2.3,2025-07-28,72
-2025-07-28,Senin,Citilink,QG962,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,695,800,Padang,Clouds,berawan,25.5,90,1014,4.3,2025-07-28,1
-2025-07-28,Senin,Lion Air,JT774,Soekarno-Hatta International,CGK,Hasanudin,UPG,600,800,Makassar,Clear,cerah,31.6,79,1011,2.2,2025-07-28,59
-2025-07-28,Senin,Lion Air,JT1740,Soekarno-Hatta International,CGK,Hasanudin,UPG,600,800,Makassar,Clear,cerah,31.6,79,1011,2.2,2025-07-28,2
-2025-07-28,Senin,Lion Air,JT1774,Soekarno-Hatta International,CGK,Hasanudin,UPG,600,800,Makassar,Clear,cerah,31.6,79,1011,2.2,2025-07-28,67
-2025-07-28,Senin,Citilink,QG716,Soekarno-Hatta International,CGK,Juanda,SUB,705,805,Surabaya,Drizzle,gerimis,33.7,82,1014,1.7,2025-07-28,67
-2025-07-28,Senin,Citilink,QG686,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,630,805,Denpasar,Clear,cerah,29.0,88,1014,2.3,2025-07-28,59
-2025-07-28,Senin,Batik Air,ID8050,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,640,810,Denpasar,Clear,cerah,29.0,88,1014,2.3,2025-07-28,8
-2025-07-28,Senin,Super Air Jet,IU734,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,640,810,Denpasar,Clear,cerah,29.0,88,1014,2.3,2025-07-28,4
-2025-07-28,Senin,Pelita Air,IP354,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,720,825,Padang,Clouds,berawan,25.5,90,1014,4.3,2025-07-28,7
-2025-07-28,Senin,Saudia,SV6149,Soekarno-Hatta International,CGK,Juanda,SUB,735,835,Surabaya,Drizzle,gerimis,33.7,82,1014,1.7,2025-07-28,5
-2025-07-28,Senin,Malaysia Airlines,MH4031,Soekarno-Hatta International,CGK,Juanda,SUB,735,835,Surabaya,Drizzle,gerimis,33.7,82,1014,1.7,2025-07-28,6
-2025-07-28,Senin,KLM,KL4060,Soekarno-Hatta International,CGK,Juanda,SUB,735,835,Surabaya,Drizzle,gerimis,33.7,82,1014,1.7,2025-07-28,22
-2025-07-28,Senin,Vietnam Airlines,VN3872,Soekarno-Hatta International,CGK,Juanda,SUB,735,835,Surabaya,Drizzle,gerimis,33.7,82,1014,1.7,2025-07-28,6
-2025-07-28,Senin,Emirates,EK7312,Soekarno-Hatta International,CGK,Juanda,SUB,735,835,Surabaya,Drizzle,gerimis,33.7,82,1014,1.7,2025-07-28,7
-2025-07-28,Senin,Garuda Indonesia,GA312,Soekarno-Hatta International,CGK,Juanda,SUB,735,835,Surabaya,Drizzle,gerimis,33.7,82,1014,1.7,2025-07-28,74
-2025-07-28,Senin,Etihad Airways,EY8130,Soekarno-Hatta International,CGK,Juanda,SUB,735,835,Surabaya,Drizzle,gerimis,33.7,82,1014,1.7,2025-07-28,51
-2025-07-28,Senin,China Airlines,CI8604,Soekarno-Hatta International,CGK,Juanda,SUB,735,835,Surabaya,Drizzle,gerimis,33.7,82,1014,1.7,2025-07-28,82
-2025-07-28,Senin,Pelita Air,IP208,Soekarno-Hatta International,CGK,Juanda,SUB,755,850,Surabaya,Drizzle,gerimis,33.7,82,1014,1.7,2025-07-28,5
-2025-07-28,Senin,Lion Air,JT22,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,680,850,Denpasar,Clear,cerah,29.0,88,1014,2.3,2025-07-28,55
-2025-07-28,Senin,Batik Air,ID6406,Soekarno-Hatta International,CGK,Juanda,SUB,785,870,Surabaya,Thunderstorm,badai petir,29.1,70,1008,4.8,2025-07-28,7
-2025-07-28,Senin,Super Air Jet,IU758,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,700,870,Denpasar,Thunderstorm,badai petir,25.6,77,1014,4.1,2025-07-28,4
-2025-07-28,Senin,Batik Air,ID6863,Soekarno-Hatta International,CGK,Juanda,SUB,785,870,Surabaya,Thunderstorm,badai petir,29.1,70,1008,4.8,2025-07-28,5
-2025-07-28,Senin,TransNusa,8B5102,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,705,875,Denpasar,Thunderstorm,badai petir,25.6,77,1014,4.1,2025-07-28,7
-2025-07-28,Senin,Saudia,SV6172,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,700,880,Denpasar,Thunderstorm,badai petir,25.6,77,1014,4.1,2025-07-28,0
-2025-07-28,Senin,Vietnam Airlines,VN3990,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,700,880,Denpasar,Thunderstorm,badai petir,25.6,77,1014,4.1,2025-07-28,4
-2025-07-28,Senin,KLM,KL4028,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,700,880,Denpasar,Thunderstorm,badai petir,25.6,77,1014,4.1,2025-07-28,8
-2025-07-28,Senin,Emirates,EK7294,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,700,880,Denpasar,Thunderstorm,badai petir,25.6,77,1014,4.1,2025-07-28,3
-2025-07-28,Senin,Garuda Indonesia,GA408,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,700,880,Denpasar,Thunderstorm,badai petir,25.6,77,1014,4.1,2025-07-28,7
-2025-07-28,Senin,Etihad Airways,EY7111,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,700,880,Denpasar,Thunderstorm,badai petir,25.6,77,1014,4.1,2025-07-28,5
-2025-07-28,Senin,Air Europa,UX3551,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,700,880,Denpasar,Thunderstorm,badai petir,25.6,77,1014,4.1,2025-07-28,3
-2025-07-28,Senin,Pelita Air,IP802,Soekarno-Hatta International,CGK,Hasanudin,UPG,690,890,Makassar,Clouds,berawan,26.3,61,1005,1.1,2025-07-28,0
-2025-07-28,Senin,AirAsia,AK814,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,715,890,Denpasar,Thunderstorm,badai petir,25.6,77,1014,4.1,2025-07-28,63
-2025-07-28,Senin,Pelita Air,IP108,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,725,895,Denpasar,Thunderstorm,badai petir,25.6,77,1014,4.1,2025-07-28,3
-2025-07-28,Senin,Super Air Jet,IU742,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,760,930,Denpasar,Thunderstorm,badai petir,25.6,77,1014,4.1,2025-07-28,10
-2025-07-28,Senin,KLM,KL4032,Soekarno-Hatta International,CGK,Juanda,SUB,840,935,Surabaya,Thunderstorm,badai petir,29.1,70,1008,4.8,2025-07-28,6
-2025-07-28,Senin,Saudia,SV6148,Soekarno-Hatta International,CGK,Juanda,SUB,840,935,Surabaya,Thunderstorm,badai petir,29.1,70,1008,4.8,2025-07-28,36
-2025-07-28,Senin,Malaysia Airlines,MH4040,Soekarno-Hatta International,CGK,Juanda,SUB,840,935,Surabaya,Thunderstorm,badai petir,29.1,70,1008,4.8,2025-07-28,11
-2025-07-28,Senin,Emirates,EK7262,Soekarno-Hatta International,CGK,Juanda,SUB,840,935,Surabaya,Thunderstorm,badai petir,29.1,70,1008,4.8,2025-07-28,8
-2025-07-28,Senin,Garuda Indonesia,GA310,Soekarno-Hatta International,CGK,Juanda,SUB,840,935,Surabaya,Thunderstorm,badai petir,29.1,70,1008,4.8,2025-07-28,9
-2025-07-28,Senin,Lion Air,JT782,Soekarno-Hatta International,CGK,Hasanudin,UPG,740,940,Makassar,Clouds,berawan,26.3,61,1005,1.1,2025-07-28,3
-2025-07-28,Senin,AirAsia,AK806,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,765,945,Denpasar,Thunderstorm,badai petir,25.6,77,1014,4.1,2025-07-28,6
-2025-07-28,Senin,Pelita Air,IP206,Soekarno-Hatta International,CGK,Juanda,SUB,865,955,Surabaya,Drizzle,gerimis,30.2,78,1010,3.5,2025-07-28,7
-2025-07-28,Senin,Lion Air,JT619,Soekarno-Hatta International,CGK,Juanda,SUB,880,965,Surabaya,Drizzle,gerimis,30.2,78,1010,3.5,2025-07-28,0
-2025-07-28,Senin,Lion Air,JT692,Soekarno-Hatta International,CGK,Juanda,SUB,880,965,Surabaya,Drizzle,gerimis,30.2,78,1010,3.5,2025-07-28,2
-2025-07-28,Senin,Lion Air,JT171,Soekarno-Hatta International,CGK,Juanda,SUB,880,965,Surabaya,Drizzle,gerimis,30.2,78,1010,3.5,2025-07-28,10
-2025-07-28,Senin,Super Air Jet,IU900,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,880,985,Padang,Drizzle,gerimis,26.7,77,1005,4.2,2025-07-28,1
-2025-07-28,Senin,Saudia,SV6176,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,810,990,Denpasar,Thunderstorm,badai petir,27.1,87,1015,1.2,2025-07-28,9
-2025-07-28,Senin,Garuda Indonesia,GA422,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,810,990,Denpasar,Thunderstorm,badai petir,27.1,87,1015,1.2,2025-07-28,1
-2025-07-28,Senin,Vietnam Airlines,VN3278,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,810,990,Denpasar,Thunderstorm,badai petir,27.1,87,1015,1.2,2025-07-28,57
-2025-07-28,Senin,Etihad Airways,EY8074,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,880,990,Padang,Drizzle,gerimis,26.7,77,1005,4.2,2025-07-28,5
-2025-07-28,Senin,Aeromexico,AM7409,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,810,990,Denpasar,Thunderstorm,badai petir,27.1,87,1015,1.2,2025-07-28,84
-2025-07-28,Senin,Etihad Airways,EY8161,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,810,990,Denpasar,Thunderstorm,badai petir,27.1,87,1015,1.2,2025-07-28,1
-2025-07-28,Senin,Garuda Indonesia,GA162,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,880,990,Padang,Drizzle,gerimis,26.7,77,1005,4.2,2025-07-28,5
-2025-07-28,Senin,Saudia,SV6173,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,870,1045,Denpasar,Mist,berkabut,28.2,79,1007,4.4,2025-07-28,69
-2025-07-28,Senin,KLM,KL4072,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,870,1045,Denpasar,Mist,berkabut,28.2,79,1007,4.4,2025-07-28,4
-2025-07-28,Senin,Vietnam Airlines,VN3928,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,870,1045,Denpasar,Mist,berkabut,28.2,79,1007,4.4,2025-07-28,6
-2025-07-28,Senin,Etihad Airways,EY7113,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,870,1045,Denpasar,Mist,berkabut,28.2,79,1007,4.4,2025-07-28,24
-2025-07-28,Senin,Garuda Indonesia,GA410,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,870,1045,Denpasar,Mist,berkabut,28.2,79,1007,4.4,2025-07-28,8
-2025-07-28,Senin,Saudia,SV6153,Soekarno-Hatta International,CGK,Juanda,SUB,960,1060,Surabaya,Mist,berkabut,31.4,88,1015,2.7,2025-07-28,8
-2025-07-28,Senin,Oman Air,WY5787,Soekarno-Hatta International,CGK,Juanda,SUB,960,1060,Surabaya,Mist,berkabut,31.4,88,1015,2.7,2025-07-28,65
-2025-07-28,Senin,Etihad Airways,EY7121,Soekarno-Hatta International,CGK,Juanda,SUB,960,1060,Surabaya,Mist,berkabut,31.4,88,1015,2.7,2025-07-28,7
-2025-07-28,Senin,China Airlines,CI9774,Soekarno-Hatta International,CGK,Juanda,SUB,960,1060,Surabaya,Mist,berkabut,31.4,88,1015,2.7,2025-07-28,49
-2025-07-28,Senin,Malaysia Airlines,MH5772,Soekarno-Hatta International,CGK,Juanda,SUB,960,1060,Surabaya,Mist,berkabut,31.4,88,1015,2.7,2025-07-28,9
-2025-07-28,Senin,Vietnam Airlines,VN3958,Soekarno-Hatta International,CGK,Juanda,SUB,960,1060,Surabaya,Mist,berkabut,31.4,88,1015,2.7,2025-07-28,3
-2025-07-28,Senin,Garuda Indonesia,GA320,Soekarno-Hatta International,CGK,Juanda,SUB,960,1060,Surabaya,Mist,berkabut,31.4,88,1015,2.7,2025-07-28,83
-2025-07-28,Senin,Super Air Jet,IU736,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,890,1060,Denpasar,Mist,berkabut,28.2,79,1007,4.4,2025-07-28,26
-2025-07-28,Senin,Batik Air,ID6266,Soekarno-Hatta International,CGK,Hasanudin,UPG,870,1070,Makassar,Drizzle,gerimis,28.2,60,1006,3.4,2025-07-28,52
-2025-07-28,Senin,Garuda Indonesia,GA612,Soekarno-Hatta International,CGK,Hasanudin,UPG,865,1080,Makassar,Drizzle,gerimis,28.2,60,1006,3.4,2025-07-28,74
-2025-07-28,Senin,Saudia,SV6185,Soekarno-Hatta International,CGK,Hasanudin,UPG,865,1080,Makassar,Drizzle,gerimis,28.2,60,1006,3.4,2025-07-28,6
-2025-07-28,Senin,Etihad Airways,EY8185,Soekarno-Hatta International,CGK,Hasanudin,UPG,865,1080,Makassar,Drizzle,gerimis,28.2,60,1006,3.4,2025-07-28,58
-2025-07-28,Senin,Pelita Air,IP356,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,980,1085,Padang,Mist,berkabut,28.2,83,1012,4.5,2025-07-28,0
-2025-07-28,Senin,Citilink,QG688,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,920,1095,Denpasar,Mist,berkabut,28.2,79,1007,4.4,2025-07-28,4
-2025-07-28,Senin,Vietnam Airlines,VN3926,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,930,1105,Denpasar,Mist,berkabut,28.2,79,1007,4.4,2025-07-28,7
-2025-07-28,Senin,Garuda Indonesia,GA414,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,930,1105,Denpasar,Mist,berkabut,28.2,79,1007,4.4,2025-07-28,37
-2025-07-28,Senin,Turkish Airlines,TK9368,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,930,1105,Denpasar,Mist,berkabut,28.2,79,1007,4.4,2025-07-28,5
-2025-07-28,Senin,Batik Air,ID6576,Soekarno-Hatta International,CGK,Juanda,SUB,1020,1105,Surabaya,Mist,berkabut,31.4,88,1015,2.7,2025-07-28,3
-2025-07-28,Senin,Super Air Jet,IU754,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,950,1120,Denpasar,Mist,berkabut,28.2,79,1007,4.4,2025-07-28,69
-2025-07-28,Senin,Super Air Jet,IU904,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,1020,1125,Padang,Mist,berkabut,28.2,83,1012,4.5,2025-07-28,9
-2025-07-28,Senin,Citilink,QG736,Soekarno-Hatta International,CGK,Juanda,SUB,1030,1130,Surabaya,Drizzle,gerimis,30.5,79,1005,1.9,2025-07-28,4
-2025-07-28,Senin,Pelita Air,IP202,Soekarno-Hatta International,CGK,Juanda,SUB,1060,1145,Surabaya,Drizzle,gerimis,30.5,79,1005,1.9,2025-07-28,63
-2025-07-28,Senin,Vietnam Airlines,VN3902,Soekarno-Hatta International,CGK,Juanda,SUB,1050,1150,Surabaya,Drizzle,gerimis,30.5,79,1005,1.9,2025-07-28,1
-2025-07-28,Senin,Garuda Indonesia,GA326,Soekarno-Hatta International,CGK,Juanda,SUB,1050,1150,Surabaya,Drizzle,gerimis,30.5,79,1005,1.9,2025-07-28,39
-2025-07-28,Senin,China Airlines,CI9684,Soekarno-Hatta International,CGK,Juanda,SUB,1050,1150,Surabaya,Drizzle,gerimis,30.5,79,1005,1.9,2025-07-28,49
-2025-07-28,Senin,Malaysia Airlines,MH5774,Soekarno-Hatta International,CGK,Juanda,SUB,1050,1150,Surabaya,Drizzle,gerimis,30.5,79,1005,1.9,2025-07-28,57
-2025-07-28,Senin,Sriwijaya Air,SJ5980,Soekarno-Hatta International,CGK,Hasanudin,UPG,945,1150,Makassar,Thunderstorm,badai petir,32.7,71,1009,1.1,2025-07-28,4
-2025-07-28,Senin,Etihad Airways,EY8186,Soekarno-Hatta International,CGK,Juanda,SUB,1050,1150,Surabaya,Drizzle,gerimis,30.5,79,1005,1.9,2025-07-28,5
-2025-07-28,Senin,Oman Air,WY5788,Soekarno-Hatta International,CGK,Juanda,SUB,1050,1150,Surabaya,Drizzle,gerimis,30.5,79,1005,1.9,2025-07-28,9
-2025-07-28,Senin,Citilink,QG426,Soekarno-Hatta International,CGK,Hasanudin,UPG,960,1165,Makassar,Thunderstorm,badai petir,32.7,71,1009,1.1,2025-07-28,7
-2025-07-28,Senin,Lion Air,JT175,Soekarno-Hatta International,CGK,Hasanudin,UPG,975,1175,Makassar,Thunderstorm,badai petir,32.7,71,1009,1.1,2025-07-28,70
-2025-07-28,Senin,Lion Air,JT772,Soekarno-Hatta International,CGK,Hasanudin,UPG,975,1175,Makassar,Thunderstorm,badai petir,32.7,71,1009,1.1,2025-07-28,4
-2025-07-28,Senin,Etihad Airways,EY7115,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,1020,1195,Denpasar,Drizzle,gerimis,25.2,62,1012,2.1,2025-07-28,31
-2025-07-28,Senin,Garuda Indonesia,GA420,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,1020,1195,Denpasar,Drizzle,gerimis,25.2,62,1012,2.1,2025-07-28,40
-2025-07-28,Senin,Batik Air,ID6296,Soekarno-Hatta International,CGK,Hasanudin,UPG,1010,1210,Makassar,Thunderstorm,badai petir,32.7,71,1009,1.1,2025-07-28,5
-2025-07-28,Senin,Emirates,EK7272,Soekarno-Hatta International,CGK,Juanda,SUB,1110,1210,Surabaya,Drizzle,gerimis,30.5,79,1005,1.9,2025-07-28,6
-2025-07-28,Senin,Vietnam Airlines,VN3284,Soekarno-Hatta International,CGK,Juanda,SUB,1110,1210,Surabaya,Drizzle,gerimis,30.5,79,1005,1.9,2025-07-28,11
-2025-07-28,Senin,China Airlines,CI9788,Soekarno-Hatta International,CGK,Juanda,SUB,1110,1210,Surabaya,Drizzle,gerimis,30.5,79,1005,1.9,2025-07-28,3
-2025-07-28,Senin,Etihad Airways,EY8180,Soekarno-Hatta International,CGK,Juanda,SUB,1110,1210,Surabaya,Drizzle,gerimis,30.5,79,1005,1.9,2025-07-28,29
-2025-07-28,Senin,Saudia,SV6152,Soekarno-Hatta International,CGK,Juanda,SUB,1110,1210,Surabaya,Drizzle,gerimis,30.5,79,1005,1.9,2025-07-28,8
-2025-07-28,Senin,Malaysia Airlines,MH4036,Soekarno-Hatta International,CGK,Juanda,SUB,1110,1210,Surabaya,Drizzle,gerimis,30.5,79,1005,1.9,2025-07-28,5
-2025-07-28,Senin,Garuda Indonesia,GA328,Soekarno-Hatta International,CGK,Juanda,SUB,1110,1210,Surabaya,Drizzle,gerimis,30.5,79,1005,1.9,2025-07-28,1
-2025-07-28,Senin,Malaysia Airlines,MH5782,Soekarno-Hatta International,CGK,Hasanudin,UPG,1005,1220,Makassar,Clouds,berawan,24.6,66,1010,4.3,2025-07-28,0
-2025-07-28,Senin,Garuda Indonesia,GA616,Soekarno-Hatta International,CGK,Hasanudin,UPG,1005,1220,Makassar,Clouds,berawan,24.6,66,1010,4.3,2025-07-28,65
-2025-07-28,Senin,Batik Air,ID6594,Soekarno-Hatta International,CGK,Juanda,SUB,1140,1225,Surabaya,Drizzle,gerimis,32.2,72,1010,4.9,2025-07-28,1
-2025-07-28,Senin,Batik Air,ID6588,Soekarno-Hatta International,CGK,Juanda,SUB,1200,1285,Surabaya,Drizzle,gerimis,32.2,72,1010,4.9,2025-07-28,87
-2025-07-28,Senin,Emirates,EK7270,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,1110,1290,Denpasar,Clouds,berawan,32.0,84,1009,1.6,2025-07-28,5
-2025-07-28,Senin,Saudia,SV6370,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,1110,1290,Denpasar,Clouds,berawan,32.0,84,1009,1.6,2025-07-28,56
-2025-07-28,Senin,Japan Airlines,JL6927,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,1110,1290,Denpasar,Clouds,berawan,32.0,84,1009,1.6,2025-07-28,0
-2025-07-28,Senin,Citilink,QG720,Soekarno-Hatta International,CGK,Juanda,SUB,1200,1290,Surabaya,Drizzle,gerimis,32.2,72,1010,4.9,2025-07-28,80
-2025-07-28,Senin,Etihad Airways,EY8162,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,1110,1290,Denpasar,Clouds,berawan,32.0,84,1009,1.6,2025-07-28,36
-2025-07-28,Senin,Vietnam Airlines,VN3878,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,1110,1290,Denpasar,Clouds,berawan,32.0,84,1009,1.6,2025-07-28,3
-2025-07-28,Senin,Garuda Indonesia,GA426,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,1110,1290,Denpasar,Clouds,berawan,32.0,84,1009,1.6,2025-07-28,83
-2025-07-28,Senin,Citilink,QG726,Soekarno-Hatta International,CGK,Juanda,SUB,1200,1295,Surabaya,Drizzle,gerimis,32.2,72,1010,4.9,2025-07-28,65
-2025-07-28,Senin,Batik Air,ID6142,Soekarno-Hatta International,CGK,Hasanudin,UPG,1110,1310,Makassar,Drizzle,gerimis,27.4,63,1008,3.1,2025-07-28,2
-2025-07-28,Senin,Citilink,QG442,Soekarno-Hatta International,CGK,Hasanudin,UPG,1240,1325,Makassar,Drizzle,gerimis,27.4,63,1008,3.1,2025-07-28,58
-2025-07-28,Senin,AirAsia,AK810,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,1170,1340,Denpasar,Drizzle,gerimis,31.5,81,1005,4.7,2025-07-28,8
-2025-07-28,Senin,Citilink,QG660,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,1165,1340,Denpasar,Drizzle,gerimis,31.5,81,1005,4.7,2025-07-28,10
-2025-07-28,Senin,TransNusa,8B5110,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,1210,1380,Denpasar,Drizzle,gerimis,31.5,81,1005,4.7,2025-07-28,6
-2025-07-28,Senin,Lion Air,JT798,Soekarno-Hatta International,CGK,Hasanudin,UPG,1200,1400,Makassar,Rain,hujan ringan,33.9,75,1007,2.6,2025-07-29,91
-2025-07-28,Senin,Lion Air,JT938,Soekarno-Hatta International,CGK,Hasanudin,UPG,1200,1400,Makassar,Rain,hujan ringan,33.9,75,1007,2.6,2025-07-29,75
-2025-07-28,Senin,Lion Air,JT123,Soekarno-Hatta International,CGK,Hasanudin,UPG,1200,1400,Makassar,Rain,hujan ringan,33.9,75,1007,2.6,2025-07-29,5
-2025-07-28,Senin,Garuda Indonesia,GA618,Soekarno-Hatta International,CGK,Hasanudin,UPG,1215,1430,Makassar,Rain,hujan ringan,33.9,75,1007,2.6,2025-07-29,9
-2025-07-28,Senin,Super Air Jet,IU244,Soekarno-Hatta International,CGK,Hasanudin,UPG,1260,20,Makassar,Rain,hujan ringan,33.9,75,1007,2.6,2025-07-29,8
-2025-07-28,Senin,Citilink,QG250,Soekarno-Hatta International,CGK,Hasanudin,UPG,1290,55,Makassar,Rain,hujan ringan,25.2,62,1009,4.0,2025-07-29,0
-2025-07-28,Senin,Lion Air,JT984,Soekarno-Hatta International,CGK,Hasanudin,UPG,1320,80,Makassar,Rain,hujan ringan,25.2,62,1009,4.0,2025-07-29,9
-2025-07-28,Senin,Lion Air,JT948,Soekarno-Hatta International,CGK,Hasanudin,UPG,1320,80,Makassar,Rain,hujan ringan,25.2,62,1009,4.0,2025-07-29,83
-2025-07-28,Senin,Lion Air,JT888,Soekarno-Hatta International,CGK,Hasanudin,UPG,1320,80,Makassar,Rain,hujan ringan,25.2,62,1009,4.0,2025-07-29,5
-2025-07-28,Senin,Lion Air,JT371,Soekarno-Hatta International,CGK,Hasanudin,UPG,1320,80,Makassar,Rain,hujan ringan,25.2,62,1009,4.0,2025-07-29,0
-2025-07-28,Senin,Sriwijaya Air,SJ598,Soekarno-Hatta International,CGK,Hasanudin,UPG,1335,100,Makassar,Rain,hujan ringan,25.2,62,1009,4.0,2025-07-29,5
-2025-07-28,Senin,Batik Air,ID6164,Soekarno-Hatta International,CGK,Hasanudin,UPG,1380,140,Makassar,Drizzle,gerimis,26.2,65,1006,3.0,2025-07-29,77
-2025-07-28,Senin,Batik Air,ID6192,Soekarno-Hatta International,CGK,Hasanudin,UPG,1380,140,Makassar,Drizzle,gerimis,26.2,65,1006,3.0,2025-07-29,1
-2025-07-28,Senin,Batik Air,ID6182,Soekarno-Hatta International,CGK,Hasanudin,UPG,1380,140,Makassar,Drizzle,gerimis,26.2,65,1006,3.0,2025-07-29,2
-2025-07-28,Senin,Pelita Air,IP500,Soekarno-Hatta International,CGK,Hasanudin,UPG,1425,190,Makassar,Drizzle,gerimis,26.2,65,1006,3.0,2025-07-29,6
-2025-07-29,Selasa,Batik Air,ID6288,Soekarno-Hatta International,CGK,Hasanudin,UPG,10,210,Makassar,Drizzle,gerimis,26.2,65,1006,3.0,2025-07-29,45
-2025-07-29,Selasa,Sriwijaya Air,SJ592,Soekarno-Hatta International,CGK,Hasanudin,UPG,30,235,Makassar,Clear,cerah,31.2,66,1013,4.1,2025-07-29,7
-2025-07-29,Selasa,Citilink,QG346,Soekarno-Hatta International,CGK,Hasanudin,UPG,70,270,Makassar,Clear,cerah,31.2,66,1013,4.1,2025-07-29,3
-2025-07-29,Selasa,Lion Air,JT3896,Soekarno-Hatta International,CGK,Hasanudin,UPG,90,290,Makassar,Clear,cerah,31.2,66,1013,4.1,2025-07-29,3
-2025-07-29,Selasa,Lion Air,JT898,Soekarno-Hatta International,CGK,Hasanudin,UPG,90,290,Makassar,Clear,cerah,31.2,66,1013,4.1,2025-07-29,5
-2025-07-29,Selasa,Lion Air,JT986,Soekarno-Hatta International,CGK,Hasanudin,UPG,90,290,Makassar,Clear,cerah,31.2,66,1013,4.1,2025-07-29,2
-2025-07-29,Selasa,Lion Air,JT748,Soekarno-Hatta International,CGK,Juanda,SUB,210,295,Surabaya,Thunderstorm,badai petir,31.0,84,1007,3.1,2025-07-29,11
-2025-07-29,Selasa,Lion Air,JT690,Soekarno-Hatta International,CGK,Juanda,SUB,210,295,Surabaya,Thunderstorm,badai petir,31.0,84,1007,3.1,2025-07-29,5
-2025-07-29,Selasa,Garuda Indonesia,GA604,Soekarno-Hatta International,CGK,Hasanudin,UPG,95,310,Makassar,Clear,cerah,31.2,66,1013,4.1,2025-07-29,73
-2025-07-29,Selasa,Saudia,SV6193,Soekarno-Hatta International,CGK,Hasanudin,UPG,95,310,Makassar,Clear,cerah,31.2,66,1013,4.1,2025-07-29,24
-2025-07-29,Selasa,China Airlines,CI8612,Soekarno-Hatta International,CGK,Hasanudin,UPG,95,310,Makassar,Clear,cerah,31.2,66,1013,4.1,2025-07-29,4
-2025-07-29,Selasa,Malaysia Airlines,MH4042,Soekarno-Hatta International,CGK,Hasanudin,UPG,95,310,Makassar,Clear,cerah,31.2,66,1013,4.1,2025-07-29,0
-2025-07-29,Selasa,Emirates,EK7302,Soekarno-Hatta International,CGK,Hasanudin,UPG,95,310,Makassar,Clear,cerah,31.2,66,1013,4.1,2025-07-29,10
-2025-07-29,Selasa,Japan Airlines,JL8487,Soekarno-Hatta International,CGK,Hasanudin,UPG,95,310,Makassar,Clear,cerah,31.2,66,1013,4.1,2025-07-29,4
-2025-07-29,Selasa,Emirates,EK3553,Soekarno-Hatta International,CGK,Hasanudin,UPG,140,340,Makassar,Mist,berkabut,33.3,83,1013,2.9,2025-07-29,7
-2025-07-29,Selasa,Batik Air,ID6264,Soekarno-Hatta International,CGK,Hasanudin,UPG,140,340,Makassar,Mist,berkabut,33.3,83,1013,2.9,2025-07-29,6
-2025-07-29,Selasa,Batik Air,ID6751,Soekarno-Hatta International,CGK,Hasanudin,UPG,140,345,Makassar,Mist,berkabut,33.3,83,1013,2.9,2025-07-29,5
-2025-07-29,Selasa,Batik Air,ID6370,Soekarno-Hatta International,CGK,Juanda,SUB,280,365,Surabaya,Thunderstorm,badai petir,25.4,71,1011,4.5,2025-07-29,2
-2025-07-29,Selasa,Super Air Jet,IU814,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,330,435,Padang,Mist,berkabut,26.3,87,1008,4.4,2025-07-29,3
-2025-07-29,Selasa,Lion Air,JT2792,Soekarno-Hatta International,CGK,Hasanudin,UPG,240,440,Makassar,Thunderstorm,badai petir,27.1,72,1014,2.1,2025-07-29,1
-2025-07-29,Selasa,Lion Air,JT1852,Soekarno-Hatta International,CGK,Hasanudin,UPG,240,440,Makassar,Thunderstorm,badai petir,27.1,72,1014,2.1,2025-07-29,3
-2025-07-29,Selasa,Lion Air,JT792,Soekarno-Hatta International,CGK,Hasanudin,UPG,240,440,Makassar,Thunderstorm,badai petir,27.1,72,1014,2.1,2025-07-29,2
-2025-07-29,Selasa,Super Air Jet,IU730,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,270,440,Denpasar,Clear,cerah,24.1,89,1013,1.6,2025-07-29,76
-2025-07-29,Selasa,Garuda Indonesia,GA314,Soekarno-Hatta International,CGK,Juanda,SUB,350,450,Surabaya,Clear,cerah,31.8,80,1005,1.9,2025-07-29,7
-2025-07-29,Selasa,Citilink,QG712,Soekarno-Hatta International,CGK,Juanda,SUB,355,455,Surabaya,Clear,cerah,31.8,80,1005,1.9,2025-07-29,12
-2025-07-29,Selasa,Batik Air,ID6572,Soekarno-Hatta International,CGK,Juanda,SUB,375,460,Surabaya,Clear,cerah,31.8,80,1005,1.9,2025-07-29,75
-2025-07-29,Selasa,Pelita Air,IP350,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,370,475,Padang,Mist,berkabut,26.3,87,1008,4.4,2025-07-29,2
-2025-07-29,Selasa,Citilink,QG680,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,305,480,Denpasar,Clear,cerah,24.1,89,1013,1.6,2025-07-29,1
-2025-07-29,Selasa,Super Air Jet,IU908,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,390,495,Padang,Mist,berkabut,26.3,87,1008,4.4,2025-07-29,1
-2025-07-29,Selasa,Nam Air,IN282,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,330,500,Denpasar,Clear,cerah,28.2,80,1012,4.9,2025-07-29,7
-2025-07-29,Selasa,Emirates,EK7298,Soekarno-Hatta International,CGK,Juanda,SUB,410,505,Surabaya,Thunderstorm,badai petir,29.2,63,1008,1.3,2025-07-29,3
-2025-07-29,Selasa,Garuda Indonesia,GA304,Soekarno-Hatta International,CGK,Juanda,SUB,410,505,Surabaya,Thunderstorm,badai petir,29.2,63,1008,1.3,2025-07-29,4
-2025-07-29,Selasa,Etihad Airways,EY8177,Soekarno-Hatta International,CGK,Juanda,SUB,410,505,Surabaya,Thunderstorm,badai petir,29.2,63,1008,1.3,2025-07-29,5
-2025-07-29,Selasa,Saudia,SV6150,Soekarno-Hatta International,CGK,Juanda,SUB,410,505,Surabaya,Thunderstorm,badai petir,29.2,63,1008,1.3,2025-07-29,3
-2025-07-29,Selasa,China Airlines,CI9668,Soekarno-Hatta International,CGK,Juanda,SUB,410,505,Surabaya,Thunderstorm,badai petir,29.2,63,1008,1.3,2025-07-29,34
-2025-07-29,Selasa,Philippine Airlines,PR3288,Soekarno-Hatta International,CGK,Juanda,SUB,410,505,Surabaya,Thunderstorm,badai petir,29.2,63,1008,1.3,2025-07-29,59
-2025-07-29,Selasa,Vietnam Airlines,VN3884,Soekarno-Hatta International,CGK,Juanda,SUB,410,505,Surabaya,Thunderstorm,badai petir,29.2,63,1008,1.3,2025-07-29,7
-2025-07-29,Selasa,Malaysia Airlines,MH4401,Soekarno-Hatta International,CGK,Juanda,SUB,410,505,Surabaya,Thunderstorm,badai petir,29.2,63,1008,1.3,2025-07-29,45
-2025-07-29,Selasa,Pelita Air,IP200,Soekarno-Hatta International,CGK,Juanda,SUB,415,510,Surabaya,Thunderstorm,badai petir,29.2,63,1008,1.3,2025-07-29,8
-2025-07-29,Selasa,Citilink,QG952,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,420,535,Padang,Rain,hujan ringan,32.2,61,1007,3.3,2025-07-29,3
-2025-07-29,Selasa,AirAsia,AK802,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,380,550,Denpasar,Clear,cerah,28.2,80,1012,4.9,2025-07-29,6
-2025-07-29,Selasa,Batik Air,ID6236,Soekarno-Hatta International,CGK,Hasanudin,UPG,360,560,Makassar,Rain,hujan ringan,34.0,69,1015,1.9,2025-07-29,0
-2025-07-29,Selasa,Batik Air,ID6554,Soekarno-Hatta International,CGK,Hasanudin,UPG,360,560,Makassar,Rain,hujan ringan,34.0,69,1015,1.9,2025-07-29,0
-2025-07-29,Selasa,Super Air Jet,IU756,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,390,560,Denpasar,Clear,cerah,28.2,80,1012,4.9,2025-07-29,7
-2025-07-29,Selasa,Super Air Jet,IU812,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,460,565,Padang,Rain,hujan ringan,32.2,61,1007,3.3,2025-07-29,13
-2025-07-29,Selasa,TransNusa,8B5104,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,405,570,Denpasar,Clear,cerah,28.2,80,1012,4.9,2025-07-29,0
-2025-07-29,Selasa,Batik Air,ID6584,Soekarno-Hatta International,CGK,Juanda,SUB,490,575,Surabaya,Thunderstorm,badai petir,29.2,63,1008,1.3,2025-07-29,3
-2025-07-29,Selasa,Pelita Air,IP210,Soekarno-Hatta International,CGK,Juanda,SUB,505,595,Surabaya,Clouds,berawan,32.8,61,1011,2.3,2025-07-29,7
-2025-07-29,Selasa,Garuda Indonesia,GA402,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,425,610,Denpasar,Rain,hujan ringan,28.0,63,1008,4.2,2025-07-29,23
-2025-07-29,Selasa,Garuda Indonesia,GA322,Soekarno-Hatta International,CGK,Juanda,SUB,525,625,Surabaya,Clouds,berawan,32.8,61,1011,2.3,2025-07-29,3
-2025-07-29,Selasa,KLM,KL4054,Soekarno-Hatta International,CGK,Juanda,SUB,525,625,Surabaya,Clouds,berawan,32.8,61,1011,2.3,2025-07-29,63
-2025-07-29,Selasa,Etihad Airways,EY8138,Soekarno-Hatta International,CGK,Juanda,SUB,525,625,Surabaya,Clouds,berawan,32.8,61,1011,2.3,2025-07-29,5
-2025-07-29,Selasa,Lion Air,JT241,Soekarno-Hatta International,CGK,Juanda,SUB,540,625,Surabaya,Clouds,berawan,32.8,61,1011,2.3,2025-07-29,6
-2025-07-29,Selasa,Vietnam Airlines,VN3876,Soekarno-Hatta International,CGK,Juanda,SUB,525,625,Surabaya,Clouds,berawan,32.8,61,1011,2.3,2025-07-29,46
-2025-07-29,Selasa,China Airlines,CI9782,Soekarno-Hatta International,CGK,Juanda,SUB,525,625,Surabaya,Clouds,berawan,32.8,61,1011,2.3,2025-07-29,55
-2025-07-29,Selasa,Japan Airlines,JL6911,Soekarno-Hatta International,CGK,Juanda,SUB,525,625,Surabaya,Clouds,berawan,32.8,61,1011,2.3,2025-07-29,55
-2025-07-29,Selasa,Malaysia Airlines,MH4018,Soekarno-Hatta International,CGK,Juanda,SUB,525,625,Surabaya,Clouds,berawan,32.8,61,1011,2.3,2025-07-29,8
-2025-07-29,Selasa,Lion Air,JT694,Soekarno-Hatta International,CGK,Juanda,SUB,540,625,Surabaya,Clouds,berawan,32.8,61,1011,2.3,2025-07-29,4
-2025-07-29,Selasa,Philippine Airlines,PR3278,Soekarno-Hatta International,CGK,Juanda,SUB,525,625,Surabaya,Clouds,berawan,32.8,61,1011,2.3,2025-07-29,50
-2025-07-29,Selasa,Super Air Jet,IU740,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,460,630,Denpasar,Rain,hujan ringan,28.0,63,1008,4.2,2025-07-29,0
-2025-07-29,Selasa,Citilink,QG682,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,480,655,Denpasar,Rain,hujan ringan,28.0,63,1008,4.2,2025-07-29,65
-2025-07-29,Selasa,Emirates,EK7258,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,565,675,Padang,Mist,berkabut,26.9,66,1014,3.1,2025-07-29,4
-2025-07-29,Selasa,Etihad Airways,EY7108,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,565,675,Padang,Mist,berkabut,26.9,66,1014,3.1,2025-07-29,6
-2025-07-29,Selasa,Garuda Indonesia,GA148,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,565,675,Padang,Mist,berkabut,26.9,66,1014,3.1,2025-07-29,7
-2025-07-29,Selasa,Japan Airlines,JL8475,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,565,675,Padang,Mist,berkabut,26.9,66,1014,3.1,2025-07-29,47
-2025-07-29,Selasa,Lion Air,JT992,Soekarno-Hatta International,CGK,Hasanudin,UPG,480,680,Makassar,Thunderstorm,badai petir,31.2,84,1013,1.4,2025-07-29,54
-2025-07-29,Selasa,Lion Air,JT854,Soekarno-Hatta International,CGK,Hasanudin,UPG,480,680,Makassar,Thunderstorm,badai petir,31.2,84,1013,1.4,2025-07-29,6
-2025-07-29,Selasa,Lion Air,JT1994,Soekarno-Hatta International,CGK,Hasanudin,UPG,480,680,Makassar,Thunderstorm,badai petir,31.2,84,1013,1.4,2025-07-29,6
-2025-07-29,Selasa,Lion Air,JT2778,Soekarno-Hatta International,CGK,Hasanudin,UPG,480,680,Makassar,Thunderstorm,badai petir,31.2,84,1013,1.4,2025-07-29,7
-2025-07-29,Selasa,Lion Air,JT892,Soekarno-Hatta International,CGK,Hasanudin,UPG,480,680,Makassar,Thunderstorm,badai petir,31.2,84,1013,1.4,2025-07-29,2
-2025-07-29,Selasa,Super Air Jet,IU902,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,580,685,Padang,Clouds,berawan,30.9,80,1009,4.9,2025-07-29,6
-2025-07-29,Selasa,Batik Air,ID6582,Soekarno-Hatta International,CGK,Juanda,SUB,615,700,Surabaya,Clouds,berawan,26.3,71,1007,2.1,2025-07-29,6
-2025-07-29,Selasa,Pelita Air,IP102,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,550,720,Denpasar,Drizzle,gerimis,28.0,90,1013,4.2,2025-07-29,43
-2025-07-29,Selasa,AirAsia,AK804,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,555,735,Denpasar,Drizzle,gerimis,28.0,90,1013,4.2,2025-07-29,4
-2025-07-29,Selasa,Pelita Air,IP204,Soekarno-Hatta International,CGK,Juanda,SUB,640,735,Surabaya,Clouds,berawan,26.3,71,1007,2.1,2025-07-29,8
-2025-07-29,Selasa,Batik Air,ID6762,Soekarno-Hatta International,CGK,Hasanudin,UPG,550,750,Makassar,Thunderstorm,badai petir,31.2,84,1013,1.4,2025-07-29,8
-2025-07-29,Selasa,Super Air Jet,IU752,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,580,750,Denpasar,Drizzle,gerimis,28.0,90,1013,4.2,2025-07-29,0
-2025-07-29,Selasa,Batik Air,ID6292,Soekarno-Hatta International,CGK,Hasanudin,UPG,550,750,Makassar,Thunderstorm,badai petir,31.2,84,1013,1.4,2025-07-29,6
-2025-07-29,Selasa,Turkish Airlines,TK9366,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,580,755,Denpasar,Drizzle,gerimis,28.0,90,1013,4.2,2025-07-29,6
-2025-07-29,Selasa,Vietnam Airlines,VN3794,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,580,755,Denpasar,Drizzle,gerimis,28.0,90,1013,4.2,2025-07-29,8
-2025-07-29,Selasa,Etihad Airways,EY7110,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,580,755,Denpasar,Drizzle,gerimis,28.0,90,1013,4.2,2025-07-29,6
-2025-07-29,Selasa,Air Europa,UX3552,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,580,755,Denpasar,Drizzle,gerimis,28.0,90,1013,4.2,2025-07-29,13
-2025-07-29,Selasa,KLM,KL3971,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,580,755,Denpasar,Drizzle,gerimis,28.0,90,1013,4.2,2025-07-29,10
-2025-07-29,Selasa,Batik Air,ID6899,Soekarno-Hatta International,CGK,Juanda,SUB,670,755,Surabaya,Clouds,berawan,26.3,71,1007,2.1,2025-07-29,69
-2025-07-29,Selasa,Emirates,EK7255,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,580,755,Denpasar,Drizzle,gerimis,28.0,90,1013,4.2,2025-07-29,11
-2025-07-29,Selasa,Saudia,SV6170,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,580,755,Denpasar,Drizzle,gerimis,28.0,90,1013,4.2,2025-07-29,9
-2025-07-29,Selasa,Garuda Indonesia,GA404,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,580,755,Denpasar,Drizzle,gerimis,28.0,90,1013,4.2,2025-07-29,59
-2025-07-29,Selasa,China Airlines,CI8614,Soekarno-Hatta International,CGK,Hasanudin,UPG,550,765,Makassar,Thunderstorm,badai petir,31.2,84,1013,1.4,2025-07-29,7
-2025-07-29,Selasa,Etihad Airways,EY7139,Soekarno-Hatta International,CGK,Hasanudin,UPG,550,765,Makassar,Thunderstorm,badai petir,31.2,84,1013,1.4,2025-07-29,61
-2025-07-29,Selasa,Garuda Indonesia,GA608,Soekarno-Hatta International,CGK,Hasanudin,UPG,550,765,Makassar,Thunderstorm,badai petir,31.2,84,1013,1.4,2025-07-29,8
-2025-07-29,Selasa,Lion Air,JT774,Soekarno-Hatta International,CGK,Hasanudin,UPG,600,800,Makassar,Drizzle,gerimis,27.9,60,1015,3.2,2025-07-29,5
-2025-07-29,Selasa,Lion Air,JT1740,Soekarno-Hatta International,CGK,Hasanudin,UPG,600,800,Makassar,Drizzle,gerimis,27.9,60,1015,3.2,2025-07-29,26
-2025-07-29,Selasa,TransNusa,8B5106,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,630,800,Denpasar,Clear,cerah,25.7,88,1015,1.5,2025-07-29,8
-2025-07-29,Selasa,Lion Air,JT1774,Soekarno-Hatta International,CGK,Hasanudin,UPG,600,800,Makassar,Drizzle,gerimis,27.9,60,1015,3.2,2025-07-29,25
-2025-07-29,Selasa,Citilink,QG686,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,630,805,Denpasar,Clear,cerah,25.7,88,1015,1.5,2025-07-29,4
-2025-07-29,Selasa,Super Air Jet,IU734,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,640,810,Denpasar,Clear,cerah,25.7,88,1015,1.5,2025-07-29,10
-2025-07-29,Selasa,Pelita Air,IP354,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,720,825,Padang,Clouds,berawan,31.9,76,1010,1.2,2025-07-29,4
-2025-07-29,Selasa,Vietnam Airlines,VN3872,Soekarno-Hatta International,CGK,Juanda,SUB,735,835,Surabaya,Drizzle,gerimis,31.0,88,1010,1.1,2025-07-29,4
-2025-07-29,Selasa,China Airlines,CI8604,Soekarno-Hatta International,CGK,Juanda,SUB,735,835,Surabaya,Drizzle,gerimis,31.0,88,1010,1.1,2025-07-29,4
-2025-07-29,Selasa,Saudia,SV6149,Soekarno-Hatta International,CGK,Juanda,SUB,735,835,Surabaya,Drizzle,gerimis,31.0,88,1010,1.1,2025-07-29,7
-2025-07-29,Selasa,Garuda Indonesia,GA312,Soekarno-Hatta International,CGK,Juanda,SUB,735,835,Surabaya,Drizzle,gerimis,31.0,88,1010,1.1,2025-07-29,4
-2025-07-29,Selasa,KLM,KL4060,Soekarno-Hatta International,CGK,Juanda,SUB,735,835,Surabaya,Drizzle,gerimis,31.0,88,1010,1.1,2025-07-29,2
-2025-07-29,Selasa,Pelita Air,IP208,Soekarno-Hatta International,CGK,Juanda,SUB,755,850,Surabaya,Drizzle,gerimis,31.0,88,1010,1.1,2025-07-29,50
-2025-07-29,Selasa,Lion Air,JT22,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,680,850,Denpasar,Clear,cerah,25.7,88,1015,1.5,2025-07-29,62
-2025-07-29,Selasa,Super Air Jet,IU810,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,755,860,Padang,Clouds,berawan,29.7,87,1012,3.7,2025-07-29,99
-2025-07-29,Selasa,Batik Air,ID6863,Soekarno-Hatta International,CGK,Juanda,SUB,785,870,Surabaya,Thunderstorm,badai petir,27.7,64,1015,4.4,2025-07-29,2
-2025-07-29,Selasa,Batik Air,ID6406,Soekarno-Hatta International,CGK,Juanda,SUB,785,870,Surabaya,Thunderstorm,badai petir,27.7,64,1015,4.4,2025-07-29,20
-2025-07-29,Selasa,Super Air Jet,IU758,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,700,870,Denpasar,Clouds,berawan,29.8,76,1009,4.4,2025-07-29,8
-2025-07-29,Selasa,Saudia,SV6172,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,700,880,Denpasar,Clouds,berawan,29.8,76,1009,4.4,2025-07-29,4
-2025-07-29,Selasa,Garuda Indonesia,GA408,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,700,880,Denpasar,Clouds,berawan,29.8,76,1009,4.4,2025-07-29,54
-2025-07-29,Selasa,Pelita Air,IP802,Soekarno-Hatta International,CGK,Hasanudin,UPG,690,890,Makassar,Clear,cerah,28.6,87,1011,4.0,2025-07-29,7
-2025-07-29,Selasa,Super Air Jet,IU742,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,760,930,Denpasar,Clouds,berawan,29.8,76,1009,4.4,2025-07-29,1
-2025-07-29,Selasa,Vietnam Airlines,VN3282,Soekarno-Hatta International,CGK,Juanda,SUB,840,935,Surabaya,Thunderstorm,badai petir,27.7,64,1015,4.4,2025-07-29,6
-2025-07-29,Selasa,Garuda Indonesia,GA310,Soekarno-Hatta International,CGK,Juanda,SUB,840,935,Surabaya,Thunderstorm,badai petir,27.7,64,1015,4.4,2025-07-29,3
-2025-07-29,Selasa,Etihad Airways,EY8179,Soekarno-Hatta International,CGK,Juanda,SUB,840,935,Surabaya,Thunderstorm,badai petir,27.7,64,1015,4.4,2025-07-29,3
-2025-07-29,Selasa,Saudia,SV6148,Soekarno-Hatta International,CGK,Juanda,SUB,840,935,Surabaya,Thunderstorm,badai petir,27.7,64,1015,4.4,2025-07-29,3
-2025-07-29,Selasa,Lion Air,JT782,Soekarno-Hatta International,CGK,Hasanudin,UPG,740,940,Makassar,Clear,cerah,28.6,87,1011,4.0,2025-07-29,5
-2025-07-29,Selasa,AirAsia,AK806,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,765,945,Denpasar,Clouds,berawan,29.8,76,1009,4.4,2025-07-29,5
-2025-07-29,Selasa,Pelita Air,IP206,Soekarno-Hatta International,CGK,Juanda,SUB,865,955,Surabaya,Rain,hujan ringan,32.4,66,1006,3.0,2025-07-29,4
-2025-07-29,Selasa,Lion Air,JT171,Soekarno-Hatta International,CGK,Juanda,SUB,880,965,Surabaya,Rain,hujan ringan,32.4,66,1006,3.0,2025-07-29,4
-2025-07-29,Selasa,Lion Air,JT619,Soekarno-Hatta International,CGK,Juanda,SUB,880,965,Surabaya,Rain,hujan ringan,32.4,66,1006,3.0,2025-07-29,55
-2025-07-29,Selasa,Lion Air,JT692,Soekarno-Hatta International,CGK,Juanda,SUB,880,965,Surabaya,Rain,hujan ringan,32.4,66,1006,3.0,2025-07-29,8
-2025-07-29,Selasa,Super Air Jet,IU900,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,880,985,Padang,Drizzle,gerimis,32.3,80,1011,2.4,2025-07-29,7
-2025-07-29,Selasa,Saudia,SV6176,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,810,990,Denpasar,Thunderstorm,badai petir,27.0,69,1010,3.6,2025-07-29,4
-2025-07-29,Selasa,Etihad Airways,EY8074,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,880,990,Padang,Drizzle,gerimis,32.3,80,1011,2.4,2025-07-29,6
-2025-07-29,Selasa,Garuda Indonesia,GA162,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,880,990,Padang,Drizzle,gerimis,32.3,80,1011,2.4,2025-07-29,1
-2025-07-29,Selasa,Vietnam Airlines,VN3278,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,810,990,Denpasar,Thunderstorm,badai petir,27.0,69,1010,3.6,2025-07-29,41
-2025-07-29,Selasa,Garuda Indonesia,GA422,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,810,990,Denpasar,Thunderstorm,badai petir,27.0,69,1010,3.6,2025-07-29,3
-2025-07-29,Selasa,Batik Air,ID6578,Soekarno-Hatta International,CGK,Juanda,SUB,910,995,Surabaya,Rain,hujan ringan,32.4,66,1006,3.0,2025-07-29,7
-2025-07-29,Selasa,Vietnam Airlines,VN3928,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,870,1045,Denpasar,Clear,cerah,26.9,90,1015,4.5,2025-07-29,1
-2025-07-29,Selasa,KLM,KL4072,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,870,1045,Denpasar,Clear,cerah,26.9,90,1015,4.5,2025-07-29,0
-2025-07-29,Selasa,Etihad Airways,EY7113,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,870,1045,Denpasar,Clear,cerah,26.9,90,1015,4.5,2025-07-29,52
-2025-07-29,Selasa,Saudia,SV6173,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,870,1045,Denpasar,Clear,cerah,26.9,90,1015,4.5,2025-07-29,5
-2025-07-29,Selasa,Garuda Indonesia,GA410,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,870,1045,Denpasar,Clear,cerah,26.9,90,1015,4.5,2025-07-29,77
-2025-07-29,Selasa,Super Air Jet,IU736,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,890,1060,Denpasar,Clear,cerah,26.9,90,1015,4.5,2025-07-29,11
-2025-07-29,Selasa,Super Air Jet,IU816,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,960,1065,Padang,Rain,hujan ringan,30.7,85,1007,4.4,2025-07-29,7
-2025-07-29,Selasa,Batik Air,ID6266,Soekarno-Hatta International,CGK,Hasanudin,UPG,870,1070,Makassar,Clear,cerah,24.5,84,1014,4.8,2025-07-29,1
-2025-07-29,Selasa,Garuda Indonesia,GA612,Soekarno-Hatta International,CGK,Hasanudin,UPG,865,1080,Makassar,Clear,cerah,24.5,84,1014,4.8,2025-07-29,5
-2025-07-29,Selasa,Pelita Air,IP356,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,980,1085,Padang,Rain,hujan ringan,30.7,85,1007,4.4,2025-07-29,0
-2025-07-29,Selasa,Super Air Jet,IU754,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,950,1120,Denpasar,Clear,cerah,26.9,90,1015,4.5,2025-07-29,7
-2025-07-29,Selasa,Citilink,QG736,Soekarno-Hatta International,CGK,Juanda,SUB,1030,1130,Surabaya,Clear,cerah,32.1,63,1008,3.6,2025-07-29,4
-2025-07-29,Selasa,Citilink,QG426,Soekarno-Hatta International,CGK,Hasanudin,UPG,930,1135,Makassar,Drizzle,gerimis,31.8,78,1009,4.0,2025-07-29,7
-2025-07-29,Selasa,Pelita Air,IP202,Soekarno-Hatta International,CGK,Juanda,SUB,1060,1145,Surabaya,Clear,cerah,32.1,63,1008,3.6,2025-07-29,10
-2025-07-29,Selasa,Sriwijaya Air,SJ5980,Soekarno-Hatta International,CGK,Hasanudin,UPG,945,1150,Makassar,Drizzle,gerimis,31.8,78,1009,4.0,2025-07-29,10
-2025-07-29,Selasa,Garuda Indonesia,GA326,Soekarno-Hatta International,CGK,Juanda,SUB,1050,1150,Surabaya,Clear,cerah,32.1,63,1008,3.6,2025-07-29,5
-2025-07-29,Selasa,Batik Air,ID6586,Soekarno-Hatta International,CGK,Juanda,SUB,1080,1165,Surabaya,Clear,cerah,32.1,63,1008,3.6,2025-07-29,7
-2025-07-29,Selasa,Lion Air,JT772,Soekarno-Hatta International,CGK,Hasanudin,UPG,975,1175,Makassar,Drizzle,gerimis,31.8,78,1009,4.0,2025-07-29,4
-2025-07-29,Selasa,Lion Air,JT175,Soekarno-Hatta International,CGK,Hasanudin,UPG,975,1175,Makassar,Drizzle,gerimis,31.8,78,1009,4.0,2025-07-29,6
-2025-07-29,Selasa,Garuda Indonesia,GA164,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,1070,1180,Padang,Drizzle,gerimis,26.5,68,1014,3.7,2025-07-29,0
-2025-07-29,Selasa,Batik Air,ID6296,Soekarno-Hatta International,CGK,Hasanudin,UPG,1010,1210,Makassar,Drizzle,gerimis,31.8,78,1009,4.0,2025-07-29,3
-2025-07-29,Selasa,Citilink,QG724,Soekarno-Hatta International,CGK,Juanda,SUB,1145,1240,Surabaya,Clear,cerah,31.1,85,1005,4.9,2025-07-29,46
-2025-07-29,Selasa,Super Air Jet,IU744,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,1075,1245,Denpasar,Drizzle,gerimis,25.1,88,1005,4.6,2025-07-29,13
-2025-07-29,Selasa,Pelita Air,IP104,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,1080,1255,Denpasar,Drizzle,gerimis,25.1,88,1005,4.6,2025-07-29,69
-2025-07-29,Selasa,Sriwijaya Air,SJ580,Soekarno-Hatta International,CGK,Hasanudin,UPG,1070,1275,Makassar,Thunderstorm,badai petir,31.2,74,1009,1.6,2025-07-29,0
+Tanggal_Penerbangan,Hari,Maskapai,Nomor_Penerbangan,Bandara_Asal,Kode_IATA_Asal,Bandara_Tujuan,Kode_IATA_Tujuan,Jadwal_Keberangkatan,Jadwal_Kedatangan,Kota_tujuan,Deskripsi_tujuan,Suhu_Celcius_tujuan,Kelembaban_%_tujuan,Tekanan_hPa_tujuan,Kecepatan_Angin_m/s_tujuan,Durasi_Penerbangan
+2025-07-28,Senin,Batik Air,ID6288,Soekarno-Hatta International,CGK,Hasanudin,UPG,00:10,03:30,Makassar,gerimis,27.5,66,1012,3.2,3:20
+2025-07-28,Senin,Sriwijaya Air,SJ592,Soekarno-Hatta International,CGK,Hasanudin,UPG,00:30,03:55,Makassar,badai petir,24.7,64,1006,2.7,3:25
+2025-07-28,Senin,Citilink,QG346,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:10,04:30,Makassar,badai petir,24.7,64,1006,2.7,3:20
+2025-07-28,Senin,Lion Air,JT898,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:30,04:50,Makassar,badai petir,24.7,64,1006,2.7,3:20
+2025-07-28,Senin,Lion Air,JT986,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:30,04:50,Makassar,badai petir,24.7,64,1006,2.7,3:20
+2025-07-28,Senin,Lion Air,JT3896,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:30,04:50,Makassar,badai petir,24.7,64,1006,2.7,3:20
+2025-07-28,Senin,Lion Air,JT868,Soekarno-Hatta International,CGK,Juanda,SUB,03:30,04:55,Surabaya,berawan,24.1,87,1013,3.0,1:25
+2025-07-28,Senin,Lion Air,JT690,Soekarno-Hatta International,CGK,Juanda,SUB,03:30,04:55,Surabaya,berawan,24.1,87,1013,3.0,1:25
+2025-07-28,Senin,Lion Air,JT748,Soekarno-Hatta International,CGK,Juanda,SUB,03:30,04:55,Surabaya,berawan,24.1,87,1013,3.0,1:25
+2025-07-28,Senin,Garuda Indonesia,GA604,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:35,05:10,Makassar,badai petir,24.7,64,1006,2.7,3:35
+2025-07-28,Senin,Citilink,QG344,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:50,05:15,Makassar,badai petir,24.7,64,1006,2.7,3:25
+2025-07-28,Senin,Batik Air,ID6751,Soekarno-Hatta International,CGK,Hasanudin,UPG,02:20,05:45,Makassar,berkabut,30.0,66,1005,1.3,3:25
+2025-07-28,Senin,Batik Air,ID6370,Soekarno-Hatta International,CGK,Juanda,SUB,04:40,06:05,Surabaya,badai petir,29.1,74,1010,4.5,1:25
+2025-07-28,Senin,Super Air Jet,IU814,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,05:30,07:15,Padang,berkabut,32.7,78,1008,2.1,1:45
+2025-07-28,Senin,Lion Air,JT2792,Soekarno-Hatta International,CGK,Hasanudin,UPG,04:00,07:20,Makassar,hujan ringan,32.0,84,1007,2.1,3:20
+2025-07-28,Senin,Lion Air,JT792,Soekarno-Hatta International,CGK,Hasanudin,UPG,04:00,07:20,Makassar,hujan ringan,32.0,84,1007,2.1,3:20
+2025-07-28,Senin,Lion Air,JT1852,Soekarno-Hatta International,CGK,Hasanudin,UPG,04:00,07:20,Makassar,hujan ringan,32.0,84,1007,2.1,3:20
+2025-07-28,Senin,Super Air Jet,IU730,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,04:30,07:20,Denpasar,cerah,33.7,62,1009,4.7,2:50
+2025-07-28,Senin,Citilink,QG712,Soekarno-Hatta International,CGK,Juanda,SUB,05:55,07:35,Surabaya,cerah,25.8,83,1006,3.5,1:40
+2025-07-28,Senin,Batik Air,ID6572,Soekarno-Hatta International,CGK,Juanda,SUB,06:15,07:40,Surabaya,cerah,25.8,83,1006,3.5,1:25
+2025-07-28,Senin,Citilink,QG680,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,05:05,08:00,Denpasar,cerah,33.7,62,1009,4.7,2:55
+2025-07-28,Senin,Super Air Jet,IU908,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,06:30,08:15,Padang,berkabut,32.7,78,1008,2.1,1:45
+2025-07-28,Senin,Garuda Indonesia,GA304,Soekarno-Hatta International,CGK,Juanda,SUB,06:50,08:25,Surabaya,cerah,24.7,79,1012,2.2,1:35
+2025-07-28,Senin,Pelita Air,IP200,Soekarno-Hatta International,CGK,Juanda,SUB,06:55,08:30,Surabaya,cerah,24.7,79,1012,2.2,1:35
+2025-07-28,Senin,Citilink,QG212,Soekarno-Hatta International,CGK,Hasanudin,UPG,05:10,08:35,Makassar,cerah,25.2,78,1010,3.1,3:25
+2025-07-28,Senin,Citilink,QG952,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,07:00,08:55,Padang,berkabut,28.7,86,1006,1.9,1:55
+2025-07-28,Senin,AirAsia,AK802,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,06:20,09:10,Denpasar,berkabut,31.2,86,1008,3.7,2:50
+2025-07-28,Senin,Batik Air,ID6554,Soekarno-Hatta International,CGK,Hasanudin,UPG,06:00,09:20,Makassar,cerah,25.2,78,1010,3.1,3:20
+2025-07-28,Senin,Batik Air,ID6236,Soekarno-Hatta International,CGK,Hasanudin,UPG,06:00,09:20,Makassar,cerah,25.2,78,1010,3.1,3:20
+2025-07-28,Senin,Super Air Jet,IU756,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,06:30,09:20,Denpasar,berkabut,31.2,86,1008,3.7,2:50
+2025-07-28,Senin,Super Air Jet,IU812,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,07:40,09:25,Padang,berkabut,28.7,86,1006,1.9,1:45
+2025-07-28,Senin,TransNusa,8B5104,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,06:45,09:30,Denpasar,berkabut,31.2,86,1008,3.7,2:45
+2025-07-28,Senin,Batik Air,ID6584,Soekarno-Hatta International,CGK,Juanda,SUB,08:10,09:35,Surabaya,cerah,24.7,79,1012,2.2,1:25
+2025-07-28,Senin,Citilink,QG722,Soekarno-Hatta International,CGK,Juanda,SUB,08:10,09:50,Surabaya,badai petir,24.0,75,1014,1.8,1:40
+2025-07-28,Senin,Pelita Air,IP210,Soekarno-Hatta International,CGK,Juanda,SUB,08:25,09:55,Surabaya,badai petir,24.0,75,1014,1.8,1:30
+2025-07-28,Senin,Garuda Indonesia,GA402,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,07:05,10:10,Denpasar,cerah,27.5,74,1006,3.1,3:05
+2025-07-28,Senin,Super Air Jet,IU250,Soekarno-Hatta International,CGK,Hasanudin,UPG,07:00,10:20,Makassar,berawan,24.6,78,1010,2.0,3:20
+2025-07-28,Senin,Lion Air,JT241,Soekarno-Hatta International,CGK,Juanda,SUB,09:00,10:25,Surabaya,badai petir,24.0,75,1014,1.8,1:25
+2025-07-28,Senin,Lion Air,JT694,Soekarno-Hatta International,CGK,Juanda,SUB,09:00,10:25,Surabaya,badai petir,24.0,75,1014,1.8,1:25
+2025-07-28,Senin,Garuda Indonesia,GA322,Soekarno-Hatta International,CGK,Juanda,SUB,08:45,10:25,Surabaya,badai petir,24.0,75,1014,1.8,1:40
+2025-07-28,Senin,Super Air Jet,IU740,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,07:40,10:30,Denpasar,cerah,27.5,74,1006,3.1,2:50
+2025-07-28,Senin,Garuda Indonesia,GA610,Soekarno-Hatta International,CGK,Hasanudin,UPG,06:55,10:30,Makassar,berawan,24.6,78,1010,2.0,3:35
+2025-07-28,Senin,Citilink,QG682,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,08:00,10:55,Denpasar,cerah,27.5,74,1006,3.1,2:55
+2025-07-28,Senin,Garuda Indonesia,GA148,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,09:25,11:15,Padang,badai petir,27.4,79,1005,4.0,1:50
+2025-07-28,Senin,Lion Air,JT854,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,gerimis,33.8,64,1005,1.0,3:20
+2025-07-28,Senin,Super Air Jet,IU902,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,09:35,11:20,Padang,hujan ringan,31.5,84,1012,1.6,1:45
+2025-07-28,Senin,Lion Air,JT2778,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,gerimis,33.8,64,1005,1.0,3:20
+2025-07-28,Senin,Lion Air,JT892,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,gerimis,33.8,64,1005,1.0,3:20
+2025-07-28,Senin,Lion Air,JT992,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,gerimis,33.8,64,1005,1.0,3:20
+2025-07-28,Senin,Lion Air,JT1994,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,gerimis,33.8,64,1005,1.0,3:20
+2025-07-28,Senin,Batik Air,ID6582,Soekarno-Hatta International,CGK,Juanda,SUB,10:15,11:40,Surabaya,cerah,29.6,89,1015,4.7,1:25
+2025-07-28,Senin,Pelita Air,IP102,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,09:10,12:00,Denpasar,badai petir,32.0,62,1008,2.2,2:50
+2025-07-28,Senin,Pelita Air,IP204,Soekarno-Hatta International,CGK,Juanda,SUB,10:40,12:15,Surabaya,cerah,29.6,89,1015,4.7,1:35
+2025-07-28,Senin,Batik Air,ID6762,Soekarno-Hatta International,CGK,Hasanudin,UPG,09:10,12:30,Makassar,gerimis,33.8,64,1005,1.0,3:20
+2025-07-28,Senin,Batik Air,ID6292,Soekarno-Hatta International,CGK,Hasanudin,UPG,09:10,12:30,Makassar,gerimis,33.8,64,1005,1.0,3:20
+2025-07-28,Senin,Super Air Jet,IU752,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,09:40,12:30,Denpasar,badai petir,32.0,62,1008,2.2,2:50
+2025-07-28,Senin,Garuda Indonesia,GA404,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,09:40,12:35,Denpasar,badai petir,32.0,62,1008,2.2,2:55
+2025-07-28,Senin,Batik Air,ID6596,Soekarno-Hatta International,CGK,Juanda,SUB,11:10,12:35,Surabaya,cerah,29.6,89,1015,4.7,1:25
+2025-07-28,Senin,Super Air Jet,IU810,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,11:30,13:15,Padang,berawan,25.5,90,1014,4.3,1:45
+2025-07-28,Senin,TransNusa,8B5106,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,10:30,13:20,Denpasar,cerah,29.0,88,1014,2.3,2:50
+2025-07-28,Senin,Citilink,QG962,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,11:35,13:20,Padang,berawan,25.5,90,1014,4.3,1:45
+2025-07-28,Senin,Lion Air,JT774,Soekarno-Hatta International,CGK,Hasanudin,UPG,10:00,13:20,Makassar,cerah,31.6,79,1011,2.2,3:20
+2025-07-28,Senin,Lion Air,JT1740,Soekarno-Hatta International,CGK,Hasanudin,UPG,10:00,13:20,Makassar,cerah,31.6,79,1011,2.2,3:20
+2025-07-28,Senin,Lion Air,JT1774,Soekarno-Hatta International,CGK,Hasanudin,UPG,10:00,13:20,Makassar,cerah,31.6,79,1011,2.2,3:20
+2025-07-28,Senin,Citilink,QG716,Soekarno-Hatta International,CGK,Juanda,SUB,11:45,13:25,Surabaya,gerimis,33.7,82,1014,1.7,1:40
+2025-07-28,Senin,Citilink,QG686,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,10:30,13:25,Denpasar,cerah,29.0,88,1014,2.3,2:55
+2025-07-28,Senin,Batik Air,ID8050,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,10:40,13:30,Denpasar,cerah,29.0,88,1014,2.3,2:50
+2025-07-28,Senin,Super Air Jet,IU734,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,10:40,13:30,Denpasar,cerah,29.0,88,1014,2.3,2:50
+2025-07-28,Senin,Pelita Air,IP354,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,12:00,13:45,Padang,berawan,25.5,90,1014,4.3,1:45
+2025-07-28,Senin,Garuda Indonesia,GA312,Soekarno-Hatta International,CGK,Juanda,SUB,12:15,13:55,Surabaya,gerimis,33.7,82,1014,1.7,1:40
+2025-07-28,Senin,Pelita Air,IP208,Soekarno-Hatta International,CGK,Juanda,SUB,12:35,14:10,Surabaya,gerimis,33.7,82,1014,1.7,1:35
+2025-07-28,Senin,Lion Air,JT22,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,11:20,14:10,Denpasar,cerah,29.0,88,1014,2.3,2:50
+2025-07-28,Senin,Batik Air,ID6406,Soekarno-Hatta International,CGK,Juanda,SUB,13:05,14:30,Surabaya,badai petir,29.1,70,1008,4.8,1:25
+2025-07-28,Senin,Super Air Jet,IU758,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,11:40,14:30,Denpasar,badai petir,25.6,77,1014,4.1,2:50
+2025-07-28,Senin,Batik Air,ID6863,Soekarno-Hatta International,CGK,Juanda,SUB,13:05,14:30,Surabaya,badai petir,29.1,70,1008,4.8,1:25
+2025-07-28,Senin,TransNusa,8B5102,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,11:45,14:35,Denpasar,badai petir,25.6,77,1014,4.1,2:50
+2025-07-28,Senin,Garuda Indonesia,GA408,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,11:40,14:40,Denpasar,badai petir,25.6,77,1014,4.1,3:00
+2025-07-28,Senin,Pelita Air,IP802,Soekarno-Hatta International,CGK,Hasanudin,UPG,11:30,14:50,Makassar,berawan,26.3,61,1005,1.1,3:20
+2025-07-28,Senin,AirAsia,AK814,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,11:55,14:50,Denpasar,badai petir,25.6,77,1014,4.1,2:55
+2025-07-28,Senin,Pelita Air,IP108,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,12:05,14:55,Denpasar,badai petir,25.6,77,1014,4.1,2:50
+2025-07-28,Senin,Super Air Jet,IU742,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,12:40,15:30,Denpasar,badai petir,25.6,77,1014,4.1,2:50
+2025-07-28,Senin,Garuda Indonesia,GA310,Soekarno-Hatta International,CGK,Juanda,SUB,14:00,15:35,Surabaya,badai petir,29.1,70,1008,4.8,1:35
+2025-07-28,Senin,Lion Air,JT782,Soekarno-Hatta International,CGK,Hasanudin,UPG,12:20,15:40,Makassar,berawan,26.3,61,1005,1.1,3:20
+2025-07-28,Senin,AirAsia,AK806,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,12:45,15:45,Denpasar,badai petir,25.6,77,1014,4.1,3:00
+2025-07-28,Senin,Pelita Air,IP206,Soekarno-Hatta International,CGK,Juanda,SUB,14:25,15:55,Surabaya,gerimis,30.2,78,1010,3.5,1:30
+2025-07-28,Senin,Lion Air,JT619,Soekarno-Hatta International,CGK,Juanda,SUB,14:40,16:05,Surabaya,gerimis,30.2,78,1010,3.5,1:25
+2025-07-28,Senin,Lion Air,JT692,Soekarno-Hatta International,CGK,Juanda,SUB,14:40,16:05,Surabaya,gerimis,30.2,78,1010,3.5,1:25
+2025-07-28,Senin,Lion Air,JT171,Soekarno-Hatta International,CGK,Juanda,SUB,14:40,16:05,Surabaya,gerimis,30.2,78,1010,3.5,1:25
+2025-07-28,Senin,Super Air Jet,IU900,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,14:40,16:25,Padang,gerimis,26.7,77,1005,4.2,1:45
+2025-07-28,Senin,Garuda Indonesia,GA422,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,13:30,16:30,Denpasar,badai petir,27.1,87,1015,1.2,3:00
+2025-07-28,Senin,Garuda Indonesia,GA162,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,14:40,16:30,Padang,gerimis,26.7,77,1005,4.2,1:50
+2025-07-28,Senin,Garuda Indonesia,GA410,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,14:30,17:25,Denpasar,berkabut,28.2,79,1007,4.4,2:55
+2025-07-28,Senin,Oman Air,WY5787,Soekarno-Hatta International,CGK,Juanda,SUB,16:00,17:40,Surabaya,berkabut,31.4,88,1015,2.7,1:40
+2025-07-28,Senin,Garuda Indonesia,GA320,Soekarno-Hatta International,CGK,Juanda,SUB,16:00,17:40,Surabaya,berkabut,31.4,88,1015,2.7,1:40
+2025-07-28,Senin,Super Air Jet,IU736,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,14:50,17:40,Denpasar,berkabut,28.2,79,1007,4.4,2:50
+2025-07-28,Senin,Batik Air,ID6266,Soekarno-Hatta International,CGK,Hasanudin,UPG,14:30,17:50,Makassar,gerimis,28.2,60,1006,3.4,3:20
+2025-07-28,Senin,Garuda Indonesia,GA612,Soekarno-Hatta International,CGK,Hasanudin,UPG,14:25,18:00,Makassar,gerimis,28.2,60,1006,3.4,3:35
+2025-07-28,Senin,Pelita Air,IP356,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,16:20,18:05,Padang,berkabut,28.2,83,1012,4.5,1:45
+2025-07-28,Senin,Citilink,QG688,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,15:20,18:15,Denpasar,berkabut,28.2,79,1007,4.4,2:55
+2025-07-28,Senin,Garuda Indonesia,GA414,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,15:30,18:25,Denpasar,berkabut,28.2,79,1007,4.4,2:55
+2025-07-28,Senin,Batik Air,ID6576,Soekarno-Hatta International,CGK,Juanda,SUB,17:00,18:25,Surabaya,berkabut,31.4,88,1015,2.7,1:25
+2025-07-28,Senin,Super Air Jet,IU754,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,15:50,18:40,Denpasar,berkabut,28.2,79,1007,4.4,2:50
+2025-07-28,Senin,Super Air Jet,IU904,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,17:00,18:45,Padang,berkabut,28.2,83,1012,4.5,1:45
+2025-07-28,Senin,Citilink,QG736,Soekarno-Hatta International,CGK,Juanda,SUB,17:10,18:50,Surabaya,gerimis,30.5,79,1005,1.9,1:40
+2025-07-28,Senin,Pelita Air,IP202,Soekarno-Hatta International,CGK,Juanda,SUB,17:40,19:05,Surabaya,gerimis,30.5,79,1005,1.9,1:25
+2025-07-28,Senin,Garuda Indonesia,GA326,Soekarno-Hatta International,CGK,Juanda,SUB,17:30,19:10,Surabaya,gerimis,30.5,79,1005,1.9,1:40
+2025-07-28,Senin,Sriwijaya Air,SJ5980,Soekarno-Hatta International,CGK,Hasanudin,UPG,15:45,19:10,Makassar,badai petir,32.7,71,1009,1.1,3:25
+2025-07-28,Senin,Oman Air,WY5788,Soekarno-Hatta International,CGK,Juanda,SUB,17:30,19:10,Surabaya,gerimis,30.5,79,1005,1.9,1:40
+2025-07-28,Senin,Citilink,QG426,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:00,19:25,Makassar,badai petir,32.7,71,1009,1.1,3:25
+2025-07-28,Senin,Lion Air,JT175,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:15,19:35,Makassar,badai petir,32.7,71,1009,1.1,3:20
+2025-07-28,Senin,Lion Air,JT772,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:15,19:35,Makassar,badai petir,32.7,71,1009,1.1,3:20
+2025-07-28,Senin,Garuda Indonesia,GA420,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,17:00,19:55,Denpasar,gerimis,25.2,62,1012,2.1,2:55
+2025-07-28,Senin,Batik Air,ID6296,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:50,20:10,Makassar,badai petir,32.7,71,1009,1.1,3:20
+2025-07-28,Senin,Garuda Indonesia,GA328,Soekarno-Hatta International,CGK,Juanda,SUB,18:30,20:10,Surabaya,gerimis,30.5,79,1005,1.9,1:40
+2025-07-28,Senin,Garuda Indonesia,GA616,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:45,20:20,Makassar,berawan,24.6,66,1010,4.3,3:35
+2025-07-28,Senin,Batik Air,ID6594,Soekarno-Hatta International,CGK,Juanda,SUB,19:00,20:25,Surabaya,gerimis,32.2,72,1010,4.9,1:25
+2025-07-28,Senin,Batik Air,ID6588,Soekarno-Hatta International,CGK,Juanda,SUB,20:00,21:25,Surabaya,gerimis,32.2,72,1010,4.9,1:25
+2025-07-28,Senin,Citilink,QG720,Soekarno-Hatta International,CGK,Juanda,SUB,20:00,21:30,Surabaya,gerimis,32.2,72,1010,4.9,1:30
+2025-07-28,Senin,Garuda Indonesia,GA426,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,18:30,21:30,Denpasar,berawan,32.0,84,1009,1.6,3:00
+2025-07-28,Senin,Citilink,QG726,Soekarno-Hatta International,CGK,Juanda,SUB,20:00,21:35,Surabaya,gerimis,32.2,72,1010,4.9,1:35
+2025-07-28,Senin,Batik Air,ID6142,Soekarno-Hatta International,CGK,Hasanudin,UPG,18:30,21:50,Makassar,gerimis,27.4,63,1008,3.1,3:20
+2025-07-28,Senin,Citilink,QG442,Soekarno-Hatta International,CGK,Hasanudin,UPG,20:40,22:05,Makassar,gerimis,27.4,63,1008,3.1,1:25
+2025-07-28,Senin,AirAsia,AK810,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,19:30,22:20,Denpasar,gerimis,31.5,81,1005,4.7,2:50
+2025-07-28,Senin,Citilink,QG660,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,19:25,22:20,Denpasar,gerimis,31.5,81,1005,4.7,2:55
+2025-07-28,Senin,TransNusa,8B5110,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,20:10,23:00,Denpasar,gerimis,31.5,81,1005,4.7,2:50
+2025-07-28,Senin,Lion Air,JT798,Soekarno-Hatta International,CGK,Hasanudin,UPG,20:00,23:20,Makassar,hujan ringan,33.9,75,1007,2.6,3:20
+2025-07-28,Senin,Lion Air,JT938,Soekarno-Hatta International,CGK,Hasanudin,UPG,20:00,23:20,Makassar,hujan ringan,33.9,75,1007,2.6,3:20
+2025-07-28,Senin,Lion Air,JT123,Soekarno-Hatta International,CGK,Hasanudin,UPG,20:00,23:20,Makassar,hujan ringan,33.9,75,1007,2.6,3:20
+2025-07-28,Senin,Garuda Indonesia,GA618,Soekarno-Hatta International,CGK,Hasanudin,UPG,20:15,23:50,Makassar,hujan ringan,33.9,75,1007,2.6,3:35
+2025-07-28,Senin,Super Air Jet,IU244,Soekarno-Hatta International,CGK,Hasanudin,UPG,21:00,00:20,Makassar,hujan ringan,33.9,75,1007,2.6,3:20
+2025-07-28,Senin,Citilink,QG250,Soekarno-Hatta International,CGK,Hasanudin,UPG,21:30,00:55,Makassar,hujan ringan,25.2,62,1009,4.0,3:25
+2025-07-28,Senin,Lion Air,JT984,Soekarno-Hatta International,CGK,Hasanudin,UPG,22:00,01:20,Makassar,hujan ringan,25.2,62,1009,4.0,3:20
+2025-07-28,Senin,Lion Air,JT948,Soekarno-Hatta International,CGK,Hasanudin,UPG,22:00,01:20,Makassar,hujan ringan,25.2,62,1009,4.0,3:20
+2025-07-28,Senin,Lion Air,JT888,Soekarno-Hatta International,CGK,Hasanudin,UPG,22:00,01:20,Makassar,hujan ringan,25.2,62,1009,4.0,3:20
+2025-07-28,Senin,Lion Air,JT371,Soekarno-Hatta International,CGK,Hasanudin,UPG,22:00,01:20,Makassar,hujan ringan,25.2,62,1009,4.0,3:20
+2025-07-28,Senin,Sriwijaya Air,SJ598,Soekarno-Hatta International,CGK,Hasanudin,UPG,22:15,01:40,Makassar,hujan ringan,25.2,62,1009,4.0,3:25
+2025-07-28,Senin,Batik Air,ID6164,Soekarno-Hatta International,CGK,Hasanudin,UPG,23:00,02:20,Makassar,gerimis,26.2,65,1006,3.0,3:20
+2025-07-28,Senin,Batik Air,ID6192,Soekarno-Hatta International,CGK,Hasanudin,UPG,23:00,02:20,Makassar,gerimis,26.2,65,1006,3.0,3:20
+2025-07-28,Senin,Batik Air,ID6182,Soekarno-Hatta International,CGK,Hasanudin,UPG,23:00,02:20,Makassar,gerimis,26.2,65,1006,3.0,3:20
+2025-07-28,Senin,Pelita Air,IP500,Soekarno-Hatta International,CGK,Hasanudin,UPG,23:45,03:10,Makassar,gerimis,26.2,65,1006,3.0,3:25
+2025-07-29,Selasa,Batik Air,ID6288,Soekarno-Hatta International,CGK,Hasanudin,UPG,00:10,03:30,Makassar,gerimis,26.2,65,1006,3.0,3:20
+2025-07-29,Selasa,Sriwijaya Air,SJ592,Soekarno-Hatta International,CGK,Hasanudin,UPG,00:30,03:55,Makassar,cerah,31.2,66,1013,4.1,3:25
+2025-07-29,Selasa,Citilink,QG346,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:10,04:30,Makassar,cerah,31.2,66,1013,4.1,3:20
+2025-07-29,Selasa,Lion Air,JT3896,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:30,04:50,Makassar,cerah,31.2,66,1013,4.1,3:20
+2025-07-29,Selasa,Lion Air,JT898,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:30,04:50,Makassar,cerah,31.2,66,1013,4.1,3:20
+2025-07-29,Selasa,Lion Air,JT986,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:30,04:50,Makassar,cerah,31.2,66,1013,4.1,3:20
+2025-07-29,Selasa,Lion Air,JT748,Soekarno-Hatta International,CGK,Juanda,SUB,03:30,04:55,Surabaya,badai petir,31.0,84,1007,3.1,1:25
+2025-07-29,Selasa,Lion Air,JT690,Soekarno-Hatta International,CGK,Juanda,SUB,03:30,04:55,Surabaya,badai petir,31.0,84,1007,3.1,1:25
+2025-07-29,Selasa,Garuda Indonesia,GA604,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:35,05:10,Makassar,cerah,31.2,66,1013,4.1,3:35
+2025-07-29,Selasa,Batik Air,ID6264,Soekarno-Hatta International,CGK,Hasanudin,UPG,02:20,05:40,Makassar,berkabut,33.3,83,1013,2.9,3:20
+2025-07-29,Selasa,Batik Air,ID6751,Soekarno-Hatta International,CGK,Hasanudin,UPG,02:20,05:45,Makassar,berkabut,33.3,83,1013,2.9,3:25
+2025-07-29,Selasa,Batik Air,ID6370,Soekarno-Hatta International,CGK,Juanda,SUB,04:40,06:05,Surabaya,badai petir,25.4,71,1011,4.5,1:25
+2025-07-29,Selasa,Super Air Jet,IU814,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,05:30,07:15,Padang,berkabut,26.3,87,1008,4.4,1:45
+2025-07-29,Selasa,Lion Air,JT2792,Soekarno-Hatta International,CGK,Hasanudin,UPG,04:00,07:20,Makassar,badai petir,27.1,72,1014,2.1,3:20
+2025-07-29,Selasa,Lion Air,JT1852,Soekarno-Hatta International,CGK,Hasanudin,UPG,04:00,07:20,Makassar,badai petir,27.1,72,1014,2.1,3:20
+2025-07-29,Selasa,Lion Air,JT792,Soekarno-Hatta International,CGK,Hasanudin,UPG,04:00,07:20,Makassar,badai petir,27.1,72,1014,2.1,3:20
+2025-07-29,Selasa,Super Air Jet,IU730,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,04:30,07:20,Denpasar,cerah,24.1,89,1013,1.6,2:50
+2025-07-29,Selasa,Garuda Indonesia,GA314,Soekarno-Hatta International,CGK,Juanda,SUB,05:50,07:30,Surabaya,cerah,31.8,80,1005,1.9,1:40
+2025-07-29,Selasa,Citilink,QG712,Soekarno-Hatta International,CGK,Juanda,SUB,05:55,07:35,Surabaya,cerah,31.8,80,1005,1.9,1:40
+2025-07-29,Selasa,Batik Air,ID6572,Soekarno-Hatta International,CGK,Juanda,SUB,06:15,07:40,Surabaya,cerah,31.8,80,1005,1.9,1:25
+2025-07-29,Selasa,Pelita Air,IP350,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,06:10,07:55,Padang,berkabut,26.3,87,1008,4.4,1:45
+2025-07-29,Selasa,Citilink,QG680,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,05:05,08:00,Denpasar,cerah,24.1,89,1013,1.6,2:55
+2025-07-29,Selasa,Super Air Jet,IU908,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,06:30,08:15,Padang,berkabut,26.3,87,1008,4.4,1:45
+2025-07-29,Selasa,Nam Air,IN282,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,05:30,08:20,Denpasar,cerah,28.2,80,1012,4.9,2:50
+2025-07-29,Selasa,Garuda Indonesia,GA304,Soekarno-Hatta International,CGK,Juanda,SUB,06:50,08:25,Surabaya,badai petir,29.2,63,1008,1.3,1:35
+2025-07-29,Selasa,Pelita Air,IP200,Soekarno-Hatta International,CGK,Juanda,SUB,06:55,08:30,Surabaya,badai petir,29.2,63,1008,1.3,1:35
+2025-07-29,Selasa,Citilink,QG952,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,07:00,08:55,Padang,hujan ringan,32.2,61,1007,3.3,1:55
+2025-07-29,Selasa,AirAsia,AK802,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,06:20,09:10,Denpasar,cerah,28.2,80,1012,4.9,2:50
+2025-07-29,Selasa,Batik Air,ID6236,Soekarno-Hatta International,CGK,Hasanudin,UPG,06:00,09:20,Makassar,hujan ringan,34.0,69,1015,1.9,3:20
+2025-07-29,Selasa,Batik Air,ID6554,Soekarno-Hatta International,CGK,Hasanudin,UPG,06:00,09:20,Makassar,hujan ringan,34.0,69,1015,1.9,3:20
+2025-07-29,Selasa,Super Air Jet,IU756,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,06:30,09:20,Denpasar,cerah,28.2,80,1012,4.9,2:50
+2025-07-29,Selasa,Super Air Jet,IU812,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,07:40,09:25,Padang,hujan ringan,32.2,61,1007,3.3,1:45
+2025-07-29,Selasa,TransNusa,8B5104,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,06:45,09:30,Denpasar,cerah,28.2,80,1012,4.9,2:45
+2025-07-29,Selasa,Batik Air,ID6584,Soekarno-Hatta International,CGK,Juanda,SUB,08:10,09:35,Surabaya,badai petir,29.2,63,1008,1.3,1:25
+2025-07-29,Selasa,Pelita Air,IP210,Soekarno-Hatta International,CGK,Juanda,SUB,08:25,09:55,Surabaya,berawan,32.8,61,1011,2.3,1:30
+2025-07-29,Selasa,Garuda Indonesia,GA402,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,07:05,10:10,Denpasar,hujan ringan,28.0,63,1008,4.2,3:05
+2025-07-29,Selasa,Garuda Indonesia,GA322,Soekarno-Hatta International,CGK,Juanda,SUB,08:45,10:25,Surabaya,berawan,32.8,61,1011,2.3,1:40
+2025-07-29,Selasa,Lion Air,JT241,Soekarno-Hatta International,CGK,Juanda,SUB,09:00,10:25,Surabaya,berawan,32.8,61,1011,2.3,1:25
+2025-07-29,Selasa,Lion Air,JT694,Soekarno-Hatta International,CGK,Juanda,SUB,09:00,10:25,Surabaya,berawan,32.8,61,1011,2.3,1:25
+2025-07-29,Selasa,Super Air Jet,IU740,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,07:40,10:30,Denpasar,hujan ringan,28.0,63,1008,4.2,2:50
+2025-07-29,Selasa,Citilink,QG682,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,08:00,10:55,Denpasar,hujan ringan,28.0,63,1008,4.2,2:55
+2025-07-29,Selasa,Garuda Indonesia,GA148,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,09:25,11:15,Padang,berkabut,26.9,66,1014,3.1,1:50
+2025-07-29,Selasa,Lion Air,JT992,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,badai petir,31.2,84,1013,1.4,3:20
+2025-07-29,Selasa,Lion Air,JT854,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,badai petir,31.2,84,1013,1.4,3:20
+2025-07-29,Selasa,Lion Air,JT1994,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,badai petir,31.2,84,1013,1.4,3:20
+2025-07-29,Selasa,Lion Air,JT2778,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,badai petir,31.2,84,1013,1.4,3:20
+2025-07-29,Selasa,Lion Air,JT892,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,badai petir,31.2,84,1013,1.4,3:20
+2025-07-29,Selasa,Super Air Jet,IU902,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,09:40,11:25,Padang,berawan,30.9,80,1009,4.9,1:45
+2025-07-29,Selasa,Batik Air,ID6582,Soekarno-Hatta International,CGK,Juanda,SUB,10:15,11:40,Surabaya,berawan,26.3,71,1007,2.1,1:25
+2025-07-29,Selasa,Pelita Air,IP102,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,09:10,12:00,Denpasar,gerimis,28.0,90,1013,4.2,2:50
+2025-07-29,Selasa,AirAsia,AK804,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,09:15,12:15,Denpasar,gerimis,28.0,90,1013,4.2,3:00
+2025-07-29,Selasa,Pelita Air,IP204,Soekarno-Hatta International,CGK,Juanda,SUB,10:40,12:15,Surabaya,berawan,26.3,71,1007,2.1,1:35
+2025-07-29,Selasa,Batik Air,ID6762,Soekarno-Hatta International,CGK,Hasanudin,UPG,09:10,12:30,Makassar,badai petir,31.2,84,1013,1.4,3:20
+2025-07-29,Selasa,Super Air Jet,IU752,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,09:40,12:30,Denpasar,gerimis,28.0,90,1013,4.2,2:50
+2025-07-29,Selasa,Batik Air,ID6292,Soekarno-Hatta International,CGK,Hasanudin,UPG,09:10,12:30,Makassar,badai petir,31.2,84,1013,1.4,3:20
+2025-07-29,Selasa,Batik Air,ID6899,Soekarno-Hatta International,CGK,Juanda,SUB,11:10,12:35,Surabaya,berawan,26.3,71,1007,2.1,1:25
+2025-07-29,Selasa,Garuda Indonesia,GA404,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,09:40,12:35,Denpasar,gerimis,28.0,90,1013,4.2,2:55
+2025-07-29,Selasa,Garuda Indonesia,GA608,Soekarno-Hatta International,CGK,Hasanudin,UPG,09:10,12:45,Makassar,badai petir,31.2,84,1013,1.4,3:35
+2025-07-29,Selasa,Lion Air,JT774,Soekarno-Hatta International,CGK,Hasanudin,UPG,10:00,13:20,Makassar,gerimis,27.9,60,1015,3.2,3:20
+2025-07-29,Selasa,Lion Air,JT1740,Soekarno-Hatta International,CGK,Hasanudin,UPG,10:00,13:20,Makassar,gerimis,27.9,60,1015,3.2,3:20
+2025-07-29,Selasa,TransNusa,8B5106,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,10:30,13:20,Denpasar,cerah,25.7,88,1015,1.5,2:50
+2025-07-29,Selasa,Lion Air,JT1774,Soekarno-Hatta International,CGK,Hasanudin,UPG,10:00,13:20,Makassar,gerimis,27.9,60,1015,3.2,3:20
+2025-07-29,Selasa,Citilink,QG686,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,10:30,13:25,Denpasar,cerah,25.7,88,1015,1.5,2:55
+2025-07-29,Selasa,Super Air Jet,IU734,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,10:40,13:30,Denpasar,cerah,25.7,88,1015,1.5,2:50
+2025-07-29,Selasa,Pelita Air,IP354,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,12:00,13:45,Padang,berawan,31.9,76,1010,1.2,1:45
+2025-07-29,Selasa,Garuda Indonesia,GA312,Soekarno-Hatta International,CGK,Juanda,SUB,12:15,13:55,Surabaya,gerimis,31.0,88,1010,1.1,1:40
+2025-07-29,Selasa,Pelita Air,IP208,Soekarno-Hatta International,CGK,Juanda,SUB,12:35,14:10,Surabaya,gerimis,31.0,88,1010,1.1,1:35
+2025-07-29,Selasa,Lion Air,JT22,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,11:20,14:10,Denpasar,cerah,25.7,88,1015,1.5,2:50
+2025-07-29,Selasa,Super Air Jet,IU810,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,12:35,14:20,Padang,berawan,29.7,87,1012,3.7,1:45
+2025-07-29,Selasa,Batik Air,ID6863,Soekarno-Hatta International,CGK,Juanda,SUB,13:05,14:30,Surabaya,badai petir,27.7,64,1015,4.4,1:25
+2025-07-29,Selasa,Batik Air,ID6406,Soekarno-Hatta International,CGK,Juanda,SUB,13:05,14:30,Surabaya,badai petir,27.7,64,1015,4.4,1:25
+2025-07-29,Selasa,Super Air Jet,IU758,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,11:40,14:30,Denpasar,berawan,29.8,76,1009,4.4,2:50
+2025-07-29,Selasa,Garuda Indonesia,GA408,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,11:40,14:40,Denpasar,berawan,29.8,76,1009,4.4,3:00
+2025-07-29,Selasa,Pelita Air,IP802,Soekarno-Hatta International,CGK,Hasanudin,UPG,11:30,14:50,Makassar,cerah,28.6,87,1011,4.0,3:20
+2025-07-29,Selasa,Super Air Jet,IU742,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,12:40,15:30,Denpasar,berawan,29.8,76,1009,4.4,2:50
+2025-07-29,Selasa,Garuda Indonesia,GA310,Soekarno-Hatta International,CGK,Juanda,SUB,14:00,15:35,Surabaya,badai petir,27.7,64,1015,4.4,1:35
+2025-07-29,Selasa,Lion Air,JT782,Soekarno-Hatta International,CGK,Hasanudin,UPG,12:20,15:40,Makassar,cerah,28.6,87,1011,4.0,3:20
+2025-07-29,Selasa,AirAsia,AK806,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,12:45,15:45,Denpasar,berawan,29.8,76,1009,4.4,3:00
+2025-07-29,Selasa,Pelita Air,IP206,Soekarno-Hatta International,CGK,Juanda,SUB,14:25,15:55,Surabaya,hujan ringan,32.4,66,1006,3.0,1:30
+2025-07-29,Selasa,Lion Air,JT171,Soekarno-Hatta International,CGK,Juanda,SUB,14:40,16:05,Surabaya,hujan ringan,32.4,66,1006,3.0,1:25
+2025-07-29,Selasa,Lion Air,JT619,Soekarno-Hatta International,CGK,Juanda,SUB,14:40,16:05,Surabaya,hujan ringan,32.4,66,1006,3.0,1:25
+2025-07-29,Selasa,Lion Air,JT692,Soekarno-Hatta International,CGK,Juanda,SUB,14:40,16:05,Surabaya,hujan ringan,32.4,66,1006,3.0,1:25
+2025-07-29,Selasa,Super Air Jet,IU900,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,14:40,16:25,Padang,gerimis,32.3,80,1011,2.4,1:45
+2025-07-29,Selasa,Garuda Indonesia,GA162,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,14:40,16:30,Padang,gerimis,32.3,80,1011,2.4,1:50
+2025-07-29,Selasa,Garuda Indonesia,GA422,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,13:30,16:30,Denpasar,badai petir,27.0,69,1010,3.6,3:00
+2025-07-29,Selasa,Batik Air,ID6578,Soekarno-Hatta International,CGK,Juanda,SUB,15:10,16:35,Surabaya,hujan ringan,32.4,66,1006,3.0,1:25
+2025-07-29,Selasa,Garuda Indonesia,GA410,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,14:30,17:25,Denpasar,cerah,26.9,90,1015,4.5,2:55
+2025-07-29,Selasa,Super Air Jet,IU736,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,14:50,17:40,Denpasar,cerah,26.9,90,1015,4.5,2:50
+2025-07-29,Selasa,Super Air Jet,IU816,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,16:00,17:45,Padang,hujan ringan,30.7,85,1007,4.4,1:45
+2025-07-29,Selasa,Batik Air,ID6266,Soekarno-Hatta International,CGK,Hasanudin,UPG,14:30,17:50,Makassar,cerah,24.5,84,1014,4.8,3:20
+2025-07-29,Selasa,Garuda Indonesia,GA612,Soekarno-Hatta International,CGK,Hasanudin,UPG,14:25,18:00,Makassar,cerah,24.5,84,1014,4.8,3:35
+2025-07-29,Selasa,Pelita Air,IP356,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,16:20,18:05,Padang,hujan ringan,30.7,85,1007,4.4,1:45
+2025-07-29,Selasa,Super Air Jet,IU754,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,15:50,18:40,Denpasar,cerah,26.9,90,1015,4.5,2:50
+2025-07-29,Selasa,Citilink,QG736,Soekarno-Hatta International,CGK,Juanda,SUB,17:10,18:50,Surabaya,cerah,32.1,63,1008,3.6,1:40
+2025-07-29,Selasa,Citilink,QG426,Soekarno-Hatta International,CGK,Hasanudin,UPG,15:30,18:55,Makassar,gerimis,31.8,78,1009,4.0,3:25
+2025-07-29,Selasa,Pelita Air,IP202,Soekarno-Hatta International,CGK,Juanda,SUB,17:40,19:05,Surabaya,cerah,32.1,63,1008,3.6,1:25
+2025-07-29,Selasa,Sriwijaya Air,SJ5980,Soekarno-Hatta International,CGK,Hasanudin,UPG,15:45,19:10,Makassar,gerimis,31.8,78,1009,4.0,3:25
+2025-07-29,Selasa,Garuda Indonesia,GA326,Soekarno-Hatta International,CGK,Juanda,SUB,17:30,19:10,Surabaya,cerah,32.1,63,1008,3.6,1:40
+2025-07-29,Selasa,Batik Air,ID6586,Soekarno-Hatta International,CGK,Juanda,SUB,18:00,19:25,Surabaya,cerah,32.1,63,1008,3.6,1:25
+2025-07-29,Selasa,Lion Air,JT772,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:15,19:35,Makassar,gerimis,31.8,78,1009,4.0,3:20
+2025-07-29,Selasa,Lion Air,JT175,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:15,19:35,Makassar,gerimis,31.8,78,1009,4.0,3:20
+2025-07-29,Selasa,Garuda Indonesia,GA164,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,17:50,19:40,Padang,gerimis,26.5,68,1014,3.7,1:50
+2025-07-29,Selasa,Batik Air,ID6296,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:50,20:10,Makassar,gerimis,31.8,78,1009,4.0,3:20
+2025-07-29,Selasa,Citilink,QG724,Soekarno-Hatta International,CGK,Juanda,SUB,19:05,20:40,Surabaya,cerah,31.1,85,1005,4.9,1:35
+2025-07-29,Selasa,Super Air Jet,IU744,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,17:55,20:45,Denpasar,gerimis,25.1,88,1005,4.6,2:50
+2025-07-29,Selasa,Pelita Air,IP104,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,18:00,20:55,Denpasar,gerimis,25.1,88,1005,4.6,2:55
+2025-07-29,Selasa,Sriwijaya Air,SJ580,Soekarno-Hatta International,CGK,Hasanudin,UPG,17:50,21:15,Makassar,badai petir,31.2,74,1009,1.6,3:25
+2025-07-30,Rabu,AirAsia,AK806V,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,12:45,15:45,Denpasar,berawan,29.8,76,1009,4.4,3:00
+2025-07-31,Kamis,Batik Air,ID6182W,Soekarno-Hatta International,CGK,Hasanudin,UPG,23:00,02:20,Makassar,gerimis,26.2,65,1006,3.0,3:20
+2025-08-01,Jumat,Lion Air,JT3896P,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:30,04:50,Makassar,cerah,31.2,66,1013,4.1,3:20
+2025-08-02,Sabtu,Garuda Indonesia,GA608H,Soekarno-Hatta International,CGK,Hasanudin,UPG,09:10,12:45,Makassar,badai petir,31.2,84,1013,1.4,3:35
+2025-08-03,Minggu,Citilink,QG212Y,Soekarno-Hatta International,CGK,Hasanudin,UPG,05:10,08:35,Makassar,cerah,25.2,78,1010,3.1,3:25
+2025-08-06,Rabu,Citilink,QG688Q,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,15:20,18:15,Denpasar,berkabut,28.2,79,1007,4.4,2:55
+2025-08-07,Kamis,Batik Air,ID6582T,Soekarno-Hatta International,CGK,Juanda,SUB,10:15,11:40,Surabaya,cerah,29.6,89,1015,4.7,1:25
+2025-08-08,Jumat,Super Air Jet,IU734O,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,10:40,13:30,Denpasar,cerah,25.7,88,1015,1.5,2:50
+2025-08-09,Sabtu,Batik Air,ID6182B,Soekarno-Hatta International,CGK,Hasanudin,UPG,23:00,02:20,Makassar,gerimis,26.2,65,1006,3.0,3:20
+2025-08-10,Minggu,Garuda Indonesia,GA612G,Soekarno-Hatta International,CGK,Hasanudin,UPG,14:25,18:00,Makassar,gerimis,28.2,60,1006,3.4,3:35
+2025-08-13,Rabu,Citilink,QG712V,Soekarno-Hatta International,CGK,Juanda,SUB,05:55,07:35,Surabaya,cerah,25.8,83,1006,3.5,1:40
+2025-08-14,Kamis,Super Air Jet,IU756I,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,06:30,09:20,Denpasar,cerah,28.2,80,1012,4.9,2:50
+2025-08-15,Jumat,Lion Air,JT171Z,Soekarno-Hatta International,CGK,Juanda,SUB,14:40,16:05,Surabaya,gerimis,30.2,78,1010,3.5,1:25
+2025-08-16,Sabtu,Pelita Air,IP102Z,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,09:10,12:00,Denpasar,gerimis,28.0,90,1013,4.2,2:50
+2025-08-17,Minggu,Lion Air,JT892W,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,gerimis,33.8,64,1005,1.0,3:20
+2025-08-20,Rabu,TransNusa,8B5104W,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,06:45,09:30,Denpasar,cerah,28.2,80,1012,4.9,2:45
+2025-08-21,Kamis,Citilink,QG722Z,Soekarno-Hatta International,CGK,Juanda,SUB,08:10,09:50,Surabaya,badai petir,24.0,75,1014,1.8,1:40
+2025-08-22,Jumat,Garuda Indonesia,GA320T,Soekarno-Hatta International,CGK,Juanda,SUB,16:00,17:40,Surabaya,berkabut,31.4,88,1015,2.7,1:40
+2025-08-23,Sabtu,Garuda Indonesia,GA148I,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,09:25,11:15,Padang,badai petir,27.4,79,1005,4.0,1:50
+2025-08-24,Minggu,Lion Air,JT2792K,Soekarno-Hatta International,CGK,Hasanudin,UPG,04:00,07:20,Makassar,badai petir,27.1,72,1014,2.1,3:20
+2025-08-27,Rabu,Pelita Air,IP802D,Soekarno-Hatta International,CGK,Hasanudin,UPG,11:30,14:50,Makassar,berawan,26.3,61,1005,1.1,3:20
+2025-08-28,Kamis,Lion Air,JT888Q,Soekarno-Hatta International,CGK,Hasanudin,UPG,22:00,01:20,Makassar,hujan ringan,25.2,62,1009,4.0,3:20
+2025-08-29,Jumat,Citilink,QG250B,Soekarno-Hatta International,CGK,Hasanudin,UPG,21:30,00:55,Makassar,hujan ringan,25.2,62,1009,4.0,3:25
+2025-08-30,Sabtu,Batik Air,ID6288P,Soekarno-Hatta International,CGK,Hasanudin,UPG,00:10,03:30,Makassar,gerimis,26.2,65,1006,3.0,3:20
+2025-08-31,Minggu,Lion Air,JT854V,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,gerimis,33.8,64,1005,1.0,3:20
+2025-09-03,Rabu,Batik Air,ID6762C,Soekarno-Hatta International,CGK,Hasanudin,UPG,09:10,12:30,Makassar,badai petir,31.2,84,1013,1.4,3:20
+2025-09-04,Kamis,Lion Air,JT854U,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,badai petir,31.2,84,1013,1.4,3:20
+2025-07-30,Rabu,Batik Air,ID6266N,Soekarno-Hatta International,CGK,Hasanudin,UPG,14:30,17:50,Makassar,gerimis,28.2,60,1006,3.4,3:20
+2025-07-31,Kamis,Lion Air,JT2778V,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,gerimis,33.8,64,1005,1.0,3:20
+2025-08-01,Jumat,Batik Air,ID6584L,Soekarno-Hatta International,CGK,Juanda,SUB,08:10,09:35,Surabaya,badai petir,29.2,63,1008,1.3,1:25
+2025-08-02,Sabtu,Garuda Indonesia,GA322I,Soekarno-Hatta International,CGK,Juanda,SUB,08:45,10:25,Surabaya,badai petir,24.0,75,1014,1.8,1:40
+2025-08-03,Minggu,Pelita Air,IP102O,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,09:10,12:00,Denpasar,badai petir,32.0,62,1008,2.2,2:50
+2025-08-06,Rabu,Lion Air,JT748T,Soekarno-Hatta International,CGK,Juanda,SUB,03:30,04:55,Surabaya,berawan,24.1,87,1013,3.0,1:25
+2025-08-07,Kamis,Garuda Indonesia,GA326K,Soekarno-Hatta International,CGK,Juanda,SUB,17:30,19:10,Surabaya,cerah,32.1,63,1008,3.6,1:40
+2025-08-08,Jumat,Super Air Jet,IU752C,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,09:40,12:30,Denpasar,gerimis,28.0,90,1013,4.2,2:50
+2025-08-09,Sabtu,Lion Air,JT772Y,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:15,19:35,Makassar,badai petir,32.7,71,1009,1.1,3:20
+2025-08-10,Minggu,Pelita Air,IP108J,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,12:05,14:55,Denpasar,badai petir,25.6,77,1014,4.1,2:50
+2025-08-13,Rabu,Lion Air,JT986O,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:30,04:50,Makassar,cerah,31.2,66,1013,4.1,3:20
+2025-08-14,Kamis,Lion Air,JT619C,Soekarno-Hatta International,CGK,Juanda,SUB,14:40,16:05,Surabaya,hujan ringan,32.4,66,1006,3.0,1:25
+2025-08-15,Jumat,Lion Air,JT774D,Soekarno-Hatta International,CGK,Hasanudin,UPG,10:00,13:20,Makassar,gerimis,27.9,60,1015,3.2,3:20
+2025-08-16,Sabtu,Garuda Indonesia,GA322O,Soekarno-Hatta International,CGK,Juanda,SUB,08:45,10:25,Surabaya,badai petir,24.0,75,1014,1.8,1:40
+2025-08-17,Minggu,Citilink,QG346D,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:10,04:30,Makassar,badai petir,24.7,64,1006,2.7,3:20
+2025-08-20,Rabu,Lion Air,JT690M,Soekarno-Hatta International,CGK,Juanda,SUB,03:30,04:55,Surabaya,badai petir,31.0,84,1007,3.1,1:25
+2025-08-21,Kamis,Citilink,QG726R,Soekarno-Hatta International,CGK,Juanda,SUB,20:00,21:35,Surabaya,gerimis,32.2,72,1010,4.9,1:35
+2025-08-22,Jumat,Lion Air,JT774V,Soekarno-Hatta International,CGK,Hasanudin,UPG,10:00,13:20,Makassar,gerimis,27.9,60,1015,3.2,3:20
+2025-08-23,Sabtu,Batik Air,ID6296I,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:50,20:10,Makassar,gerimis,31.8,78,1009,4.0,3:20
+2025-08-24,Minggu,Lion Air,JT692A,Soekarno-Hatta International,CGK,Juanda,SUB,14:40,16:05,Surabaya,hujan ringan,32.4,66,1006,3.0,1:25
+2025-08-27,Rabu,Lion Air,JT2778G,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,gerimis,33.8,64,1005,1.0,3:20
+2025-08-28,Kamis,Lion Air,JT241N,Soekarno-Hatta International,CGK,Juanda,SUB,09:00,10:25,Surabaya,berawan,32.8,61,1011,2.3,1:25
+2025-08-29,Jumat,Batik Air,ID6751N,Soekarno-Hatta International,CGK,Hasanudin,UPG,02:20,05:45,Makassar,berkabut,30.0,66,1005,1.3,3:25
+2025-08-30,Sabtu,Lion Air,JT938W,Soekarno-Hatta International,CGK,Hasanudin,UPG,20:00,23:20,Makassar,hujan ringan,33.9,75,1007,2.6,3:20
+2025-08-31,Minggu,Lion Air,JT1994T,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,gerimis,33.8,64,1005,1.0,3:20
+2025-09-03,Rabu,Pelita Air,IP802L,Soekarno-Hatta International,CGK,Hasanudin,UPG,11:30,14:50,Makassar,cerah,28.6,87,1011,4.0,3:20
+2025-09-04,Kamis,Batik Air,ID6584C,Soekarno-Hatta International,CGK,Juanda,SUB,08:10,09:35,Surabaya,badai petir,29.2,63,1008,1.3,1:25
+2025-07-30,Rabu,Batik Air,ID6236S,Soekarno-Hatta International,CGK,Hasanudin,UPG,06:00,09:20,Makassar,hujan ringan,34.0,69,1015,1.9,3:20
+2025-07-31,Kamis,Batik Air,ID6292C,Soekarno-Hatta International,CGK,Hasanudin,UPG,09:10,12:30,Makassar,gerimis,33.8,64,1005,1.0,3:20
+2025-08-01,Jumat,Citilink,QG726W,Soekarno-Hatta International,CGK,Juanda,SUB,20:00,21:35,Surabaya,gerimis,32.2,72,1010,4.9,1:35
+2025-08-02,Sabtu,Lion Air,JT171Q,Soekarno-Hatta International,CGK,Juanda,SUB,14:40,16:05,Surabaya,hujan ringan,32.4,66,1006,3.0,1:25
+2025-08-03,Minggu,Batik Air,ID6370Y,Soekarno-Hatta International,CGK,Juanda,SUB,04:40,06:05,Surabaya,badai petir,25.4,71,1011,4.5,1:25
+2025-08-06,Rabu,Citilink,QG962C,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,11:35,13:20,Padang,berawan,25.5,90,1014,4.3,1:45
+2025-08-07,Kamis,Pelita Air,IP202N,Soekarno-Hatta International,CGK,Juanda,SUB,17:40,19:05,Surabaya,cerah,32.1,63,1008,3.6,1:25
+2025-08-08,Jumat,Sriwijaya Air,SJ5980D,Soekarno-Hatta International,CGK,Hasanudin,UPG,15:45,19:10,Makassar,badai petir,32.7,71,1009,1.1,3:25
+2025-08-09,Sabtu,Batik Air,ID6142X,Soekarno-Hatta International,CGK,Hasanudin,UPG,18:30,21:50,Makassar,gerimis,27.4,63,1008,3.1,3:20
+2025-08-10,Minggu,Citilink,QG952B,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,07:00,08:55,Padang,berkabut,28.7,86,1006,1.9,1:55
+2025-08-13,Rabu,Batik Air,ID6142I,Soekarno-Hatta International,CGK,Hasanudin,UPG,18:30,21:50,Makassar,gerimis,27.4,63,1008,3.1,3:20
+2025-08-14,Kamis,Garuda Indonesia,GA164U,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,17:50,19:40,Padang,gerimis,26.5,68,1014,3.7,1:50
+2025-08-15,Jumat,Pelita Air,IP206M,Soekarno-Hatta International,CGK,Juanda,SUB,14:25,15:55,Surabaya,gerimis,30.2,78,1010,3.5,1:30
+2025-08-16,Sabtu,Batik Air,ID6762W,Soekarno-Hatta International,CGK,Hasanudin,UPG,09:10,12:30,Makassar,gerimis,33.8,64,1005,1.0,3:20
+2025-08-17,Minggu,Garuda Indonesia,GA304Q,Soekarno-Hatta International,CGK,Juanda,SUB,06:50,08:25,Surabaya,badai petir,29.2,63,1008,1.3,1:35
+2025-08-20,Rabu,Batik Air,ID6586V,Soekarno-Hatta International,CGK,Juanda,SUB,18:00,19:25,Surabaya,cerah,32.1,63,1008,3.6,1:25
+2025-08-21,Kamis,Lion Air,JT782X,Soekarno-Hatta International,CGK,Hasanudin,UPG,12:20,15:40,Makassar,cerah,28.6,87,1011,4.0,3:20
+2025-08-22,Jumat,Garuda Indonesia,GA402S,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,07:05,10:10,Denpasar,hujan ringan,28.0,63,1008,4.2,3:05
+2025-08-23,Sabtu,Garuda Indonesia,GA310L,Soekarno-Hatta International,CGK,Juanda,SUB,14:00,15:35,Surabaya,badai petir,29.1,70,1008,4.8,1:35
+2025-08-24,Minggu,Super Air Jet,IU734P,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,10:40,13:30,Denpasar,cerah,25.7,88,1015,1.5,2:50
+2025-08-27,Rabu,Sriwijaya Air,SJ592O,Soekarno-Hatta International,CGK,Hasanudin,UPG,00:30,03:55,Makassar,cerah,31.2,66,1013,4.1,3:25
+2025-08-28,Kamis,Lion Air,JT854J,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,badai petir,31.2,84,1013,1.4,3:20
+2025-08-29,Jumat,Pelita Air,IP204K,Soekarno-Hatta International,CGK,Juanda,SUB,10:40,12:15,Surabaya,cerah,29.6,89,1015,4.7,1:35
+2025-08-30,Sabtu,Batik Air,ID6899F,Soekarno-Hatta International,CGK,Juanda,SUB,11:10,12:35,Surabaya,berawan,26.3,71,1007,2.1,1:25
+2025-08-31,Minggu,Lion Air,JT792M,Soekarno-Hatta International,CGK,Hasanudin,UPG,04:00,07:20,Makassar,badai petir,27.1,72,1014,2.1,3:20
+2025-09-03,Rabu,Pelita Air,IP204W,Soekarno-Hatta International,CGK,Juanda,SUB,10:40,12:15,Surabaya,cerah,29.6,89,1015,4.7,1:35
+2025-09-04,Kamis,Pelita Air,IP200R,Soekarno-Hatta International,CGK,Juanda,SUB,06:55,08:30,Surabaya,badai petir,29.2,63,1008,1.3,1:35
+2025-07-30,Rabu,Super Air Jet,IU810J,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,12:35,14:20,Padang,berawan,29.7,87,1012,3.7,1:45
+2025-07-31,Kamis,Pelita Air,IP210G,Soekarno-Hatta International,CGK,Juanda,SUB,08:25,09:55,Surabaya,badai petir,24.0,75,1014,1.8,1:30
+2025-08-01,Jumat,Pelita Air,IP206J,Soekarno-Hatta International,CGK,Juanda,SUB,14:25,15:55,Surabaya,gerimis,30.2,78,1010,3.5,1:30
+2025-08-02,Sabtu,Lion Air,JT1994D,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,gerimis,33.8,64,1005,1.0,3:20
+2025-08-03,Minggu,Citilink,QG726S,Soekarno-Hatta International,CGK,Juanda,SUB,20:00,21:35,Surabaya,gerimis,32.2,72,1010,4.9,1:35
+2025-08-06,Rabu,Super Air Jet,IU740Y,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,07:40,10:30,Denpasar,hujan ringan,28.0,63,1008,4.2,2:50
+2025-08-07,Kamis,Super Air Jet,IU902R,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,09:35,11:20,Padang,hujan ringan,31.5,84,1012,1.6,1:45
+2025-08-08,Jumat,Garuda Indonesia,GA148W,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,09:25,11:15,Padang,badai petir,27.4,79,1005,4.0,1:50
+2025-08-09,Sabtu,Citilink,QG712Y,Soekarno-Hatta International,CGK,Juanda,SUB,05:55,07:35,Surabaya,cerah,25.8,83,1006,3.5,1:40
+2025-08-10,Minggu,Lion Air,JT123N,Soekarno-Hatta International,CGK,Hasanudin,UPG,20:00,23:20,Makassar,hujan ringan,33.9,75,1007,2.6,3:20
+2025-08-13,Rabu,Garuda Indonesia,GA422X,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,13:30,16:30,Denpasar,badai petir,27.0,69,1010,3.6,3:00
+2025-08-14,Kamis,Lion Air,JT1774Q,Soekarno-Hatta International,CGK,Hasanudin,UPG,10:00,13:20,Makassar,gerimis,27.9,60,1015,3.2,3:20
+2025-08-15,Jumat,Batik Air,ID6762H,Soekarno-Hatta International,CGK,Hasanudin,UPG,09:10,12:30,Makassar,badai petir,31.2,84,1013,1.4,3:20
+2025-08-16,Sabtu,Batik Air,ID6292B,Soekarno-Hatta International,CGK,Hasanudin,UPG,09:10,12:30,Makassar,badai petir,31.2,84,1013,1.4,3:20
+2025-08-17,Minggu,TransNusa,8B5110W,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,20:10,23:00,Denpasar,gerimis,31.5,81,1005,4.7,2:50
+2025-08-20,Rabu,Garuda Indonesia,GA322J,Soekarno-Hatta International,CGK,Juanda,SUB,08:45,10:25,Surabaya,berawan,32.8,61,1011,2.3,1:40
+2025-08-21,Kamis,Super Air Jet,IU816D,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,16:00,17:45,Padang,hujan ringan,30.7,85,1007,4.4,1:45
+2025-08-22,Jumat,Lion Air,JT782N,Soekarno-Hatta International,CGK,Hasanudin,UPG,12:20,15:40,Makassar,cerah,28.6,87,1011,4.0,3:20
+2025-08-23,Sabtu,Citilink,QG952Y,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,07:00,08:55,Padang,hujan ringan,32.2,61,1007,3.3,1:55
+2025-08-24,Minggu,AirAsia,AK804V,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,09:15,12:15,Denpasar,gerimis,28.0,90,1013,4.2,3:00
+2025-08-27,Rabu,Batik Air,ID6296A,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:50,20:10,Makassar,gerimis,31.8,78,1009,4.0,3:20
+2025-08-28,Kamis,Batik Air,ID6899M,Soekarno-Hatta International,CGK,Juanda,SUB,11:10,12:35,Surabaya,berawan,26.3,71,1007,2.1,1:25
+2025-08-29,Jumat,TransNusa,8B5102V,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,11:45,14:35,Denpasar,badai petir,25.6,77,1014,4.1,2:50
+2025-08-30,Sabtu,Lion Air,JT3896O,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:30,04:50,Makassar,badai petir,24.7,64,1006,2.7,3:20
+2025-08-31,Minggu,Garuda Indonesia,GA414U,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,15:30,18:25,Denpasar,berkabut,28.2,79,1007,4.4,2:55
+2025-09-03,Rabu,Pelita Air,IP200Y,Soekarno-Hatta International,CGK,Juanda,SUB,06:55,08:30,Surabaya,cerah,24.7,79,1012,2.2,1:35
+2025-09-04,Kamis,Lion Air,JT2778W,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,gerimis,33.8,64,1005,1.0,3:20
+2025-07-30,Rabu,Batik Air,ID6588M,Soekarno-Hatta International,CGK,Juanda,SUB,20:00,21:25,Surabaya,gerimis,32.2,72,1010,4.9,1:25
+2025-07-31,Kamis,Lion Air,JT175V,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:15,19:35,Makassar,badai petir,32.7,71,1009,1.1,3:20
+2025-08-01,Jumat,Batik Air,ID6370I,Soekarno-Hatta International,CGK,Juanda,SUB,04:40,06:05,Surabaya,badai petir,25.4,71,1011,4.5,1:25
+2025-08-02,Sabtu,Lion Air,JT772I,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:15,19:35,Makassar,badai petir,32.7,71,1009,1.1,3:20
+2025-08-03,Minggu,Lion Air,JT2792P,Soekarno-Hatta International,CGK,Hasanudin,UPG,04:00,07:20,Makassar,badai petir,27.1,72,1014,2.1,3:20
+2025-08-06,Rabu,Super Air Jet,IU736E,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,14:50,17:40,Denpasar,cerah,26.9,90,1015,4.5,2:50
+2025-08-07,Kamis,Citilink,QG716S,Soekarno-Hatta International,CGK,Juanda,SUB,11:45,13:25,Surabaya,gerimis,33.7,82,1014,1.7,1:40
+2025-08-08,Jumat,Batik Air,ID6406A,Soekarno-Hatta International,CGK,Juanda,SUB,13:05,14:30,Surabaya,badai petir,27.7,64,1015,4.4,1:25
+2025-08-09,Sabtu,Lion Air,JT241U,Soekarno-Hatta International,CGK,Juanda,SUB,09:00,10:25,Surabaya,berawan,32.8,61,1011,2.3,1:25
+2025-08-10,Minggu,Pelita Air,IP210B,Soekarno-Hatta International,CGK,Juanda,SUB,08:25,09:55,Surabaya,berawan,32.8,61,1011,2.3,1:30
+2025-08-13,Rabu,Citilink,QG346O,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:10,04:30,Makassar,cerah,31.2,66,1013,4.1,3:20
+2025-08-14,Kamis,Lion Air,JT3896K,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:30,04:50,Makassar,badai petir,24.7,64,1006,2.7,3:20
+2025-08-15,Jumat,Citilink,QG212D,Soekarno-Hatta International,CGK,Hasanudin,UPG,05:10,08:35,Makassar,cerah,25.2,78,1010,3.1,3:25
+2025-08-16,Sabtu,Batik Air,ID6288P,Soekarno-Hatta International,CGK,Hasanudin,UPG,00:10,03:30,Makassar,gerimis,27.5,66,1012,3.2,3:20
+2025-08-17,Minggu,Batik Air,ID6236G,Soekarno-Hatta International,CGK,Hasanudin,UPG,06:00,09:20,Makassar,cerah,25.2,78,1010,3.1,3:20
+2025-08-20,Rabu,Lion Air,JT986B,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:30,04:50,Makassar,cerah,31.2,66,1013,4.1,3:20
+2025-08-21,Kamis,Batik Air,ID6863B,Soekarno-Hatta International,CGK,Juanda,SUB,13:05,14:30,Surabaya,badai petir,27.7,64,1015,4.4,1:25
+2025-08-22,Jumat,Super Air Jet,IU734G,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,10:40,13:30,Denpasar,cerah,25.7,88,1015,1.5,2:50
+2025-08-23,Sabtu,Pelita Air,IP210Z,Soekarno-Hatta International,CGK,Juanda,SUB,08:25,09:55,Surabaya,berawan,32.8,61,1011,2.3,1:30
+2025-08-24,Minggu,Lion Air,JT1994W,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,gerimis,33.8,64,1005,1.0,3:20
+2025-08-27,Rabu,Citilink,QG686K,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,10:30,13:25,Denpasar,cerah,25.7,88,1015,1.5,2:55
+2025-08-28,Kamis,Lion Air,JT1740Q,Soekarno-Hatta International,CGK,Hasanudin,UPG,10:00,13:20,Makassar,gerimis,27.9,60,1015,3.2,3:20
+2025-08-29,Jumat,Batik Air,ID6296H,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:50,20:10,Makassar,badai petir,32.7,71,1009,1.1,3:20
+2025-08-30,Sabtu,Batik Air,ID6292E,Soekarno-Hatta International,CGK,Hasanudin,UPG,09:10,12:30,Makassar,gerimis,33.8,64,1005,1.0,3:20
+2025-08-31,Minggu,Pelita Air,IP200F,Soekarno-Hatta International,CGK,Juanda,SUB,06:55,08:30,Surabaya,cerah,24.7,79,1012,2.2,1:35
+2025-09-03,Rabu,Lion Air,JT774F,Soekarno-Hatta International,CGK,Hasanudin,UPG,10:00,13:20,Makassar,gerimis,27.9,60,1015,3.2,3:20
+2025-09-04,Kamis,Lion Air,JT888G,Soekarno-Hatta International,CGK,Hasanudin,UPG,22:00,01:20,Makassar,hujan ringan,25.2,62,1009,4.0,3:20
+2025-07-30,Rabu,Lion Air,JT123K,Soekarno-Hatta International,CGK,Hasanudin,UPG,20:00,23:20,Makassar,hujan ringan,33.9,75,1007,2.6,3:20
+2025-07-31,Kamis,Garuda Indonesia,GA414Z,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,15:30,18:25,Denpasar,berkabut,28.2,79,1007,4.4,2:55
+2025-08-01,Jumat,Lion Air,JT1994N,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,badai petir,31.2,84,1013,1.4,3:20
+2025-08-02,Sabtu,Super Air Jet,IU900M,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,14:40,16:25,Padang,gerimis,32.3,80,1011,2.4,1:45
+2025-08-03,Minggu,Batik Air,ID6863M,Soekarno-Hatta International,CGK,Juanda,SUB,13:05,14:30,Surabaya,badai petir,27.7,64,1015,4.4,1:25
+2025-08-06,Rabu,Lion Air,JT986M,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:30,04:50,Makassar,cerah,31.2,66,1013,4.1,3:20
+2025-08-07,Kamis,Lion Air,JT892F,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,badai petir,31.2,84,1013,1.4,3:20
+2025-08-08,Jumat,Batik Air,ID6370D,Soekarno-Hatta International,CGK,Juanda,SUB,04:40,06:05,Surabaya,badai petir,25.4,71,1011,4.5,1:25
+2025-08-09,Sabtu,AirAsia,AK802V,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,06:20,09:10,Denpasar,berkabut,31.2,86,1008,3.7,2:50
+2025-08-10,Minggu,Lion Air,JT854D,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,gerimis,33.8,64,1005,1.0,3:20
+2025-08-13,Rabu,Citilink,QG716Q,Soekarno-Hatta International,CGK,Juanda,SUB,11:45,13:25,Surabaya,gerimis,33.7,82,1014,1.7,1:40
+2025-08-14,Kamis,Super Air Jet,IU742J,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,12:40,15:30,Denpasar,berawan,29.8,76,1009,4.4,2:50
+2025-08-15,Jumat,Citilink,QG952U,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,07:00,08:55,Padang,berkabut,28.7,86,1006,1.9,1:55
+2025-08-16,Sabtu,Lion Air,JT371P,Soekarno-Hatta International,CGK,Hasanudin,UPG,22:00,01:20,Makassar,hujan ringan,25.2,62,1009,4.0,3:20
+2025-08-17,Minggu,Garuda Indonesia,GA164W,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,17:50,19:40,Padang,gerimis,26.5,68,1014,3.7,1:50
+2025-08-20,Rabu,Super Air Jet,IU758V,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,11:40,14:30,Denpasar,berawan,29.8,76,1009,4.4,2:50
+2025-08-21,Kamis,Lion Air,JT22S,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,11:20,14:10,Denpasar,cerah,29.0,88,1014,2.3,2:50
+2025-08-22,Jumat,Lion Air,JT772V,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:15,19:35,Makassar,gerimis,31.8,78,1009,4.0,3:20
+2025-08-23,Sabtu,Batik Air,ID6594G,Soekarno-Hatta International,CGK,Juanda,SUB,19:00,20:25,Surabaya,gerimis,32.2,72,1010,4.9,1:25
+2025-08-24,Minggu,Lion Air,JT692A,Soekarno-Hatta International,CGK,Juanda,SUB,14:40,16:05,Surabaya,gerimis,30.2,78,1010,3.5,1:25
+2025-08-27,Rabu,Garuda Indonesia,GA326X,Soekarno-Hatta International,CGK,Juanda,SUB,17:30,19:10,Surabaya,cerah,32.1,63,1008,3.6,1:40
+2025-08-28,Kamis,Pelita Air,IP210R,Soekarno-Hatta International,CGK,Juanda,SUB,08:25,09:55,Surabaya,badai petir,24.0,75,1014,1.8,1:30
+2025-08-29,Jumat,Batik Air,ID6264R,Soekarno-Hatta International,CGK,Hasanudin,UPG,02:20,05:40,Makassar,berkabut,33.3,83,1013,2.9,3:20
+2025-08-30,Sabtu,Citilink,QG716S,Soekarno-Hatta International,CGK,Juanda,SUB,11:45,13:25,Surabaya,gerimis,33.7,82,1014,1.7,1:40
+2025-08-31,Minggu,Citilink,QG726M,Soekarno-Hatta International,CGK,Juanda,SUB,20:00,21:35,Surabaya,gerimis,32.2,72,1010,4.9,1:35
+2025-09-03,Rabu,Batik Air,ID6588O,Soekarno-Hatta International,CGK,Juanda,SUB,20:00,21:25,Surabaya,gerimis,32.2,72,1010,4.9,1:25
+2025-09-04,Kamis,Lion Air,JT898C,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:30,04:50,Makassar,cerah,31.2,66,1013,4.1,3:20
+2025-07-30,Rabu,Citilink,QG680D,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,05:05,08:00,Denpasar,cerah,33.7,62,1009,4.7,2:55
+2025-07-31,Kamis,Super Air Jet,IU816M,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,16:00,17:45,Padang,hujan ringan,30.7,85,1007,4.4,1:45
+2025-08-01,Jumat,Citilink,QG682A,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,08:00,10:55,Denpasar,cerah,27.5,74,1006,3.1,2:55
+2025-08-02,Sabtu,Batik Air,ID6288K,Soekarno-Hatta International,CGK,Hasanudin,UPG,00:10,03:30,Makassar,gerimis,27.5,66,1012,3.2,3:20
+2025-08-03,Minggu,Garuda Indonesia,GA608X,Soekarno-Hatta International,CGK,Hasanudin,UPG,09:10,12:45,Makassar,badai petir,31.2,84,1013,1.4,3:35
+2025-08-06,Rabu,Pelita Air,IP202E,Soekarno-Hatta International,CGK,Juanda,SUB,17:40,19:05,Surabaya,cerah,32.1,63,1008,3.6,1:25
+2025-08-07,Kamis,Garuda Indonesia,GA604B,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:35,05:10,Makassar,badai petir,24.7,64,1006,2.7,3:35
+2025-08-08,Jumat,Batik Air,ID6582K,Soekarno-Hatta International,CGK,Juanda,SUB,10:15,11:40,Surabaya,cerah,29.6,89,1015,4.7,1:25
+2025-08-09,Sabtu,Batik Air,ID6584T,Soekarno-Hatta International,CGK,Juanda,SUB,08:10,09:35,Surabaya,badai petir,29.2,63,1008,1.3,1:25
+2025-08-10,Minggu,Lion Air,JT892V,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,badai petir,31.2,84,1013,1.4,3:20
+2025-08-13,Rabu,Garuda Indonesia,GA326J,Soekarno-Hatta International,CGK,Juanda,SUB,17:30,19:10,Surabaya,cerah,32.1,63,1008,3.6,1:40
+2025-08-14,Kamis,TransNusa,8B5102D,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,11:45,14:35,Denpasar,badai petir,25.6,77,1014,4.1,2:50
+2025-08-15,Jumat,Batik Air,ID6370U,Soekarno-Hatta International,CGK,Juanda,SUB,04:40,06:05,Surabaya,badai petir,25.4,71,1011,4.5,1:25
+2025-08-16,Sabtu,Garuda Indonesia,GA408E,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,11:40,14:40,Denpasar,berawan,29.8,76,1009,4.4,3:00
+2025-08-17,Minggu,Pelita Air,IP104W,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,18:00,20:55,Denpasar,gerimis,25.1,88,1005,4.6,2:55
+2025-08-20,Rabu,Batik Air,ID6142U,Soekarno-Hatta International,CGK,Hasanudin,UPG,18:30,21:50,Makassar,gerimis,27.4,63,1008,3.1,3:20
+2025-08-21,Kamis,Garuda Indonesia,GA422S,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,13:30,16:30,Denpasar,badai petir,27.1,87,1015,1.2,3:00
+2025-08-22,Jumat,Lion Air,JT782N,Soekarno-Hatta International,CGK,Hasanudin,UPG,12:20,15:40,Makassar,cerah,28.6,87,1011,4.0,3:20
+2025-08-23,Sabtu,Lion Air,JT938W,Soekarno-Hatta International,CGK,Hasanudin,UPG,20:00,23:20,Makassar,hujan ringan,33.9,75,1007,2.6,3:20
+2025-08-24,Minggu,Batik Air,ID6751H,Soekarno-Hatta International,CGK,Hasanudin,UPG,02:20,05:45,Makassar,berkabut,30.0,66,1005,1.3,3:25
+2025-08-27,Rabu,Lion Air,JT1852K,Soekarno-Hatta International,CGK,Hasanudin,UPG,04:00,07:20,Makassar,hujan ringan,32.0,84,1007,2.1,3:20
+2025-08-28,Kamis,Lion Air,JT22V,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,11:20,14:10,Denpasar,cerah,29.0,88,1014,2.3,2:50
+2025-08-29,Jumat,Garuda Indonesia,GA402X,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,07:05,10:10,Denpasar,cerah,27.5,74,1006,3.1,3:05
+2025-08-30,Sabtu,Batik Air,ID6554L,Soekarno-Hatta International,CGK,Hasanudin,UPG,06:00,09:20,Makassar,hujan ringan,34.0,69,1015,1.9,3:20
+2025-08-31,Minggu,Lion Air,JT1740H,Soekarno-Hatta International,CGK,Hasanudin,UPG,10:00,13:20,Makassar,cerah,31.6,79,1011,2.2,3:20
+2025-09-03,Rabu,Garuda Indonesia,GA322I,Soekarno-Hatta International,CGK,Juanda,SUB,08:45,10:25,Surabaya,berawan,32.8,61,1011,2.3,1:40
+2025-09-04,Kamis,Lion Air,JT1994A,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,gerimis,33.8,64,1005,1.0,3:20
+2025-07-30,Rabu,Garuda Indonesia,GA616U,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:45,20:20,Makassar,berawan,24.6,66,1010,4.3,3:35
+2025-07-31,Kamis,Super Air Jet,IU250Z,Soekarno-Hatta International,CGK,Hasanudin,UPG,07:00,10:20,Makassar,berawan,24.6,78,1010,2.0,3:20
+2025-08-01,Jumat,Batik Air,ID6292H,Soekarno-Hatta International,CGK,Hasanudin,UPG,09:10,12:30,Makassar,gerimis,33.8,64,1005,1.0,3:20
+2025-08-02,Sabtu,Garuda Indonesia,GA328S,Soekarno-Hatta International,CGK,Juanda,SUB,18:30,20:10,Surabaya,gerimis,30.5,79,1005,1.9,1:40
+2025-08-03,Minggu,AirAsia,AK804F,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,09:15,12:15,Denpasar,gerimis,28.0,90,1013,4.2,3:00
+2025-08-06,Rabu,Garuda Indonesia,GA304A,Soekarno-Hatta International,CGK,Juanda,SUB,06:50,08:25,Surabaya,cerah,24.7,79,1012,2.2,1:35
+2025-08-07,Kamis,Super Air Jet,IU756C,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,06:30,09:20,Denpasar,berkabut,31.2,86,1008,3.7,2:50
+2025-08-08,Jumat,Garuda Indonesia,GA148W,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,09:25,11:15,Padang,badai petir,27.4,79,1005,4.0,1:50
+2025-08-09,Sabtu,Lion Air,JT992O,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,gerimis,33.8,64,1005,1.0,3:20
+2025-08-10,Minggu,Super Air Jet,IU902Z,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,09:35,11:20,Padang,hujan ringan,31.5,84,1012,1.6,1:45
+2025-08-13,Rabu,Garuda Indonesia,GA326J,Soekarno-Hatta International,CGK,Juanda,SUB,17:30,19:10,Surabaya,cerah,32.1,63,1008,3.6,1:40
+2025-08-14,Kamis,Pelita Air,IP802I,Soekarno-Hatta International,CGK,Hasanudin,UPG,11:30,14:50,Makassar,cerah,28.6,87,1011,4.0,3:20
+2025-08-15,Jumat,Batik Air,ID6582K,Soekarno-Hatta International,CGK,Juanda,SUB,10:15,11:40,Surabaya,cerah,29.6,89,1015,4.7,1:25
+2025-08-16,Sabtu,Super Air Jet,IU900Y,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,14:40,16:25,Padang,gerimis,26.7,77,1005,4.2,1:45
+2025-08-17,Minggu,Batik Air,ID6582S,Soekarno-Hatta International,CGK,Juanda,SUB,10:15,11:40,Surabaya,cerah,29.6,89,1015,4.7,1:25
+2025-08-20,Rabu,Garuda Indonesia,GA162T,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,14:40,16:30,Padang,gerimis,26.7,77,1005,4.2,1:50
+2025-08-21,Kamis,Pelita Air,IP354Q,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,12:00,13:45,Padang,berawan,25.5,90,1014,4.3,1:45
+2025-08-22,Jumat,Batik Air,ID6406F,Soekarno-Hatta International,CGK,Juanda,SUB,13:05,14:30,Surabaya,badai petir,29.1,70,1008,4.8,1:25
+2025-08-23,Sabtu,Citilink,QG736Y,Soekarno-Hatta International,CGK,Juanda,SUB,17:10,18:50,Surabaya,gerimis,30.5,79,1005,1.9,1:40
+2025-08-24,Minggu,Citilink,QG712H,Soekarno-Hatta International,CGK,Juanda,SUB,05:55,07:35,Surabaya,cerah,31.8,80,1005,1.9,1:40
+2025-08-27,Rabu,Lion Air,JT241S,Soekarno-Hatta International,CGK,Juanda,SUB,09:00,10:25,Surabaya,berawan,32.8,61,1011,2.3,1:25
+2025-08-28,Kamis,AirAsia,AK802J,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,06:20,09:10,Denpasar,cerah,28.2,80,1012,4.9,2:50
+2025-08-29,Jumat,Lion Air,JT241O,Soekarno-Hatta International,CGK,Juanda,SUB,09:00,10:25,Surabaya,berawan,32.8,61,1011,2.3,1:25
+2025-08-30,Sabtu,Pelita Air,IP206C,Soekarno-Hatta International,CGK,Juanda,SUB,14:25,15:55,Surabaya,gerimis,30.2,78,1010,3.5,1:30
+2025-08-31,Minggu,Super Air Jet,IU736E,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,14:50,17:40,Denpasar,berkabut,28.2,79,1007,4.4,2:50
+2025-09-03,Rabu,Sriwijaya Air,SJ592D,Soekarno-Hatta International,CGK,Hasanudin,UPG,00:30,03:55,Makassar,cerah,31.2,66,1013,4.1,3:25
+2025-09-04,Kamis,Batik Air,ID6554I,Soekarno-Hatta International,CGK,Hasanudin,UPG,06:00,09:20,Makassar,cerah,25.2,78,1010,3.1,3:20
+2025-07-30,Rabu,Super Air Jet,IU742R,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,12:40,15:30,Denpasar,berawan,29.8,76,1009,4.4,2:50
+2025-07-31,Kamis,Super Air Jet,IU810E,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,11:30,13:15,Padang,berawan,25.5,90,1014,4.3,1:45
+2025-08-01,Jumat,Garuda Indonesia,GA604Q,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:35,05:10,Makassar,badai petir,24.7,64,1006,2.7,3:35
+2025-08-02,Sabtu,Pelita Air,IP802Y,Soekarno-Hatta International,CGK,Hasanudin,UPG,11:30,14:50,Makassar,cerah,28.6,87,1011,4.0,3:20
+2025-08-03,Minggu,Batik Air,ID6266Q,Soekarno-Hatta International,CGK,Hasanudin,UPG,14:30,17:50,Makassar,gerimis,28.2,60,1006,3.4,3:20
+2025-08-06,Rabu,Citilink,QG686H,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,10:30,13:25,Denpasar,cerah,25.7,88,1015,1.5,2:55
+2025-08-07,Kamis,Lion Air,JT22T,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,11:20,14:10,Denpasar,cerah,29.0,88,1014,2.3,2:50
+2025-08-08,Jumat,Citilink,QG346B,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:10,04:30,Makassar,badai petir,24.7,64,1006,2.7,3:20
+2025-08-09,Sabtu,Pelita Air,IP204T,Soekarno-Hatta International,CGK,Juanda,SUB,10:40,12:15,Surabaya,cerah,29.6,89,1015,4.7,1:35
+2025-08-10,Minggu,Batik Air,ID6370Q,Soekarno-Hatta International,CGK,Juanda,SUB,04:40,06:05,Surabaya,badai petir,29.1,74,1010,4.5,1:25
+2025-08-13,Rabu,Super Air Jet,IU742C,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,12:40,15:30,Denpasar,badai petir,25.6,77,1014,4.1,2:50
+2025-08-14,Kamis,Lion Air,JT241F,Soekarno-Hatta International,CGK,Juanda,SUB,09:00,10:25,Surabaya,badai petir,24.0,75,1014,1.8,1:25
+2025-08-15,Jumat,Garuda Indonesia,GA404O,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,09:40,12:35,Denpasar,gerimis,28.0,90,1013,4.2,2:55
+2025-08-16,Sabtu,Lion Air,JT772R,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:15,19:35,Makassar,gerimis,31.8,78,1009,4.0,3:20
+2025-08-17,Minggu,Lion Air,JT171F,Soekarno-Hatta International,CGK,Juanda,SUB,14:40,16:05,Surabaya,gerimis,30.2,78,1010,3.5,1:25
+2025-08-20,Rabu,Garuda Indonesia,GA610K,Soekarno-Hatta International,CGK,Hasanudin,UPG,06:55,10:30,Makassar,berawan,24.6,78,1010,2.0,3:35
+2025-08-21,Kamis,Pelita Air,IP350O,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,06:10,07:55,Padang,berkabut,26.3,87,1008,4.4,1:45
+2025-08-22,Jumat,Citilink,QG426R,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:00,19:25,Makassar,badai petir,32.7,71,1009,1.1,3:25
+2025-08-23,Sabtu,Citilink,QG736Y,Soekarno-Hatta International,CGK,Juanda,SUB,17:10,18:50,Surabaya,gerimis,30.5,79,1005,1.9,1:40
+2025-08-24,Minggu,Super Air Jet,IU758D,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,11:40,14:30,Denpasar,badai petir,25.6,77,1014,4.1,2:50
+2025-08-27,Rabu,Lion Air,JT888X,Soekarno-Hatta International,CGK,Hasanudin,UPG,22:00,01:20,Makassar,hujan ringan,25.2,62,1009,4.0,3:20
+2025-08-28,Kamis,Oman Air,WY5787Y,Soekarno-Hatta International,CGK,Juanda,SUB,16:00,17:40,Surabaya,berkabut,31.4,88,1015,2.7,1:40
+2025-08-29,Jumat,Super Air Jet,IU744W,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,17:55,20:45,Denpasar,gerimis,25.1,88,1005,4.6,2:50
+2025-08-30,Sabtu,Garuda Indonesia,GA408Z,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,11:40,14:40,Denpasar,berawan,29.8,76,1009,4.4,3:00
+2025-08-31,Minggu,Garuda Indonesia,GA612P,Soekarno-Hatta International,CGK,Hasanudin,UPG,14:25,18:00,Makassar,cerah,24.5,84,1014,4.8,3:35
+2025-09-03,Rabu,Lion Air,JT892Y,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,gerimis,33.8,64,1005,1.0,3:20
+2025-09-04,Kamis,Lion Air,JT986R,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:30,04:50,Makassar,cerah,31.2,66,1013,4.1,3:20
+2025-07-30,Rabu,Lion Air,JT782W,Soekarno-Hatta International,CGK,Hasanudin,UPG,12:20,15:40,Makassar,berawan,26.3,61,1005,1.1,3:20
+2025-07-31,Kamis,Garuda Indonesia,GA616P,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:45,20:20,Makassar,berawan,24.6,66,1010,4.3,3:35
+2025-08-01,Jumat,Batik Air,ID6370I,Soekarno-Hatta International,CGK,Juanda,SUB,04:40,06:05,Surabaya,badai petir,25.4,71,1011,4.5,1:25
+2025-08-02,Sabtu,Sriwijaya Air,SJ580F,Soekarno-Hatta International,CGK,Hasanudin,UPG,17:50,21:15,Makassar,badai petir,31.2,74,1009,1.6,3:25
+2025-08-03,Minggu,Super Air Jet,IU902Q,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,09:35,11:20,Padang,hujan ringan,31.5,84,1012,1.6,1:45
+2025-08-06,Rabu,Batik Air,ID6182G,Soekarno-Hatta International,CGK,Hasanudin,UPG,23:00,02:20,Makassar,gerimis,26.2,65,1006,3.0,3:20
+2025-08-07,Kamis,Citilink,QG736Z,Soekarno-Hatta International,CGK,Juanda,SUB,17:10,18:50,Surabaya,gerimis,30.5,79,1005,1.9,1:40
+2025-08-08,Jumat,Super Air Jet,IU736W,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,14:50,17:40,Denpasar,berkabut,28.2,79,1007,4.4,2:50
+2025-08-09,Sabtu,Lion Air,JT241U,Soekarno-Hatta International,CGK,Juanda,SUB,09:00,10:25,Surabaya,berawan,32.8,61,1011,2.3,1:25
+2025-08-10,Minggu,Lion Air,JT792E,Soekarno-Hatta International,CGK,Hasanudin,UPG,04:00,07:20,Makassar,badai petir,27.1,72,1014,2.1,3:20
+2025-08-13,Rabu,Citilink,QG712V,Soekarno-Hatta International,CGK,Juanda,SUB,05:55,07:35,Surabaya,cerah,31.8,80,1005,1.9,1:40
+2025-08-14,Kamis,Lion Air,JT371G,Soekarno-Hatta International,CGK,Hasanudin,UPG,22:00,01:20,Makassar,hujan ringan,25.2,62,1009,4.0,3:20
+2025-08-15,Jumat,Lion Air,JT892S,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,badai petir,31.2,84,1013,1.4,3:20
+2025-08-16,Sabtu,Lion Air,JT175H,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:15,19:35,Makassar,gerimis,31.8,78,1009,4.0,3:20
+2025-08-17,Minggu,Citilink,QG426I,Soekarno-Hatta International,CGK,Hasanudin,UPG,15:30,18:55,Makassar,gerimis,31.8,78,1009,4.0,3:25
+2025-08-20,Rabu,Citilink,QG712L,Soekarno-Hatta International,CGK,Juanda,SUB,05:55,07:35,Surabaya,cerah,31.8,80,1005,1.9,1:40
+2025-08-21,Kamis,Citilink,QG426T,Soekarno-Hatta International,CGK,Hasanudin,UPG,15:30,18:55,Makassar,gerimis,31.8,78,1009,4.0,3:25
+2025-08-22,Jumat,Pelita Air,IP350C,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,06:10,07:55,Padang,berkabut,26.3,87,1008,4.4,1:45
+2025-08-23,Sabtu,Super Air Jet,IU740W,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,07:40,10:30,Denpasar,cerah,27.5,74,1006,3.1,2:50
+2025-08-24,Minggu,Super Air Jet,IU730Q,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,04:30,07:20,Denpasar,cerah,24.1,89,1013,1.6,2:50
+2025-08-27,Rabu,Citilink,QG344G,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:50,05:15,Makassar,badai petir,24.7,64,1006,2.7,3:25
+2025-08-28,Kamis,Super Air Jet,IU902Y,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,09:40,11:25,Padang,berawan,30.9,80,1009,4.9,1:45
+2025-08-29,Jumat,Lion Air,JT22U,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,11:20,14:10,Denpasar,cerah,25.7,88,1015,1.5,2:50
+2025-08-30,Sabtu,Batik Air,ID6584Z,Soekarno-Hatta International,CGK,Juanda,SUB,08:10,09:35,Surabaya,badai petir,29.2,63,1008,1.3,1:25
+2025-08-31,Minggu,Lion Air,JT774F,Soekarno-Hatta International,CGK,Hasanudin,UPG,10:00,13:20,Makassar,gerimis,27.9,60,1015,3.2,3:20
+2025-09-03,Rabu,Lion Air,JT898V,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:30,04:50,Makassar,badai petir,24.7,64,1006,2.7,3:20
+2025-09-04,Kamis,Citilink,QG962G,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,11:35,13:20,Padang,berawan,25.5,90,1014,4.3,1:45
+2025-07-30,Rabu,Citilink,QG720C,Soekarno-Hatta International,CGK,Juanda,SUB,20:00,21:30,Surabaya,gerimis,32.2,72,1010,4.9,1:30
+2025-07-31,Kamis,Lion Air,JT2778V,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,badai petir,31.2,84,1013,1.4,3:20
+2025-08-01,Jumat,Garuda Indonesia,GA304N,Soekarno-Hatta International,CGK,Juanda,SUB,06:50,08:25,Surabaya,cerah,24.7,79,1012,2.2,1:35
+2025-08-02,Sabtu,Garuda Indonesia,GA326M,Soekarno-Hatta International,CGK,Juanda,SUB,17:30,19:10,Surabaya,cerah,32.1,63,1008,3.6,1:40
+2025-08-03,Minggu,Super Air Jet,IU908Q,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,06:30,08:15,Padang,berkabut,26.3,87,1008,4.4,1:45
+2025-08-06,Rabu,Pelita Air,IP356Q,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,16:20,18:05,Padang,hujan ringan,30.7,85,1007,4.4,1:45
+2025-08-07,Kamis,Lion Air,JT171X,Soekarno-Hatta International,CGK,Juanda,SUB,14:40,16:05,Surabaya,gerimis,30.2,78,1010,3.5,1:25
+2025-08-08,Jumat,Lion Air,JT694P,Soekarno-Hatta International,CGK,Juanda,SUB,09:00,10:25,Surabaya,berawan,32.8,61,1011,2.3,1:25
+2025-08-09,Sabtu,Pelita Air,IP102W,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,09:10,12:00,Denpasar,gerimis,28.0,90,1013,4.2,2:50
+2025-08-10,Minggu,Lion Air,JT171Y,Soekarno-Hatta International,CGK,Juanda,SUB,14:40,16:05,Surabaya,hujan ringan,32.4,66,1006,3.0,1:25
+2025-08-13,Rabu,Lion Air,JT948H,Soekarno-Hatta International,CGK,Hasanudin,UPG,22:00,01:20,Makassar,hujan ringan,25.2,62,1009,4.0,3:20
+2025-08-14,Kamis,Lion Air,JT690L,Soekarno-Hatta International,CGK,Juanda,SUB,03:30,04:55,Surabaya,berawan,24.1,87,1013,3.0,1:25
+2025-08-15,Jumat,Super Air Jet,IU740W,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,07:40,10:30,Denpasar,hujan ringan,28.0,63,1008,4.2,2:50
+2025-08-16,Sabtu,Citilink,QG346C,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:10,04:30,Makassar,badai petir,24.7,64,1006,2.7,3:20
+2025-08-17,Minggu,Citilink,QG344F,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:50,05:15,Makassar,badai petir,24.7,64,1006,2.7,3:25
+2025-08-20,Rabu,Super Air Jet,IU810G,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,12:35,14:20,Padang,berawan,29.7,87,1012,3.7,1:45
+2025-08-21,Kamis,Lion Air,JT798L,Soekarno-Hatta International,CGK,Hasanudin,UPG,20:00,23:20,Makassar,hujan ringan,33.9,75,1007,2.6,3:20
+2025-08-22,Jumat,TransNusa,8B5104E,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,06:45,09:30,Denpasar,berkabut,31.2,86,1008,3.7,2:45
+2025-08-23,Sabtu,Super Air Jet,IU730E,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,04:30,07:20,Denpasar,cerah,24.1,89,1013,1.6,2:50
+2025-08-24,Minggu,Batik Air,ID6751H,Soekarno-Hatta International,CGK,Hasanudin,UPG,02:20,05:45,Makassar,berkabut,30.0,66,1005,1.3,3:25
+2025-08-27,Rabu,Super Air Jet,IU734C,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,10:40,13:30,Denpasar,cerah,29.0,88,1014,2.3,2:50
+2025-08-28,Kamis,Garuda Indonesia,GA604F,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:35,05:10,Makassar,badai petir,24.7,64,1006,2.7,3:35
+2025-08-29,Jumat,Garuda Indonesia,GA610C,Soekarno-Hatta International,CGK,Hasanudin,UPG,06:55,10:30,Makassar,berawan,24.6,78,1010,2.0,3:35
+2025-08-30,Sabtu,Citilink,QG688N,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,15:20,18:15,Denpasar,berkabut,28.2,79,1007,4.4,2:55
+2025-08-31,Minggu,Pelita Air,IP202V,Soekarno-Hatta International,CGK,Juanda,SUB,17:40,19:05,Surabaya,gerimis,30.5,79,1005,1.9,1:25
+2025-09-03,Rabu,Batik Air,ID6142H,Soekarno-Hatta International,CGK,Hasanudin,UPG,18:30,21:50,Makassar,gerimis,27.4,63,1008,3.1,3:20
+2025-09-04,Kamis,TransNusa,8B5104Q,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,06:45,09:30,Denpasar,berkabut,31.2,86,1008,3.7,2:45
+2025-07-30,Rabu,Batik Air,ID6264B,Soekarno-Hatta International,CGK,Hasanudin,UPG,02:20,05:40,Makassar,berkabut,33.3,83,1013,2.9,3:20
+2025-07-31,Kamis,Citilink,QG686E,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,10:30,13:25,Denpasar,cerah,25.7,88,1015,1.5,2:55
+2025-08-01,Jumat,AirAsia,AK804F,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,09:15,12:15,Denpasar,gerimis,28.0,90,1013,4.2,3:00
+2025-08-02,Sabtu,Lion Air,JT792B,Soekarno-Hatta International,CGK,Hasanudin,UPG,04:00,07:20,Makassar,badai petir,27.1,72,1014,2.1,3:20
+2025-08-03,Minggu,Pelita Air,IP802V,Soekarno-Hatta International,CGK,Hasanudin,UPG,11:30,14:50,Makassar,cerah,28.6,87,1011,4.0,3:20
+2025-08-06,Rabu,Super Air Jet,IU756W,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,06:30,09:20,Denpasar,cerah,28.2,80,1012,4.9,2:50
+2025-08-07,Kamis,Garuda Indonesia,GA312W,Soekarno-Hatta International,CGK,Juanda,SUB,12:15,13:55,Surabaya,gerimis,33.7,82,1014,1.7,1:40
+2025-08-08,Jumat,Super Air Jet,IU902Y,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,09:35,11:20,Padang,hujan ringan,31.5,84,1012,1.6,1:45
+2025-08-09,Sabtu,Batik Air,ID6582D,Soekarno-Hatta International,CGK,Juanda,SUB,10:15,11:40,Surabaya,cerah,29.6,89,1015,4.7,1:25
+2025-08-10,Minggu,Garuda Indonesia,GA414Q,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,15:30,18:25,Denpasar,berkabut,28.2,79,1007,4.4,2:55
+2025-08-13,Rabu,Super Air Jet,IU734J,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,10:40,13:30,Denpasar,cerah,29.0,88,1014,2.3,2:50
+2025-08-14,Kamis,Pelita Air,IP210Z,Soekarno-Hatta International,CGK,Juanda,SUB,08:25,09:55,Surabaya,berawan,32.8,61,1011,2.3,1:30
+2025-08-15,Jumat,Pelita Air,IP206M,Soekarno-Hatta International,CGK,Juanda,SUB,14:25,15:55,Surabaya,gerimis,30.2,78,1010,3.5,1:30
+2025-08-16,Sabtu,Batik Air,ID6288P,Soekarno-Hatta International,CGK,Hasanudin,UPG,00:10,03:30,Makassar,gerimis,27.5,66,1012,3.2,3:20
+2025-08-17,Minggu,Batik Air,ID6292U,Soekarno-Hatta International,CGK,Hasanudin,UPG,09:10,12:30,Makassar,badai petir,31.2,84,1013,1.4,3:20
+2025-08-20,Rabu,Garuda Indonesia,GA426H,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,18:30,21:30,Denpasar,berawan,32.0,84,1009,1.6,3:00
+2025-08-21,Kamis,Lion Air,JT892U,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,gerimis,33.8,64,1005,1.0,3:20
+2025-08-22,Jumat,Lion Air,JT992L,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,badai petir,31.2,84,1013,1.4,3:20
+2025-08-23,Sabtu,Batik Air,ID6578W,Soekarno-Hatta International,CGK,Juanda,SUB,15:10,16:35,Surabaya,hujan ringan,32.4,66,1006,3.0,1:25
+2025-08-24,Minggu,Pelita Air,IP210R,Soekarno-Hatta International,CGK,Juanda,SUB,08:25,09:55,Surabaya,berawan,32.8,61,1011,2.3,1:30
+2025-08-27,Rabu,Batik Air,ID6236D,Soekarno-Hatta International,CGK,Hasanudin,UPG,06:00,09:20,Makassar,hujan ringan,34.0,69,1015,1.9,3:20
+2025-08-28,Kamis,Batik Air,ID6863B,Soekarno-Hatta International,CGK,Juanda,SUB,13:05,14:30,Surabaya,badai petir,27.7,64,1015,4.4,1:25
+2025-08-29,Jumat,Lion Air,JT1774K,Soekarno-Hatta International,CGK,Hasanudin,UPG,10:00,13:20,Makassar,cerah,31.6,79,1011,2.2,3:20
+2025-08-30,Sabtu,Batik Air,ID6266Z,Soekarno-Hatta International,CGK,Hasanudin,UPG,14:30,17:50,Makassar,gerimis,28.2,60,1006,3.4,3:20
+2025-08-31,Minggu,Lion Air,JT371V,Soekarno-Hatta International,CGK,Hasanudin,UPG,22:00,01:20,Makassar,hujan ringan,25.2,62,1009,4.0,3:20
+2025-09-03,Rabu,Lion Air,JT992B,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,badai petir,31.2,84,1013,1.4,3:20
+2025-09-04,Kamis,Batik Air,ID6584C,Soekarno-Hatta International,CGK,Juanda,SUB,08:10,09:35,Surabaya,badai petir,29.2,63,1008,1.3,1:25
+2025-07-30,Rabu,Garuda Indonesia,GA408P,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,11:40,14:40,Denpasar,berawan,29.8,76,1009,4.4,3:00
+2025-07-31,Kamis,Citilink,QG952L,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,07:00,08:55,Padang,berkabut,28.7,86,1006,1.9,1:55
+2025-08-01,Jumat,Batik Air,ID6192H,Soekarno-Hatta International,CGK,Hasanudin,UPG,23:00,02:20,Makassar,gerimis,26.2,65,1006,3.0,3:20
+2025-08-02,Sabtu,Garuda Indonesia,GA610S,Soekarno-Hatta International,CGK,Hasanudin,UPG,06:55,10:30,Makassar,berawan,24.6,78,1010,2.0,3:35
+2025-08-03,Minggu,Super Air Jet,IU902Q,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,09:35,11:20,Padang,hujan ringan,31.5,84,1012,1.6,1:45
+2025-08-06,Rabu,Batik Air,ID6296B,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:50,20:10,Makassar,badai petir,32.7,71,1009,1.1,3:20
+2025-08-07,Kamis,Batik Air,ID6584S,Soekarno-Hatta International,CGK,Juanda,SUB,08:10,09:35,Surabaya,cerah,24.7,79,1012,2.2,1:25
+2025-08-08,Jumat,Lion Air,JT892D,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,badai petir,31.2,84,1013,1.4,3:20
+2025-08-09,Sabtu,Lion Air,JT986T,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:30,04:50,Makassar,cerah,31.2,66,1013,4.1,3:20
+2025-08-10,Minggu,TransNusa,8B5106S,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,10:30,13:20,Denpasar,cerah,29.0,88,1014,2.3,2:50
+2025-08-13,Rabu,Pelita Air,IP350W,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,06:10,07:55,Padang,berkabut,26.3,87,1008,4.4,1:45
+2025-08-14,Kamis,Lion Air,JT748L,Soekarno-Hatta International,CGK,Juanda,SUB,03:30,04:55,Surabaya,berawan,24.1,87,1013,3.0,1:25
+2025-08-15,Jumat,Lion Air,JT171Z,Soekarno-Hatta International,CGK,Juanda,SUB,14:40,16:05,Surabaya,hujan ringan,32.4,66,1006,3.0,1:25
+2025-08-16,Sabtu,Garuda Indonesia,GA312V,Soekarno-Hatta International,CGK,Juanda,SUB,12:15,13:55,Surabaya,gerimis,31.0,88,1010,1.1,1:40
+2025-08-17,Minggu,Garuda Indonesia,GA402L,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,07:05,10:10,Denpasar,hujan ringan,28.0,63,1008,4.2,3:05
+2025-08-20,Rabu,Garuda Indonesia,GA612C,Soekarno-Hatta International,CGK,Hasanudin,UPG,14:25,18:00,Makassar,cerah,24.5,84,1014,4.8,3:35
+2025-08-21,Kamis,Sriwijaya Air,SJ580W,Soekarno-Hatta International,CGK,Hasanudin,UPG,17:50,21:15,Makassar,badai petir,31.2,74,1009,1.6,3:25
+2025-08-22,Jumat,Batik Air,ID6899R,Soekarno-Hatta International,CGK,Juanda,SUB,11:10,12:35,Surabaya,berawan,26.3,71,1007,2.1,1:25
+2025-08-23,Sabtu,Pelita Air,IP802Q,Soekarno-Hatta International,CGK,Hasanudin,UPG,11:30,14:50,Makassar,berawan,26.3,61,1005,1.1,3:20
+2025-08-24,Minggu,Garuda Indonesia,GA148O,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,09:25,11:15,Padang,badai petir,27.4,79,1005,4.0,1:50
+2025-08-27,Rabu,Batik Air,ID6584Y,Soekarno-Hatta International,CGK,Juanda,SUB,08:10,09:35,Surabaya,cerah,24.7,79,1012,2.2,1:25
+2025-08-28,Kamis,Batik Air,ID6236W,Soekarno-Hatta International,CGK,Hasanudin,UPG,06:00,09:20,Makassar,cerah,25.2,78,1010,3.1,3:20
+2025-08-29,Jumat,Garuda Indonesia,GA304F,Soekarno-Hatta International,CGK,Juanda,SUB,06:50,08:25,Surabaya,badai petir,29.2,63,1008,1.3,1:35
+2025-08-30,Sabtu,Super Air Jet,IU814O,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,05:30,07:15,Padang,berkabut,32.7,78,1008,2.1,1:45
+2025-08-31,Minggu,Pelita Air,IP204F,Soekarno-Hatta International,CGK,Juanda,SUB,10:40,12:15,Surabaya,berawan,26.3,71,1007,2.1,1:35
+2025-09-03,Rabu,Lion Air,JT1774I,Soekarno-Hatta International,CGK,Hasanudin,UPG,10:00,13:20,Makassar,gerimis,27.9,60,1015,3.2,3:20
+2025-09-04,Kamis,Lion Air,JT22Q,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,11:20,14:10,Denpasar,cerah,25.7,88,1015,1.5,2:50
+2025-07-30,Rabu,Lion Air,JT171Z,Soekarno-Hatta International,CGK,Juanda,SUB,14:40,16:05,Surabaya,gerimis,30.2,78,1010,3.5,1:25
+2025-07-31,Kamis,Batik Air,ID8050L,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,10:40,13:30,Denpasar,cerah,29.0,88,1014,2.3,2:50
+2025-08-01,Jumat,Garuda Indonesia,GA612E,Soekarno-Hatta International,CGK,Hasanudin,UPG,14:25,18:00,Makassar,gerimis,28.2,60,1006,3.4,3:35
+2025-08-02,Sabtu,Citilink,QG726E,Soekarno-Hatta International,CGK,Juanda,SUB,20:00,21:35,Surabaya,gerimis,32.2,72,1010,4.9,1:35
+2025-08-03,Minggu,Sriwijaya Air,SJ592P,Soekarno-Hatta International,CGK,Hasanudin,UPG,00:30,03:55,Makassar,cerah,31.2,66,1013,4.1,3:25
+2025-08-06,Rabu,Garuda Indonesia,GA608P,Soekarno-Hatta International,CGK,Hasanudin,UPG,09:10,12:45,Makassar,badai petir,31.2,84,1013,1.4,3:35
+2025-08-07,Kamis,Lion Air,JT772B,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:15,19:35,Makassar,badai petir,32.7,71,1009,1.1,3:20
+2025-08-08,Jumat,Lion Air,JT798K,Soekarno-Hatta International,CGK,Hasanudin,UPG,20:00,23:20,Makassar,hujan ringan,33.9,75,1007,2.6,3:20
+2025-08-09,Sabtu,Pelita Air,IP206H,Soekarno-Hatta International,CGK,Juanda,SUB,14:25,15:55,Surabaya,hujan ringan,32.4,66,1006,3.0,1:30
+2025-08-10,Minggu,Super Air Jet,IU812O,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,07:40,09:25,Padang,hujan ringan,32.2,61,1007,3.3,1:45
+2025-08-13,Rabu,Lion Air,JT1774H,Soekarno-Hatta International,CGK,Hasanudin,UPG,10:00,13:20,Makassar,cerah,31.6,79,1011,2.2,3:20
+2025-08-14,Kamis,Citilink,QG660L,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,19:25,22:20,Denpasar,gerimis,31.5,81,1005,4.7,2:55
+2025-08-15,Jumat,AirAsia,AK802A,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,06:20,09:10,Denpasar,berkabut,31.2,86,1008,3.7,2:50
+2025-08-16,Sabtu,Garuda Indonesia,GA312V,Soekarno-Hatta International,CGK,Juanda,SUB,12:15,13:55,Surabaya,gerimis,31.0,88,1010,1.1,1:40
+2025-08-17,Minggu,Super Air Jet,IU904R,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,17:00,18:45,Padang,berkabut,28.2,83,1012,4.5,1:45
+2025-08-20,Rabu,Garuda Indonesia,GA422K,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,13:30,16:30,Denpasar,badai petir,27.0,69,1010,3.6,3:00
+2025-08-21,Kamis,AirAsia,AK802F,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,06:20,09:10,Denpasar,cerah,28.2,80,1012,4.9,2:50
+2025-08-22,Jumat,Super Air Jet,IU736P,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,14:50,17:40,Denpasar,berkabut,28.2,79,1007,4.4,2:50
+2025-08-23,Sabtu,Lion Air,JT888G,Soekarno-Hatta International,CGK,Hasanudin,UPG,22:00,01:20,Makassar,hujan ringan,25.2,62,1009,4.0,3:20
+2025-08-24,Minggu,Batik Air,ID6296I,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:50,20:10,Makassar,gerimis,31.8,78,1009,4.0,3:20
+2025-08-27,Rabu,Lion Air,JT692S,Soekarno-Hatta International,CGK,Juanda,SUB,14:40,16:05,Surabaya,hujan ringan,32.4,66,1006,3.0,1:25
+2025-08-28,Kamis,Garuda Indonesia,GA312I,Soekarno-Hatta International,CGK,Juanda,SUB,12:15,13:55,Surabaya,gerimis,31.0,88,1010,1.1,1:40
+2025-08-29,Jumat,Lion Air,JT123S,Soekarno-Hatta International,CGK,Hasanudin,UPG,20:00,23:20,Makassar,hujan ringan,33.9,75,1007,2.6,3:20
+2025-08-30,Sabtu,Sriwijaya Air,SJ5980A,Soekarno-Hatta International,CGK,Hasanudin,UPG,15:45,19:10,Makassar,gerimis,31.8,78,1009,4.0,3:25
+2025-08-31,Minggu,Batik Air,ID6296B,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:50,20:10,Makassar,badai petir,32.7,71,1009,1.1,3:20
+2025-09-03,Rabu,Super Air Jet,IU730Z,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,04:30,07:20,Denpasar,cerah,33.7,62,1009,4.7,2:50
+2025-09-04,Kamis,Batik Air,ID6406Y,Soekarno-Hatta International,CGK,Juanda,SUB,13:05,14:30,Surabaya,badai petir,27.7,64,1015,4.4,1:25
+2025-07-30,Rabu,Garuda Indonesia,GA402G,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,07:05,10:10,Denpasar,hujan ringan,28.0,63,1008,4.2,3:05
+2025-07-31,Kamis,Batik Air,ID6762T,Soekarno-Hatta International,CGK,Hasanudin,UPG,09:10,12:30,Makassar,badai petir,31.2,84,1013,1.4,3:20
+2025-08-01,Jumat,Lion Air,JT22J,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,11:20,14:10,Denpasar,cerah,25.7,88,1015,1.5,2:50
+2025-08-02,Sabtu,Lion Air,JT892B,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,badai petir,31.2,84,1013,1.4,3:20
+2025-08-03,Minggu,Citilink,QG682Y,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,08:00,10:55,Denpasar,hujan ringan,28.0,63,1008,4.2,2:55
+2025-08-06,Rabu,Lion Air,JT690P,Soekarno-Hatta International,CGK,Juanda,SUB,03:30,04:55,Surabaya,berawan,24.1,87,1013,3.0,1:25
+2025-08-07,Kamis,Lion Air,JT22T,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,11:20,14:10,Denpasar,cerah,29.0,88,1014,2.3,2:50
+2025-08-08,Jumat,Pelita Air,IP102J,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,09:10,12:00,Denpasar,gerimis,28.0,90,1013,4.2,2:50
+2025-08-09,Sabtu,Garuda Indonesia,GA314T,Soekarno-Hatta International,CGK,Juanda,SUB,05:50,07:30,Surabaya,cerah,31.8,80,1005,1.9,1:40
+2025-08-10,Minggu,Citilink,QG346R,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:10,04:30,Makassar,cerah,31.2,66,1013,4.1,3:20
+2025-08-13,Rabu,Lion Air,JT986O,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:30,04:50,Makassar,badai petir,24.7,64,1006,2.7,3:20
+2025-08-14,Kamis,Pelita Air,IP500M,Soekarno-Hatta International,CGK,Hasanudin,UPG,23:45,03:10,Makassar,gerimis,26.2,65,1006,3.0,3:25
+2025-08-15,Jumat,Batik Air,ID6406B,Soekarno-Hatta International,CGK,Juanda,SUB,13:05,14:30,Surabaya,badai petir,27.7,64,1015,4.4,1:25
+2025-08-16,Sabtu,Garuda Indonesia,GA608W,Soekarno-Hatta International,CGK,Hasanudin,UPG,09:10,12:45,Makassar,badai petir,31.2,84,1013,1.4,3:35
+2025-08-17,Minggu,Garuda Indonesia,GA426D,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,18:30,21:30,Denpasar,berawan,32.0,84,1009,1.6,3:00
+2025-08-20,Rabu,Batik Air,ID6406P,Soekarno-Hatta International,CGK,Juanda,SUB,13:05,14:30,Surabaya,badai petir,29.1,70,1008,4.8,1:25
+2025-08-21,Kamis,Super Air Jet,IU812G,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,07:40,09:25,Padang,berkabut,28.7,86,1006,1.9,1:45
+2025-08-22,Jumat,Super Air Jet,IU742S,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,12:40,15:30,Denpasar,berawan,29.8,76,1009,4.4,2:50
+2025-08-23,Sabtu,Lion Air,JT1994F,Soekarno-Hatta International,CGK,Hasanudin,UPG,08:00,11:20,Makassar,badai petir,31.2,84,1013,1.4,3:20
+2025-08-24,Minggu,Lion Air,JT175Q,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:15,19:35,Makassar,badai petir,32.7,71,1009,1.1,3:20
+2025-08-27,Rabu,Lion Air,JT22Q,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,11:20,14:10,Denpasar,cerah,25.7,88,1015,1.5,2:50
+2025-08-28,Kamis,Super Air Jet,IU900I,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,14:40,16:25,Padang,gerimis,32.3,80,1011,2.4,1:45
+2025-08-29,Jumat,Pelita Air,IP356E,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,16:20,18:05,Padang,hujan ringan,30.7,85,1007,4.4,1:45
+2025-08-30,Sabtu,Lion Air,JT1774N,Soekarno-Hatta International,CGK,Hasanudin,UPG,10:00,13:20,Makassar,cerah,31.6,79,1011,2.2,3:20
+2025-08-31,Minggu,Pelita Air,IP204F,Soekarno-Hatta International,CGK,Juanda,SUB,10:40,12:15,Surabaya,cerah,29.6,89,1015,4.7,1:35
+2025-09-03,Rabu,Super Air Jet,IU744J,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,17:55,20:45,Denpasar,gerimis,25.1,88,1005,4.6,2:50
+2025-09-04,Kamis,TransNusa,8B5104Q,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,06:45,09:30,Denpasar,berkabut,31.2,86,1008,3.7,2:45
+2025-07-30,Rabu,Garuda Indonesia,GA408P,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,11:40,14:40,Denpasar,badai petir,25.6,77,1014,4.1,3:00
+2025-07-31,Kamis,Garuda Indonesia,GA328W,Soekarno-Hatta International,CGK,Juanda,SUB,18:30,20:10,Surabaya,gerimis,30.5,79,1005,1.9,1:40
+2025-08-01,Jumat,Garuda Indonesia,GA414L,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,15:30,18:25,Denpasar,berkabut,28.2,79,1007,4.4,2:55
+2025-08-02,Sabtu,AirAsia,AK810Y,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,19:30,22:20,Denpasar,gerimis,31.5,81,1005,4.7,2:50
+2025-08-03,Minggu,AirAsia,AK814T,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,11:55,14:50,Denpasar,badai petir,25.6,77,1014,4.1,2:55
+2025-08-06,Rabu,Super Air Jet,IU904V,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,17:00,18:45,Padang,berkabut,28.2,83,1012,4.5,1:45
+2025-08-07,Kamis,Sriwijaya Air,SJ580U,Soekarno-Hatta International,CGK,Hasanudin,UPG,17:50,21:15,Makassar,badai petir,31.2,74,1009,1.6,3:25
+2025-08-08,Jumat,Lion Air,JT619A,Soekarno-Hatta International,CGK,Juanda,SUB,14:40,16:05,Surabaya,hujan ringan,32.4,66,1006,3.0,1:25
+2025-08-09,Sabtu,Citilink,QG952T,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,07:00,08:55,Padang,berkabut,28.7,86,1006,1.9,1:55
+2025-08-10,Minggu,Batik Air,ID6288R,Soekarno-Hatta International,CGK,Hasanudin,UPG,00:10,03:30,Makassar,gerimis,27.5,66,1012,3.2,3:20
+2025-08-13,Rabu,Batik Air,ID6554O,Soekarno-Hatta International,CGK,Hasanudin,UPG,06:00,09:20,Makassar,hujan ringan,34.0,69,1015,1.9,3:20
+2025-08-14,Kamis,Super Air Jet,IU902G,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,09:35,11:20,Padang,hujan ringan,31.5,84,1012,1.6,1:45
+2025-08-15,Jumat,Pelita Air,IP802D,Soekarno-Hatta International,CGK,Hasanudin,UPG,11:30,14:50,Makassar,cerah,28.6,87,1011,4.0,3:20
+2025-08-16,Sabtu,Lion Air,JT175H,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:15,19:35,Makassar,gerimis,31.8,78,1009,4.0,3:20
+2025-08-17,Minggu,Sriwijaya Air,SJ598K,Soekarno-Hatta International,CGK,Hasanudin,UPG,22:15,01:40,Makassar,hujan ringan,25.2,62,1009,4.0,3:25
+2025-08-20,Rabu,Garuda Indonesia,GA404B,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,09:40,12:35,Denpasar,gerimis,28.0,90,1013,4.2,2:55
+2025-08-21,Kamis,Pelita Air,IP108Q,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,12:05,14:55,Denpasar,badai petir,25.6,77,1014,4.1,2:50
+2025-08-22,Jumat,Citilink,QG720U,Soekarno-Hatta International,CGK,Juanda,SUB,20:00,21:30,Surabaya,gerimis,32.2,72,1010,4.9,1:30
+2025-08-23,Sabtu,Garuda Indonesia,GA604L,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:35,05:10,Makassar,cerah,31.2,66,1013,4.1,3:35
+2025-08-24,Minggu,AirAsia,AK802S,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,06:20,09:10,Denpasar,cerah,28.2,80,1012,4.9,2:50
+2025-08-27,Rabu,TransNusa,8B5106W,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,10:30,13:20,Denpasar,cerah,29.0,88,1014,2.3,2:50
+2025-08-28,Kamis,Super Air Jet,IU740F,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,07:40,10:30,Denpasar,hujan ringan,28.0,63,1008,4.2,2:50
+2025-08-29,Jumat,Citilink,QG716S,Soekarno-Hatta International,CGK,Juanda,SUB,11:45,13:25,Surabaya,gerimis,33.7,82,1014,1.7,1:40
+2025-08-30,Sabtu,Citilink,QG716S,Soekarno-Hatta International,CGK,Juanda,SUB,11:45,13:25,Surabaya,gerimis,33.7,82,1014,1.7,1:40
+2025-08-31,Minggu,AirAsia,AK802L,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,06:20,09:10,Denpasar,cerah,28.2,80,1012,4.9,2:50
+2025-09-03,Rabu,Pelita Air,IP350J,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,06:10,07:55,Padang,berkabut,26.3,87,1008,4.4,1:45
+2025-09-04,Kamis,Batik Air,ID6576Q,Soekarno-Hatta International,CGK,Juanda,SUB,17:00,18:25,Surabaya,berkabut,31.4,88,1015,2.7,1:25
+2025-07-30,Rabu,Citilink,QG682U,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,08:00,10:55,Denpasar,hujan ringan,28.0,63,1008,4.2,2:55
+2025-07-31,Kamis,Sriwijaya Air,SJ592P,Soekarno-Hatta International,CGK,Hasanudin,UPG,00:30,03:55,Makassar,cerah,31.2,66,1013,4.1,3:25
+2025-08-01,Jumat,Pelita Air,IP200P,Soekarno-Hatta International,CGK,Juanda,SUB,06:55,08:30,Surabaya,cerah,24.7,79,1012,2.2,1:35
+2025-08-02,Sabtu,Batik Air,ID6296B,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:50,20:10,Makassar,badai petir,32.7,71,1009,1.1,3:20
+2025-08-03,Minggu,Lion Air,JT888D,Soekarno-Hatta International,CGK,Hasanudin,UPG,22:00,01:20,Makassar,hujan ringan,25.2,62,1009,4.0,3:20
+2025-08-06,Rabu,Lion Air,JT171Z,Soekarno-Hatta International,CGK,Juanda,SUB,14:40,16:05,Surabaya,hujan ringan,32.4,66,1006,3.0,1:25
+2025-08-07,Kamis,Garuda Indonesia,GA162K,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,14:40,16:30,Padang,gerimis,26.7,77,1005,4.2,1:50
+2025-08-08,Jumat,Super Air Jet,IU904M,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,17:00,18:45,Padang,berkabut,28.2,83,1012,4.5,1:45
+2025-08-09,Sabtu,Batik Air,ID6236D,Soekarno-Hatta International,CGK,Hasanudin,UPG,06:00,09:20,Makassar,hujan ringan,34.0,69,1015,1.9,3:20
+2025-08-10,Minggu,Lion Air,JT3896E,Soekarno-Hatta International,CGK,Hasanudin,UPG,01:30,04:50,Makassar,badai petir,24.7,64,1006,2.7,3:20
+2025-08-13,Rabu,Super Air Jet,IU734J,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,10:40,13:30,Denpasar,cerah,29.0,88,1014,2.3,2:50
+2025-08-14,Kamis,Garuda Indonesia,GA612T,Soekarno-Hatta International,CGK,Hasanudin,UPG,14:25,18:00,Makassar,gerimis,28.2,60,1006,3.4,3:35
+2025-08-15,Jumat,Garuda Indonesia,GA320Y,Soekarno-Hatta International,CGK,Juanda,SUB,16:00,17:40,Surabaya,berkabut,31.4,88,1015,2.7,1:40
+2025-08-16,Sabtu,Super Air Jet,IU752P,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,09:40,12:30,Denpasar,badai petir,32.0,62,1008,2.2,2:50
+2025-08-17,Minggu,Super Air Jet,IU900P,Soekarno-Hatta International,CGK,Minangkabau International Airport,PDG,14:40,16:25,Padang,gerimis,32.3,80,1011,2.4,1:45
+2025-08-20,Rabu,Sriwijaya Air,SJ598U,Soekarno-Hatta International,CGK,Hasanudin,UPG,22:15,01:40,Makassar,hujan ringan,25.2,62,1009,4.0,3:25
+2025-08-21,Kamis,Super Air Jet,IU742J,Soekarno-Hatta International,CGK,Ngurah Rai International,DPS,12:40,15:30,Denpasar,badai petir,25.6,77,1014,4.1,2:50
+2025-08-22,Jumat,Lion Air,JT772V,Soekarno-Hatta International,CGK,Hasanudin,UPG,16:15,19:35,Makassar,badai petir,32.7,71,1009,1.1,3:20
+2025-08-23,Sabtu,Oman Air,WY5787D,Soekarno-Hatta International,CGK,Juanda,SUB,16:00,17:40,Surabaya,berkabut,31.4,88,1015,2.7,1:40
+2025-08-24,Minggu,Lion Air,JT1740M,Soekarno-Hatta International,CGK,Hasanudin,UPG,10:00,13:20,Makassar,gerimis,27.9,60,1015,3.2,3:20
+2025-08-27,Rabu,Lion Air,JT1774R,Soekarno-Hatta International,CGK,Hasanudin,UPG,10:00,13:20,Makassar,cerah,31.6,79,1011,2.2,3:20

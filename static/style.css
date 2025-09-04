@@ -126,12 +126,17 @@ small{color:var(--muted)}
 .btn:active{transform:translateY(0)}
 
 /* ================== Footer ================== */
-.result-text{font-size:clamp(18px,2.2vw,22px); margin:6px 0 0}
+.result-block{font-size:clamp(18px,2.2vw,22px); margin:6px 0 0}
 .footer{
   border-top:1px solid var(--border);
   background:rgba(16,22,40,.6);
   padding:18px 0; color:var(--muted); text-align:center;
+  white-space: pre-wrap;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Courier New", monospace;
+  font-size: 0.95rem;
+  margin-top: 8px;
 }
+
 
 /* ================== Spacing – Halaman Informasi ================== */
 /* blok stats */
