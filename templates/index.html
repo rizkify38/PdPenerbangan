@@ -27,7 +27,7 @@
   <div class="table-responsive"> 
     <table class="table"> 
       <thead> 
-        <tr> {% for key in sample_data.keys() %} 
+        <tr> {% for key in sample_data[0].keys() %} 
           <th>{{ key }}</th> {% endfor %} </tr> 
       </thead> <tbody> {% for row in sample_data %} 
         <tr> {% for val in row.values() %} 
