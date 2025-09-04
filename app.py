@@ -56,7 +56,7 @@ if "Delay" not in df_raw.columns:
         dep = df_raw["Jadwal_Keberangkatan"].map(parse_time)
         arr = df_raw["Jadwal_Kedatangan"].map(parse_time)
 
-        # 3) Hitung durasi aktual (menit). Jika lewat tengah malam → tambah 24 jam
+        # 3) Hitung durasi aktual (menit)
         dur_akt = (arr - dep).dt.total_seconds() / 60
         cross_midnight = dur_akt < 0
         dur_akt = dur_akt.where(~cross_midnight, dur_akt + 24*60)
@@ -271,7 +271,7 @@ def index():
     avg_delay = compute_avg_predicted_delay(df_raw) if (pd.isna(avg_delay_actual) or avg_delay_actual <= 0) else float(avg_delay_actual)
 
 
-    sample_df = df_raw.head(5)
+    sample_df = df_raw.copy()
     sample_data = prettify_columns(sample_df).to_dict(orient="records")
 
     return render_template(
