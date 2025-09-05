@@ -36,13 +36,10 @@ df_raw = pd.read_csv(DATA_FILE)
 
 # === Derive Delay jika tidak ada di CSV ===
 if "Delay" not in df_raw.columns:
-    # Pastikan kolom yang dibutuhkan ada
     NEED = {"Jadwal_Keberangkatan","Jadwal_Kedatangan","Durasi_Penerbangan"}
     if NEED.issubset(df_raw.columns):
-        # 1) Coerce numeric untuk durasi rencana
         df_raw["Durasi_Penerbangan"] = pd.to_numeric(df_raw["Durasi_Penerbangan"], errors="coerce")
 
-        # 2) Parse jam robust: coba beberapa pola umum
         def parse_time(s):
             s = str(s)
             for fmt in ("%H:%M", "%H:%M:%S", "%Y-%m-%d %H:%M", "%Y-%m-%d %H:%M:%S"):
@@ -50,37 +47,23 @@ if "Delay" not in df_raw.columns:
                     return pd.to_datetime(s, format=fmt)
                 except Exception:
                     continue
-            # fallback: biarkan pandas tebak (bisa NaT kalau aneh)
             return pd.to_datetime(s, errors="coerce")
 
         dep = df_raw["Jadwal_Keberangkatan"].map(parse_time)
         arr = df_raw["Jadwal_Kedatangan"].map(parse_time)
-
-        # 3) Hitung durasi aktual (menit)
         dur_akt = (arr - dep).dt.total_seconds() / 60
         cross_midnight = dur_akt < 0
         dur_akt = dur_akt.where(~cross_midnight, dur_akt + 24*60)
 
-        # 4) Delay = durasi aktual - durasi rencana (negatif → 0 = tidak terlambat/lebih cepat)
         delay = dur_akt - df_raw["Durasi_Penerbangan"]
         delay = delay.where(delay > 0, 0)
-
-        # 5) Finalize
-        valid_rows = delay.notna().sum()
-        total_rows = len(df_raw)
-        print(f"[Delay derive] valid_rows={valid_rows}/{total_rows}, "
-              f"avg={delay.dropna().mean() if valid_rows else 0:.2f}")
-
         df_raw["Delay"] = delay.fillna(0)
     else:
-        print("[Delay derive] Kolom wajib tidak lengkap, set Delay=0")
         df_raw["Delay"] = 0
 
-
-# === Lookup Bandara_Tujuan -> Kota/Deskripsi (GLOBAL & AMAN) ===
+# === Lookup Bandara_Tujuan -> Kota/Deskripsi ===
 def build_lookups(df):
-    city = {}
-    desc = {}
+    city, desc = {}, {}
     if {"Bandara_Tujuan", "Kota_tujuan"}.issubset(df.columns):
         city = (
             df.dropna(subset=["Bandara_Tujuan", "Kota_tujuan"])
@@ -98,30 +81,20 @@ def build_lookups(df):
     return city, desc
 
 city_by_bandara, desc_by_bandara = build_lookups(df_raw)
-print("[Lookup] sizes -> city:", len(city_by_bandara), "| desc:", len(desc_by_bandara))
 
 # ==========================
 # Load model & encoders
 # ==========================
 model = joblib.load(MODEL_FILE)
-if hasattr(model, "feature_names_in_"):
-    print("[Model features] ->", list(model.feature_names_in_))
-else:
-    print("[Model features] -> (model tidak simpan nama fitur)")
-
 with open(ENCODER_FILE, "rb") as f:
-    label_encoders = pickle.load(f)  # dict {kolom: LabelEncoder}
+    label_encoders = pickle.load(f)
 
-# Fitur yang dipakai model
 EXPECTED_FEATURES = [
     "Kota_tujuan", "Deskripsi_tujuan",
     "Suhu_Celcius_tujuan", "Kelembaban_%_tujuan",
     "Tekanan_hPa_tujuan", "Kecepatan_Angin_m/s_tujuan",
 ]
 
-# ==========================
-# Kolom untuk encode/analisis (boleh lebih banyak)
-# ==========================
 CATEGORICAL_CANDIDATES = [
     "Tanggal_Penerbangan", "Nomor_Penerbangan", "Maskapai", "Hari",
     "Bandara_Asal", "Bandara_Tujuan",
@@ -154,45 +127,51 @@ def safe_transform(le, value: str):
     le.classes_ = np.append(le.classes_, value)
     return le.transform([value])[0]
 
-def encode_input(form_data: dict) -> pd.DataFrame:
-    row = {}
-    for col in CATEGORICAL_COLS:
-        val = str(form_data.get(col, ""))
-        le = label_encoders.get(col, None)
-        row[col] = safe_transform(le, val) if le is not None else 0
-    for col in NUMERIC_COLS:
-        row[col] = float(form_data.get(col, 0) or 0)
-    return pd.DataFrame([row])
-
-def decode_df(df_encoded: pd.DataFrame) -> pd.DataFrame:
-    out = df_encoded.copy()
-    for col in CATEGORICAL_COLS:
-        le = label_encoders.get(col, None)
-        if le is not None:
-            out[col] = le.inverse_transform(out[col].astype(int))
-    return out
-
-def minutes_to_hhmm(m):
-    total = int(round(float(m)))
-    h = total // 60
-    mm = total % 60
-    return f"{h}:{mm:02d}"
-
-def try_minutes(hhmm: str) -> float:
+# kondisi ideal → delay 0 (diset strict: hanya "cerah" + rentang variabel cuaca normal)
+def is_weather_ideal(deskripsi: str, suhu: float, kelembaban: float, tekanan: float, angin: float) -> bool:
+    def _norm(x): return str(x or "").strip().lower()
+    d = _norm(deskripsi)
     try:
-        t = datetime.strptime(hhmm, "%H:%M")
-        return t.hour * 60 + t.minute
+        suhu = float(suhu); kelembaban = float(kelembaban)
+        tekanan = float(tekanan); angin = float(angin)
     except Exception:
-        return 0.0
+        return False
+
+    label_ideal = (d == "cerah")  # kalau mau longgar, tambahkan: or d == "berawan"
+    return (
+        label_ideal and
+        21 <= suhu <= 31 and
+        65 <= kelembaban <= 78 and
+        1005 <= tekanan <= 1014 and
+        1 <= angin <= 6
+    )
+
+# interpretasi cuaca (human-friendly) sesuai label datasetmu
+def interpret_weather(deskripsi: str) -> str:
+    d = str(deskripsi or "").strip().lower()
+
+    if d == "cerah":
+        return "Kondisi cuaca cerah (ideal), tidak ada prediksi keterlambatan."
+    if d == "berawan":
+        return "Cuaca berawan: umumnya aman dan tidak mengganggu jadwal."
+    if d == "gerimis":
+        return "Cuaca gerimis: potensi penundaan kecil bisa terjadi, namun biasanya minim."
+    if d == "hujan ringan":
+        return "Hujan ringan; ada peluang keterlambatan kecil pada proses taxi/takeoff."
+    if d == "berkabut":
+        return "Cuaca berkabut: visibilitas menurun, kewaspadaan ekstra diperlukan."
+    if d == "badai petir":
+        return "Badai petir: risiko keterlambatan tinggi karena keselamatan prioritas."
+
+    return "Kondisi cuaca tidak dikenali; prediksi tetap menggunakan model."
+
 
 def align_features(X: pd.DataFrame, model):
     if hasattr(model, "feature_names_in_"):
         expected = list(model.feature_names_in_)
-        missing = [c for c in expected if c not in X.columns]
-        extra   = [c for c in X.columns if c not in expected]
-        print("[Feature Align] missing:", missing, "| extra:", extra)
-        for c in missing:
-            X[c] = 0
+        for c in expected:
+            if c not in X.columns:
+                X[c] = 0
         X = X.reindex(columns=expected, fill_value=0)
     else:
         X = X.reindex(columns=EXPECTED_FEATURES, fill_value=0)
@@ -200,7 +179,6 @@ def align_features(X: pd.DataFrame, model):
 
 def encode_frame_for_model(df: pd.DataFrame) -> pd.DataFrame:
     feats = pd.DataFrame(index=df.index)
-    # isi fitur sesuai EXPECTED_FEATURES
     for col in EXPECTED_FEATURES:
         if col in ["Kota_tujuan","Deskripsi_tujuan"]:
             ser = df.get(col, "").astype(str).fillna("")
@@ -219,7 +197,6 @@ def encode_frame_for_model(df: pd.DataFrame) -> pd.DataFrame:
                 feats[col] = 0
         else:
             feats[col] = pd.to_numeric(df.get(col, 0), errors="coerce").fillna(0.0)
-
     if hasattr(model, "feature_names_in_"):
         feats = feats.reindex(columns=list(model.feature_names_in_), fill_value=0)
     else:
@@ -227,21 +204,13 @@ def encode_frame_for_model(df: pd.DataFrame) -> pd.DataFrame:
     return feats
 
 def compute_avg_predicted_delay(df_src: pd.DataFrame) -> float:
-    # prediksi durasi
     X = encode_frame_for_model(df_src)
-    try:
-        dur_pred = model.predict(X)
-    except ValueError:
-        cols = list(model.feature_names_in_) if hasattr(model,"feature_names_in_") else EXPECTED_FEATURES
-        dur_pred = model.predict(X[cols].to_numpy())
-
-    # durasi rencana dari jadwal atau kolom Durasi_Penerbangan
+    dur_pred = model.predict(X)
     def _parse(s):
         for fmt in ("%H:%M","%H:%M:%S","%Y-%m-%d %H:%M","%Y-%m-%d %H:%M:%S"):
             try: return pd.to_datetime(s, format=fmt)
             except: pass
         return pd.to_datetime(s, errors="coerce")
-
     if {"Jadwal_Keberangkatan","Jadwal_Kedatangan"}.issubset(df_src.columns):
         dep = df_src["Jadwal_Keberangkatan"].map(_parse)
         arr = df_src["Jadwal_Kedatangan"].map(_parse)
@@ -249,12 +218,9 @@ def compute_avg_predicted_delay(df_src: pd.DataFrame) -> float:
         plan = plan.where(plan >= 0, plan + 24*60)
     else:
         plan = pd.to_numeric(df_src.get("Durasi_Penerbangan", 0), errors="coerce")
-
     plan = plan.fillna(0).to_numpy()
     delay_pred = np.maximum(0.0, dur_pred - plan)
     return float(np.nanmean(delay_pred))
-
-
 
 # ==========================
 # Routes
@@ -265,107 +231,134 @@ def index():
     total_airline = df_raw["Maskapai"].nunique() if "Maskapai" in df_raw.columns else 0
     total_origin = df_raw["Bandara_Asal"].nunique() if "Bandara_Asal" in df_raw.columns else 0
     total_dest = df_raw["Bandara_Tujuan"].nunique() if "Bandara_Tujuan" in df_raw.columns else 0
-    # 1) coba pakai delay aktual (kalau ada & > 0)
-    # pakai Delay aktual bila ada & > 0, kalau tidak -> rata-rata keterlambatan PREDIKSI
     avg_delay_actual = df_raw["Delay"].mean() if "Delay" in df_raw.columns else np.nan
     avg_delay = compute_avg_predicted_delay(df_raw) if (pd.isna(avg_delay_actual) or avg_delay_actual <= 0) else float(avg_delay_actual)
-
-
-    sample_df = df_raw.copy()
+    sample_df = df_raw.head(5)
     sample_data = prettify_columns(sample_df).to_dict(orient="records")
-
-    return render_template(
-        "index.html",
+    return render_template("index.html",
         total_flight=total_flight,
         total_airline=total_airline,
         total_origin=total_origin,
         total_dest=total_dest,
         avg_delay=avg_delay,
-        sample_data=sample_data
-    )
+        sample_data=sample_data)
 
 @app.route("/analisis")
 def analisis():
+    # direktori output chart
     chart_dir = "static/charts"
     os.makedirs(chart_dir, exist_ok=True)
 
-    df_encoded = df_raw.copy()
-    for col in CATEGORICAL_COLS:
-        le = label_encoders.get(col, None)
-        if le is not None:
-            df_encoded[col] = df_raw[col].astype(str).map(lambda v: safe_transform(le, v))
-
-    df_decoded = decode_df(df_encoded)
-
-    if "Delay" in df_raw.columns:
-        plt.figure(figsize=(8,4))
+    # --- 1) Distribusi Delay (kalau ada kolomnya)
+    if "Delay" in df_raw.columns and df_raw["Delay"].notna().any():
+        plt.figure(figsize=(8, 4))
         sns.histplot(df_raw["Delay"], bins=30, kde=True)
         plt.title("Distribusi Keterlambatan Penerbangan")
-        plt.xlabel("Delay (menit)"); plt.ylabel("Jumlah Penerbangan"); plt.tight_layout()
-        plt.savefig(f"{chart_dir}/distribusi.png"); plt.close()
+        plt.xlabel("Delay (menit)")
+        plt.ylabel("Jumlah Penerbangan")
+        plt.tight_layout()
+        plt.savefig(f"{chart_dir}/distribusi.png")
+        plt.close()
 
-    if "Maskapai" in df_decoded.columns:
-        plt.figure(figsize=(8,4))
-        df_decoded["Maskapai"].value_counts().sort_values(ascending=False).plot(kind="bar")
+    # --- 2) Jumlah penerbangan per Maskapai
+    if "Maskapai" in df_raw.columns:
+        plt.figure(figsize=(8, 4))
+        (df_raw["Maskapai"]
+            .value_counts()
+            .sort_values(ascending=False)
+            .plot(kind="bar"))
         plt.title("Jumlah Penerbangan per Maskapai")
-        plt.xlabel("Maskapai"); plt.ylabel("Jumlah Penerbangan"); plt.tight_layout()
-        plt.savefig(f"{chart_dir}/jumlah_maskapai.png"); plt.close()
+        plt.xlabel("Maskapai")
+        plt.ylabel("Jumlah Penerbangan")
+        plt.xticks(rotation=45, ha="right")
+        plt.tight_layout()
+        plt.savefig(f"{chart_dir}/jumlah_maskapai.png")
+        plt.close()
 
-    if {"Maskapai","Delay"}.issubset(df_decoded.columns):
-        plt.figure(figsize=(8,4))
-        df_decoded.groupby("Maskapai")["Delay"].mean().sort_values().plot(kind="bar")
+    # --- 3) Rata-rata Delay per Maskapai
+    if {"Maskapai","Delay"}.issubset(df_raw.columns):
+        plt.figure(figsize=(8, 4))
+        (df_raw.groupby("Maskapai")["Delay"]
+              .mean()
+              .sort_values(ascending=False)
+              .plot(kind="bar"))
         plt.title("Rata-rata Delay per Maskapai")
-        plt.xlabel("Maskapai"); plt.ylabel("Delay Rata-rata (menit)"); plt.tight_layout()
-        plt.savefig(f"{chart_dir}/delay_maskapai.png"); plt.close()
+        plt.xlabel("Maskapai")
+        plt.ylabel("Delay Rata-rata (menit)")
+        plt.xticks(rotation=45, ha="right")
+        plt.tight_layout()
+        plt.savefig(f"{chart_dir}/delay_maskapai.png")
+        plt.close()
 
-    if {"Bandara_Asal","Delay"}.issubset(df_decoded.columns):
-        plt.figure(figsize=(8,4))
-        df_decoded.groupby("Bandara_Asal")["Delay"].mean().sort_values().plot(kind="bar")
+    # --- 4) Rata-rata Delay per Bandara Asal
+    if {"Bandara_Asal","Delay"}.issubset(df_raw.columns):
+        plt.figure(figsize=(8, 4))
+        (df_raw.groupby("Bandara_Asal")["Delay"]
+              .mean()
+              .sort_values(ascending=False)
+              .plot(kind="bar"))
         plt.title("Rata-rata Delay per Bandara Asal")
-        plt.xlabel("Bandara Asal"); plt.ylabel("Delay Rata-rata (menit)"); plt.tight_layout()
-        plt.savefig(f"{chart_dir}/delay_asal.png"); plt.close()
+        plt.xlabel("Bandara Asal")
+        plt.ylabel("Delay Rata-rata (menit)")
+        plt.xticks(rotation=45, ha="right")
+        plt.tight_layout()
+        plt.savefig(f"{chart_dir}/delay_asal.png")
+        plt.close()
 
-    if {"Bandara_Tujuan","Delay"}.issubset(df_decoded.columns):
-        plt.figure(figsize=(8,4))
-        df_decoded.groupby("Bandara_Tujuan")["Delay"].mean().sort_values().plot(kind="bar")
+    # --- 5) Rata-rata Delay per Bandara Tujuan
+    if {"Bandara_Tujuan","Delay"}.issubset(df_raw.columns):
+        plt.figure(figsize=(8, 4))
+        (df_raw.groupby("Bandara_Tujuan")["Delay"]
+              .mean()
+              .sort_values(ascending=False)
+              .plot(kind="bar"))
         plt.title("Rata-rata Delay per Bandara Tujuan")
-        plt.xlabel("Bandara Tujuan"); plt.ylabel("Delay Rata-rata (menit)"); plt.tight_layout()
-        plt.savefig(f"{chart_dir}/delay_tujuan.png"); plt.close()
+        plt.xlabel("Bandara Tujuan")
+        plt.ylabel("Delay Rata-rata (menit)")
+        plt.xticks(rotation=45, ha="right")
+        plt.tight_layout()
+        plt.savefig(f"{chart_dir}/delay_tujuan.png")
+        plt.close()
 
-    if {"Cuaca_tujuan","Delay"}.issubset(df_decoded.columns):
-        plt.figure(figsize=(8,4))
-        df_decoded.groupby("Cuaca_tujuan")["Delay"].mean().sort_values().plot(kind="bar")
+    # --- 6) Pengaruh Cuaca terhadap Delay (cuaca sesuai datasetmu)
+    # label cuaca: badai petir, berawan, berkabut, cerah, gerimis, hujan ringan
+    if {"Cuaca_tujuan","Delay"}.issubset(df_raw.columns):
+        # normalisasi teks agar konsisten
+        cuaca_series = df_raw["Cuaca_tujuan"].astype(str).str.strip().str.lower()
+        df_tmp = df_raw.copy()
+        df_tmp["Cuaca_norm"] = cuaca_series
+        plt.figure(figsize=(8, 4))
+        (df_tmp.groupby("Cuaca_norm")["Delay"]
+              .mean()
+              .reindex(["cerah", "berawan", "gerimis", "hujan ringan", "berkabut", "badai petir"])
+              .dropna()
+              .plot(kind="bar"))
         plt.title("Pengaruh Cuaca terhadap Delay")
-        plt.xlabel("Cuaca Tujuan"); plt.ylabel("Delay Rata-rata (menit)"); plt.tight_layout()
-        plt.savefig(f"{chart_dir}/delay_cuaca.png"); plt.close()
+        plt.xlabel("Cuaca Tujuan")
+        plt.ylabel("Delay Rata-rata (menit)")
+        plt.xticks(rotation=0)
+        plt.tight_layout()
+        plt.savefig(f"{chart_dir}/delay_cuaca.png")
+        plt.close()
 
+    # render halaman analisis (pastikan ada templates/analisis.html)
     return render_template("analisis.html")
-
-# ===== util format
-def mm_to_hhmm_local(m):
-    m = int(round(float(m)))
-    return f"{m//60}:{m%60:02d}"
 
 @app.route("/prediksi", methods=["GET", "POST"])
 def prediksi():
     hasil = None
     if request.method == "POST":
         form = request.form
-
-        # Jaga-jaga: fallback lookup jika tidak ada di global (hindari NameError)
+        # Lookup fallback
         cb = city_by_bandara if isinstance(city_by_bandara, dict) else {}
         db = desc_by_bandara if isinstance(desc_by_bandara, dict) else {}
-
-        # Ambil nilai form
         kota  = (form.get("Kota_tujuan") or "").strip()
         desk  = (form.get("Deskripsi_tujuan") or "").strip()
         bandt = (form.get("Bandara_Tujuan") or "").strip()
+        if not kota and bandt in cb: kota = cb.get(bandt, "")
+        if not desk and bandt in db: desk = db.get(bandt, "")
 
-        if not kota and bandt in cb:
-            kota = cb.get(bandt, "")
-        if not desk and bandt in db:
-            desk = db.get(bandt, "")
-
+        # Input untuk model
         raw_row = {
             "Kota_tujuan": kota,
             "Deskripsi_tujuan": desk,
@@ -375,7 +368,6 @@ def prediksi():
             "Kecepatan_Angin_m/s_tujuan": form.get("Kecepatan_Angin_m/s_tujuan", "0"),
         }
 
-        # Encode sesuai encoder
         row_enc = {}
         for col in EXPECTED_FEATURES:
             if col in ["Kota_tujuan", "Deskripsi_tujuan"]:
@@ -387,59 +379,92 @@ def prediksi():
 
         input_df = pd.DataFrame([row_enc])
         input_df = align_features(input_df, model)
-        print("[Input to predict] ->", list(input_df.columns), input_df.shape)
-
-        try:
-            y_pred = float(model.predict(input_df)[0])
-        except ValueError:
-            cols = list(model.feature_names_in_) if hasattr(model, "feature_names_in_") else EXPECTED_FEATURES
-            arr  = input_df[cols].to_numpy()
-            y_pred = float(model.predict(arr)[0])
-
-        # ===== interpretasi: model memprediksi DURASI (menit), bukan delay
+        y_pred = float(model.predict(input_df)[0])  # model memprediksi durasi (menit)
         durasi_pred = float(y_pred)
 
-        # Durasi rencana dari jadwal (HH:MM) atau fallback Durasi_Penerbangan
-        def _to_minutes(hhmm):
+        # Versi aman hitung durasi rencana
+        def _to_minutes_safe(val):
+            if val is None: return np.nan
+            v = pd.to_numeric(val, errors="coerce")
+            if pd.notna(v): return float(v)
             try:
-                t = datetime.strptime(hhmm, "%H:%M")
-                return t.hour*60 + t.minute
-            except:
-                return 0
+                t = datetime.strptime(str(val).strip(), "%H:%M")
+                return float(t.hour * 60 + t.minute)
+            except Exception:
+                return np.nan
 
-        durasi_rencana = _to_minutes(request.form.get("Jadwal_Kedatangan","")) - _to_minutes(request.form.get("Jadwal_Keberangkatan",""))
-        if durasi_rencana <= 0:
-            durasi_rencana = float(request.form.get("Durasi_Penerbangan","0") or 0)
+        dep_s  = request.form.get("Jadwal_Keberangkatan")
+        arr_s  = request.form.get("Jadwal_Kedatangan")
+        plan_from_time = _to_minutes_safe(arr_s) - _to_minutes_safe(dep_s)
+        if not np.isfinite(plan_from_time) or plan_from_time <= 0:
+            plan_from_time = pd.to_numeric(request.form.get("Durasi_Penerbangan"), errors="coerce")
+        durasi_rencana = float(plan_from_time) if pd.notna(plan_from_time) else 0.0
 
-        # Keterlambatan prediksi = pred - rencana (negatif -> 0)
-        delay_pred = max(0.0, durasi_pred - (durasi_rencana or 0))
-        selisih    = durasi_pred - (durasi_rencana or 0)
-        status     = "Lebih Cepat" if selisih < 0 else ("Tepat Waktu" if selisih == 0 else "Lebih Lambat")
+        # ===== Cuaca & alasan =====
+        deskripsi_cuaca = desk or form.get("Cuaca_tujuan","")
+        alasan_cuaca = interpret_weather(deskripsi_cuaca)
 
+        # ===== Logika cuaca ideal (strict) =====
+        if is_weather_ideal(deskripsi_cuaca, raw_row["Suhu_Celcius_tujuan"], raw_row["Kelembaban_%_tujuan"],
+                            raw_row["Tekanan_hPa_tujuan"], raw_row["Kecepatan_Angin_m/s_tujuan"]):
+            delay_pred = 0.0
+            durasi_pred = float(durasi_rencana or durasi_pred)
+        else:
+            delay_pred = max(0.0, durasi_pred - (durasi_rencana or 0))
+
+        status = "Tepat Waktu" if delay_pred == 0 else ("Lebih Cepat" if (durasi_pred - (durasi_rencana or 0)) < 0 else "Lebih Lambat")
+
+        # Formatter H:MM
         def _mm(m): 
             m = int(round(float(m))); return f"{m//60}:{m%60:02d}"
 
-        tgl   = request.form.get("Tanggal_Penerbangan","")
-        hari  = request.form.get("Hari","")
-        mask  = request.form.get("Maskapai","")
-        kota  = (request.form.get("Kota_tujuan") or request.form.get("Bandara_Tujuan") or "").strip()
-        cuaca = request.form.get("Cuaca_tujuan","")
-        brkt  = request.form.get("Jadwal_Keberangkatan","")
-        tiba  = request.form.get("Jadwal_Kedatangan","")
+        tgl   = form.get("Tanggal_Penerbangan","")
+        hari  = form.get("Hari","")
+        mask  = form.get("Maskapai","")
+        kota_out  = (form.get("Kota_tujuan") or form.get("Bandara_Tujuan") or "").strip()
+        brkt  = form.get("Jadwal_Keberangkatan","")
+        tiba  = form.get("Jadwal_Kedatangan","")
 
-        hasil = f"""
+        # Kalimat ringkas maskapai (2 variasi)
+        if delay_pred > 0:
+            line_maskapai = f"{mask or 'Maskapai'} diprediksi mengalami keterlambatan sekitar {round(delay_pred)} menit (~{_mm(delay_pred)})."
+        else:
+            line_maskapai = f"{mask or 'Maskapai'} tidak ada prediksi keterlambatan."
+
+        # === TEMPLATE: jika TIDAK ADA keterlambatan => seperti Gambar 1
+        if delay_pred == 0:
+            estimasi = durasi_rencana if durasi_rencana > 0 else durasi_pred
+            hasil = f"""
 Tanggal Penerbangan : {tgl} ({hari})
 Maskapai            : {mask}
-Kota Tujuan         : {kota}
-Kondisi Cuaca       : {cuaca}
+Kota Tujuan         : {kota_out}
+Kondisi Cuaca       : {deskripsi_cuaca or '-'}
+estimasi            : {estimasi:.0f} menit ({_mm(estimasi)})
+Durasi Prediksi     : {durasi_pred:.2f} menit ({_mm(durasi_pred)})
+Perkiraan Delay     : {delay_pred:.2f} menit → {status}
+
+{line_maskapai}
+
+{alasan_cuaca}
+""".strip()
+        # === TEMPLATE normal (ada keterlambatan / berbeda dari rencana)
+        else:
+            selisih = durasi_pred - (durasi_rencana or 0)
+            hasil = f"""
+Tanggal Penerbangan : {tgl} ({hari})
+Maskapai            : {mask}
+Kota Tujuan         : {kota_out}
+Kondisi Cuaca       : {deskripsi_cuaca or '-'}
 Jadwal Keberangkatan: {brkt}
 Jadwal Kedatangan   : {tiba}
-Durasi Aktual       : {durasi_rencana:.0f} menit ({_mm(durasi_rencana)})
+Durasi Rencana      : {durasi_rencana:.0f} menit ({_mm(durasi_rencana)})
 Durasi Prediksi     : {durasi_pred:.2f} menit ({_mm(durasi_pred)})
 Selisih Durasi      : {selisih:.2f} menit → {status}
 Perkiraan Keterlambatan (prediksi): {delay_pred:.2f} menit
 
-{mask or 'Maskapai'} diprediksi mengalami keterlambatan sekitar {round(delay_pred)} menit (~{_mm(delay_pred)}).
+{line_maskapai}
+
+{alasan_cuaca}
 """.strip()
 
     return render_template("prediksi.html", hasil=hasil)

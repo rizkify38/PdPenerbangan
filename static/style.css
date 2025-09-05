@@ -137,6 +137,36 @@ small{color:var(--muted)}
   margin-top: 8px;
 }
 
+/* ==== Hasil Prediksi: mobile-friendly ==== */
+.result-block{
+  /* bikin <pre> bisa melipat baris */
+  white-space: pre-wrap;        /* wrap baris */
+  word-wrap: break-word;        /* legacy support */
+  word-break: break-word;       /* paksa pecah kata panjang */
+  overflow-x: auto;             /* kalau tetap kepanjangan, bisa scroll horizontal */
+  -webkit-overflow-scrolling: touch;
+
+  /* tipografi & ritme */
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Courier New", monospace;
+  font-size: clamp(14px, 2.6vw, 18px);
+  line-height: 1.55;
+
+  /* ruang internal biar lega di mobile */
+  margin: 6px 0 0;
+  padding: 6px 2px;
+}
+
+/* header card hasil */
+.card > h2 { margin: 0 0 10px; }
+
+/* Jaga lebar card agar selalu muat layar di HP */
+.card { width: 100%; max-width: 100%; }
+
+/* Sedikit penyesuaian di layar sempit */
+@media (max-width: 560px){
+  .card { padding: 14px; }
+  .result-block { font-size: 14px; }
+}
 
 /* ================== Spacing – Halaman Informasi ================== */
 /* blok stats */
