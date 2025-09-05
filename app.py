@@ -245,103 +245,132 @@ def index():
 
 @app.route("/analisis")
 def analisis():
-    # direktori output chart
     chart_dir = "static/charts"
     os.makedirs(chart_dir, exist_ok=True)
 
-    # --- 1) Distribusi Delay (kalau ada kolomnya)
-    if "Delay" in df_raw.columns and df_raw["Delay"].notna().any():
-        plt.figure(figsize=(8, 4))
-        sns.histplot(df_raw["Delay"], bins=30, kde=True)
-        plt.title("Distribusi Keterlambatan Penerbangan")
-        plt.xlabel("Delay (menit)")
-        plt.ylabel("Jumlah Penerbangan")
-        plt.tight_layout()
-        plt.savefig(f"{chart_dir}/distribusi.png")
-        plt.close()
+    # ---------- helpers ----------
+    def _parse_dt(s):
+        for fmt in ("%H:%M", "%H:%M:%S", "%Y-%m-%d %H:%M", "%Y-%m-%d %H:%M:%S"):
+            try:
+                return pd.to_datetime(s, format=fmt)
+            except Exception:
+                pass
+        return pd.to_datetime(s, errors="coerce")
 
-    # --- 2) Jumlah penerbangan per Maskapai
-    if "Maskapai" in df_raw.columns:
-        plt.figure(figsize=(8, 4))
-        (df_raw["Maskapai"]
-            .value_counts()
-            .sort_values(ascending=False)
-            .plot(kind="bar"))
-        plt.title("Jumlah Penerbangan per Maskapai")
-        plt.xlabel("Maskapai")
-        plt.ylabel("Jumlah Penerbangan")
-        plt.xticks(rotation=45, ha="right")
-        plt.tight_layout()
-        plt.savefig(f"{chart_dir}/jumlah_maskapai.png")
-        plt.close()
+    def decode_with_le(col: str, ser: pd.Series) -> pd.Series:
+        """Jika kolom hasil LabelEncoder (angka), kembalikan ke label string."""
+        le = label_encoders.get(col)
+        if le is None:
+            return ser.astype(str)
+        idx = pd.to_numeric(ser, errors="coerce")
+        if idx.notna().mean() >= 0.8:  # mayoritas numerik -> encoded
+            out = ser.astype(object).copy()
+            ok = idx.notna()
+            clipped = np.clip(idx[ok].astype(int).to_numpy(), 0, len(le.classes_) - 1)
+            out.loc[ok] = le.inverse_transform(clipped)
+            return out.astype(str)
+        return ser.astype(str)
 
-    # --- 3) Rata-rata Delay per Maskapai
-    if {"Maskapai","Delay"}.issubset(df_raw.columns):
-        plt.figure(figsize=(8, 4))
-        (df_raw.groupby("Maskapai")["Delay"]
-              .mean()
-              .sort_values(ascending=False)
-              .plot(kind="bar"))
-        plt.title("Rata-rata Delay per Maskapai")
-        plt.xlabel("Maskapai")
-        plt.ylabel("Delay Rata-rata (menit)")
-        plt.xticks(rotation=45, ha="right")
-        plt.tight_layout()
-        plt.savefig(f"{chart_dir}/delay_maskapai.png")
-        plt.close()
+    # ---------- siapkan data ----------
+    dfp = df_raw.copy()
 
-    # --- 4) Rata-rata Delay per Bandara Asal
-    if {"Bandara_Asal","Delay"}.issubset(df_raw.columns):
-        plt.figure(figsize=(8, 4))
-        (df_raw.groupby("Bandara_Asal")["Delay"]
-              .mean()
-              .sort_values(ascending=False)
-              .plot(kind="bar"))
-        plt.title("Rata-rata Delay per Bandara Asal")
-        plt.xlabel("Bandara Asal")
-        plt.ylabel("Delay Rata-rata (menit)")
-        plt.xticks(rotation=45, ha="right")
-        plt.tight_layout()
-        plt.savefig(f"{chart_dir}/delay_asal.png")
-        plt.close()
+    # 1) Prediksi durasi & Delay_prediksi per baris
+    X = encode_frame_for_model(dfp)
+    try:
+        durasi_pred = model.predict(X)
+    except Exception:
+        cols = list(model.feature_names_in_) if hasattr(model, "feature_names_in_") else EXPECTED_FEATURES
+        durasi_pred = model.predict(X[cols].to_numpy())
 
-    # --- 5) Rata-rata Delay per Bandara Tujuan
-    if {"Bandara_Tujuan","Delay"}.issubset(df_raw.columns):
-        plt.figure(figsize=(8, 4))
-        (df_raw.groupby("Bandara_Tujuan")["Delay"]
-              .mean()
-              .sort_values(ascending=False)
-              .plot(kind="bar"))
-        plt.title("Rata-rata Delay per Bandara Tujuan")
-        plt.xlabel("Bandara Tujuan")
-        plt.ylabel("Delay Rata-rata (menit)")
-        plt.xticks(rotation=45, ha="right")
-        plt.tight_layout()
-        plt.savefig(f"{chart_dir}/delay_tujuan.png")
-        plt.close()
+    if {"Jadwal_Keberangkatan", "Jadwal_Kedatangan"}.issubset(dfp.columns):
+        dep = dfp["Jadwal_Keberangkatan"].map(_parse_dt)
+        arr = dfp["Jadwal_Kedatangan"].map(_parse_dt)
+        plan = (arr - dep).dt.total_seconds() / 60
+        plan = plan.where(plan >= 0, plan + 24*60)
+    else:
+        plan = pd.to_numeric(dfp.get("Durasi_Penerbangan", 0), errors="coerce")
+    plan = plan.fillna(0).to_numpy()
 
-    # --- 6) Pengaruh Cuaca terhadap Delay (cuaca sesuai datasetmu)
-    # label cuaca: badai petir, berawan, berkabut, cerah, gerimis, hujan ringan
-    if {"Cuaca_tujuan","Delay"}.issubset(df_raw.columns):
-        # normalisasi teks agar konsisten
-        cuaca_series = df_raw["Cuaca_tujuan"].astype(str).str.strip().str.lower()
-        df_tmp = df_raw.copy()
-        df_tmp["Cuaca_norm"] = cuaca_series
-        plt.figure(figsize=(8, 4))
-        (df_tmp.groupby("Cuaca_norm")["Delay"]
-              .mean()
-              .reindex(["cerah", "berawan", "gerimis", "hujan ringan", "berkabut", "badai petir"])
-              .dropna()
-              .plot(kind="bar"))
-        plt.title("Pengaruh Cuaca terhadap Delay")
-        plt.xlabel("Cuaca Tujuan")
-        plt.ylabel("Delay Rata-rata (menit)")
-        plt.xticks(rotation=0)
-        plt.tight_layout()
-        plt.savefig(f"{chart_dir}/delay_cuaca.png")
-        plt.close()
+    dfp["Delay_prediksi"] = np.maximum(0.0, durasi_pred - plan)
 
-    # render halaman analisis (pastikan ada templates/analisis.html)
+    # 2) Decode label agar sumbu X bukan angka
+    if "Maskapai" in dfp.columns:
+        dfp["Maskapai"] = decode_with_le("Maskapai", dfp["Maskapai"])
+    if "Bandara_Asal" in dfp.columns:
+        dfp["Bandara_Asal"] = decode_with_le("Bandara_Asal", dfp["Bandara_Asal"])
+    if "Bandara_Tujuan" in dfp.columns:
+        dfp["Bandara_Tujuan"] = decode_with_le("Bandara_Tujuan", dfp["Bandara_Tujuan"])
+
+    # 3) CUACA: mapping tegas -> label datasetmu
+    cuaca_order = ["badai petir", "berawan", "berkabut", "cerah", "gerimis", "hujan ringan"]
+    if "Cuaca_tujuan" in dfp.columns:
+        numeric_map = {0: "badai petir", 1: "berawan", 2: "berkabut", 3: "cerah", 4: "gerimis", 5: "hujan ringan"}
+        src = dfp["Cuaca_tujuan"]
+        idx = pd.to_numeric(src, errors="coerce")
+        if idx.notna().mean() >= 0.8:
+            dfp["Cuaca_label"] = idx.map(numeric_map).astype(str)
+        else:
+            dfp["Cuaca_label"] = src.astype(str)
+        dfp["Cuaca_label"] = (
+            dfp["Cuaca_label"].str.strip().str.lower()
+        )
+        # jadikan kategori berurutan supaya urutan sumbu X konsisten
+        dfp["Cuaca_label"] = pd.Categorical(dfp["Cuaca_label"], categories=cuaca_order, ordered=True)
+
+    # ----------------- PLOT -----------------
+
+    # Distribusi Delay (prediksi)
+    if dfp["Delay_prediksi"].notna().any():
+        plt.figure(figsize=(8, 4))
+        sns.histplot(dfp["Delay_prediksi"], bins=30, kde=True)
+        plt.title("Distribusi Keterlambatan (Prediksi)")
+        plt.xlabel("Delay Prediksi (menit)"); plt.ylabel("Jumlah Penerbangan")
+        plt.tight_layout(); plt.savefig(f"{chart_dir}/distribusi.png"); plt.close()
+
+    # Rata-rata Delay per Maskapai (prediksi)
+    if {"Maskapai", "Delay_prediksi"}.issubset(dfp.columns):
+        plt.figure(figsize=(8, 4))
+        (dfp.groupby("Maskapai", dropna=False)["Delay_prediksi"]
+           .mean().sort_values(ascending=False)
+           .plot(kind="bar", color="#f59e0b"))
+        plt.title("Rata-rata Delay per Maskapai (Prediksi)")
+        plt.xlabel("Maskapai"); plt.ylabel("Delay Rata-rata (menit)")
+        plt.xticks(rotation=45, ha="right"); plt.tight_layout()
+        plt.savefig(f"{chart_dir}/maskapai.png"); plt.close()
+
+    # Rata-rata Delay per Bandara Asal (prediksi)
+    if {"Bandara_Asal", "Delay_prediksi"}.issubset(dfp.columns):
+        plt.figure(figsize=(8, 4))
+        (dfp.groupby("Bandara_Asal", dropna=False)["Delay_prediksi"]
+           .mean().sort_values(ascending=False)
+           .plot(kind="bar", color="#16a34a"))
+        plt.title("Rata-rata Delay per Bandara Asal (Prediksi)")
+        plt.xlabel("Bandara Asal"); plt.ylabel("Delay Rata-rata (menit)")
+        plt.xticks(rotation=45, ha="right"); plt.tight_layout()
+        plt.savefig(f"{chart_dir}/asal.png"); plt.close()
+
+    # Rata-rata Delay per Bandara Tujuan (prediksi)
+    if {"Bandara_Tujuan", "Delay_prediksi"}.issubset(dfp.columns):
+        plt.figure(figsize=(8, 4))
+        (dfp.groupby("Bandara_Tujuan", dropna=False)["Delay_prediksi"]
+           .mean().sort_values(ascending=False)
+           .plot(kind="bar", color="#7e22ce"))
+        plt.title("Rata-rata Delay per Bandara Tujuan (Prediksi)")
+        plt.xlabel("Bandara Tujuan"); plt.ylabel("Delay Rata-rata (menit)")
+        plt.xticks(rotation=45, ha="right"); plt.tight_layout()
+        plt.savefig(f"{chart_dir}/tujuan.png"); plt.close()
+
+    # Pengaruh Cuaca terhadap Delay (prediksi) — pakai Cuaca_label (bukan Cuaca_tujuan)
+    if {"Cuaca_label", "Delay_prediksi"}.issubset(dfp.columns):
+        plt.figure(figsize=(8, 4))
+        (dfp.groupby("Cuaca_label", observed=True)["Delay_prediksi"]
+           .mean().reindex(cuaca_order).dropna()
+           .plot(kind="bar", color="#ef4444"))
+        plt.title("Pengaruh Cuaca terhadap Delay (Prediksi)")
+        plt.xlabel("Cuaca Tujuan"); plt.ylabel("Delay Rata-rata (menit)")
+        plt.xticks(rotation=0); plt.tight_layout()
+        plt.savefig(f"{chart_dir}/cuaca.png"); plt.close()
+
     return render_template("analisis.html")
 
 @app.route("/prediksi", methods=["GET", "POST"])
